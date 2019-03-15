@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.deploy_git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next/source/lib/Han" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next/source/lib/canvas-nest" vcs="Git" />
+  </component>
+</project>

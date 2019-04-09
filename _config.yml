@@ -13,10 +13,12 @@ timezone: UTC #时区
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wugenqiang.github.io # wugenqiang是我的账号，修改为自己的账号
+url: https://blog.enjoytoshare.club # wugenqiang是我的账号，修改为自己的账号
 root: /
-permalink: :year/:month/:day/:title/
+permalink: article/:urlname.html #:year/:month/:day/:title/
 permalink_defaults:
+    #alg: crc32  # 算法：crc16(default) and crc32
+    #rep: hex    # 进制：dec(default) and hex
 
 # Directory
 source_dir: source
@@ -57,11 +59,11 @@ search:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 6
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: default
 category_map:
 tag_map:
 
@@ -87,30 +89,19 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/wugenqiang/wugenqiang.github.io.git #复制过来
-  branch: master
+  #repository: https://github.com/wugenqiang/wugenqiang.github.io.git #复制过来
+  #branch: master
+  repo:
+    github: https://github.com/wugenqiang/wugenqiang.github.io.git,master
+    coding: https://dev.tencent.com/u/wugenqiang/p/wugenqiang.coding.me.git,master
+    gitee: https://gitee.com/wugenqiang/wugenqiang.git,master
 
 admin:
   username: wugenqiang
   password_hash: $2a$10$nICUSbzBkXqFMoE.XtSEh.7V6rTdUWKSts.VFoaWTastdl8CvjJQq #你想设置密码生成的bcrypt hash安全密钥
   secret: wgq154326
 
- # 设置首页点击所有文章右滑动出现文章目录
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: false
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
-    tags: true
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

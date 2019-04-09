@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /notes/
+Allow: /love/
+Allow: /page/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Sitemap: https://blog.enjoytoshare.club/sitemap.xml
+Sitemap: https://blog.enjoytoshare.club/baidusitemap.xml

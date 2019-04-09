@@ -80,4 +80,17 @@ function run() {
 
 * 如果你的Git远程仓库名称不为origin的话，还需要修改第25行执行的push命令，修改成自己的远程仓库名和相应的分支名。
 
-保存脚本并退出，然后执行`hexo d`命令，将会得到类似以下结果:
+## 4.测试结果
+保存脚本并退出，然后执行`hexo d`命令，在常规结果执行出来后，将会得到类似以下结果:
+
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409215918.png)
+
+这样子就表明成功上传啦，每次更新博文并deploy到服务器上之后，备份就自动启动并完成备份啦~
+
+查看github镜像库，如下图所示，得到了想要的东西：
+
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409220342.png)
+
+测试成功！
+
+很开心，以后就可以自动备份Hexo博客源文件托管在Github上啦，嘿嘿嘿！

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e14f19b-07b1-405c-99a0-057beca2b10b" name="Default Changelist" comment="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）">
-      <change afterPath="$PROJECT_DIR$/scripts/auto_backup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/layout/photo.swig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css.map" afterDir="false" />
@@ -17,10 +16,6 @@
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/md5.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe-ui-default.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Git命令手动备份Hexo博客源文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git命令手动备份Hexo博客源文件.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/自动备份Hexo博客源文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/自动备份Hexo博客源文件.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" afterDir="false" />
@@ -72,43 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state>
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="412" column="9" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/achives/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3648" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/archives/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3192" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/achives/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -116,7 +76,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/auto_backup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="1045">
               <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
@@ -217,7 +177,20 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554817205913" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554819195205" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -346,12 +319,12 @@
       <workItem from="1554722967431" duration="130000" />
       <workItem from="1554726754408" duration="6881000" />
       <workItem from="1554788793293" duration="12017000" />
-      <workItem from="1554811876902" duration="3332000" />
+      <workItem from="1554811876902" duration="4949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321227000" />
+    <option name="totallyTimeSpent" value="322844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,7 +355,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18624161" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22147651" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,11 +463,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_third-party/pangu.swig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3057" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/archive.swig">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -631,21 +592,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="412" column="9" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/achives/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/archives/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3192" />
+        <state relative-caret-position="-513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/achives/index.md">
@@ -658,9 +607,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/archives/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3192" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/achives/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="412" column="9" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/auto_backup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="1045">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>

@@ -28,8 +28,56 @@ new|在文章文件建立后发布
 于是我们就可以通过监听Hexo的`deployAfter`事件，待上传完成之后自动运行Git备份命令，从而达到自动备份的目的。
 # 三、实现
 ## 1.将Hexo目录加入Git仓库
-本脚本需要提前将Hexo加入Git仓库并与Github或者Gitee远程仓库绑定之后，才能正常工作。如果你不知道怎么操作，请参考这篇博文：
-* [Git命令手动备份Hexo博客源文件](https://notes.doublemine.me/2015-04-06-%E5%A4%87%E4%BB%BDHexo%E5%8D%9A%E5%AE%A2%E6%BA%90%E6%96%87%E4%BB%B6.html)
+本脚本需要提前将Hexo加入Git仓库并与Github或者Gitee远程仓库绑定之后，才能正常工作。如果你不知道该怎样进行操作，可以参考我的另一篇博文：
+* [Git命令手动备份Hexo博客源文件](https://blog.enjoytoshare.club/article/manual_backup_blog_source_files.html)
 
-<center>[原文链接，尊重原作者产权](https://anson2416.github.io/posts/c4d910e6/)</center>
+## 2.安装`shelljs`模块
+要实现这个自动备份功能，需要依赖NodeJs的一个shelljs模块,该模块重新包装了child_process,调用系统命令更加的方便。（其实就是因为我懒( ╯▽╰)）该模块需要安装后使用。
 
+在命令中键入以下命令，完成shelljs模块的安装：
+```
+npm install --save shelljs
+```
+## 3.编写自动备份脚本
+`shelljs`模块安装完成后，在`Hexo`根目录的`scripts`文件夹下新建一个js文件，文件名随意取(我的文件名为:`auto_backup.js`)。如果没有`scripts`目录，请新建一个。
+
+然后在脚本中，写入以下内容：
+
+```python
+require('shelljs/global');
+try {
+    hexo.on('deployAfter', function() {//当deploy完成后执行备份
+        run();
+    });
+
+} catch (e) {
+    console.log("产生了一个错误啊<(￣3￣)> !，错误详情为：" + e.toString());
+}
+function run() {
+    if (!which('git')) {
+        echo('Sorry, this script requires git');
+        exit(1);
+    } else {
+        echo("======================Auto Backup Begin===========================");
+        cd('E:/work/myblog');    //此处修改为Hexo根目录路径
+        if (exec('git add --all').code !== 0) {
+            echo('Error: Git add failed');
+            exit(1);
+        }
+        if (exec('git commit -am "blog auto backup script\'s commit"').code !== 0) {
+            echo('Error: Git commit failed');
+            exit(1);
+        }
+        if (exec('git push origin master').code !== 0) {
+            echo('Error: Git push failed');
+            exit(1);
+        }
+        echo("==================Auto Backup Complete============================")
+    }
+}
+```
+* 其中，需要修改第16行的E:/work/myblog路径为Hexo的根目录路径。（脚本中的路径为博主的Hexo路径）
+
+* 如果你的Git远程仓库名称不为origin的话，还需要修改第25行执行的push命令，修改成自己的远程仓库名和相应的分支名。
+
+保存脚本并退出，然后执行`hexo d`命令，将会得到类似以下结果:

@@ -35,6 +35,7 @@
     "hexo-wordcount": "^6.0.1",
     "image-size": "^0.7.2",
     "live2d-widget-model-koharu": "^1.0.5",
-    "live2d-widget-model-wanko": "^1.0.5"
+    "live2d-widget-model-wanko": "^1.0.5",
+    "shelljs": "^0.8.3"
   }
 }

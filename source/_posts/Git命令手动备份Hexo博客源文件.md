@@ -61,8 +61,7 @@ git commit -m "添加hexo源码文件作为备份"
 ```
 git remote add origin https://github.com/wugenqiang/myblog.git
 ```
-### 5.1 fatal: remote origin already exists
-如果遇到如图所示问题：
+如果出现问题：fatal: remote origin already exists
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409194211.png)
 
@@ -75,9 +74,13 @@ git remote rm origin
 ```
 git remote add origin https://github.com/wugenqiang/myblog.git
 ```
-发现问题成功解决
+发现问题成功解决。
 
-    如果在GitHub上创建远程仓库时，勾选了 Initialize this repository with a README这项，导致远程仓库不为空，为了不出现Bug，请先执行第4步，若远程仓库为空，则忽略第4步，直接进行第5步操作！
+切记！！
+
+    如果在GitHub上创建远程仓库时，勾选了 Initialize this repository with a README这项，
+    导致远程仓库不为空，为了不出现Bug，请先执行第6步，
+    若远程仓库为空，则忽略第6步，直接进行第7步操作！
 ## 6.远程仓库合并到本地
 ```
 git pull --rebase origin master
@@ -94,11 +97,17 @@ git push -u origin master
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409202215.png)
 
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409200850.png)
+
 如果创建仓库不为空而且不执行第4步直接执行第5步则会出现：
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409202447.png)
 
+# 四、结语
+到现在为止，我们的任务已经完成了。现在可以做到的是，在任何一台电脑上，只需要`git clone https://github.com/wugenqiang/myblog.git`,即可完成将Hexo源文件复制到本地。（请将后面的`https://github.com/wugenqiang/myblog.git`替换为自己相应的仓库地址。否则，克隆的将是我的博客源码:)）
+效果如下：
 
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409205709.png)
 
-<center>[原文链接，尊重原作者产权](https://notes.doublemine.me/2015-04-06-%E5%A4%87%E4%BB%BDHexo%E5%8D%9A%E5%AE%A2%E6%BA%90%E6%96%87%E4%BB%B6.html)</center>
-
+在本地编写完博客时，顺次执行实现三步骤中的4、6、7命令，即可完成Hexo博客源文件更新同步，保持Github上的Hexo源码为最新版本。ok，分享就到这里啦，如果觉得这样手动操作有点辛苦的话，可以参考我的另一篇博客：
+* [自动备份Hexo博客源文件](https://blog.enjoytoshare.club/article/auto_backup_blog_source_files.html)

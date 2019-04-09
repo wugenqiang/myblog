@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e14f19b-07b1-405c-99a0-057beca2b10b" name="Default Changelist" comment="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）">
+      <change afterPath="$PROJECT_DIR$/scripts/auto_backup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/layout/photo.swig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css.map" afterDir="false" />
@@ -16,7 +17,11 @@
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/md5.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe-ui-default.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Git命令手动备份Hexo博客源文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git命令手动备份Hexo博客源文件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/自动备份Hexo博客源文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/自动备份Hexo博客源文件.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" afterDir="false" />
@@ -73,11 +78,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
               <caret line="412" column="9" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/achives/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3648" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/archives/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3192" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/achives/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/auto_backup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -90,12 +130,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/next" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/photos/ins.js" />
         <option value="$PROJECT_DIR$/themes/next/layout/_scripts/pages/post-details.swig" />
         <option value="$PROJECT_DIR$/source/photos/index.swig" />
         <option value="$PROJECT_DIR$/source/photos/data.json" />
@@ -146,6 +185,7 @@
         <option value="$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" />
+        <option value="$PROJECT_DIR$/scripts/auto_backup.js" />
       </list>
     </option>
   </component>
@@ -167,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,17 +214,23 @@
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554809399990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554817205913" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -193,19 +238,19 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\work\myblog\source\photos\assets" />
-      <recent name="E:\work\myblog\themes\next\source\photos" />
-      <recent name="E:\work\myblog\source\photos\assets\img" />
-      <recent name="E:\work\myblog\source" />
-      <recent name="E:\work\myblog\source\photos" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\work\myblog\source" />
       <recent name="E:\work\myblog\source\thank" />
       <recent name="E:\work\myblog\themes\next\source\images" />
       <recent name="E:\work\myblog\source\laboratory\trainingCamp" />
       <recent name="E:\work\myblog\source\laboratory\toolBox" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\myblog\source\photos\assets" />
+      <recent name="E:\work\myblog\themes\next\source\photos" />
+      <recent name="E:\work\myblog\source\photos\assets\img" />
+      <recent name="E:\work\myblog\source" />
+      <recent name="E:\work\myblog\source\photos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,11 +346,12 @@
       <workItem from="1554722967431" duration="130000" />
       <workItem from="1554726754408" duration="6881000" />
       <workItem from="1554788793293" duration="12017000" />
+      <workItem from="1554811876902" duration="3332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317895000" />
+    <option name="totallyTimeSpent" value="321227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,7 +365,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,24 +404,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/hexo-myadmin/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hexo-myadmin/doc/edit.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hexo-myadmin/doc/login.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hexo-myadmin/doc/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hexo-myadmin/server/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hexo-myadmin/server/middleware.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/hexo-myadmin/server/router.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -549,16 +577,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/googled376f85a96acb177.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/googled376f85a96acb177.html" />
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/head/head-unique.swig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-342" />
@@ -589,10 +608,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="412" column="9" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/achives/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/archives/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3192" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/achives/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/auto_backup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>

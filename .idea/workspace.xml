@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e14f19b-07b1-405c-99a0-057beca2b10b" name="Default Changelist" comment="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）">
-      <change afterPath="$PROJECT_DIR$/source/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/laboratory/music/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/laboratory/toolBox/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/laboratory/trainingCamp/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/notes/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/thank/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/layout/photo.swig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css.map" afterDir="false" />
@@ -24,26 +16,11 @@
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/md5.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe-ui-default.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/math.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/book/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/book/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/book/postgraduate/数学高数部分20190226.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/book/postgraduate/线性代数20190226.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/categories/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/categories/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/guestbook/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Git命令手动备份Hexo博客源文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git命令手动备份Hexo博客源文件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/love/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/love/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/photos/assets/img/empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/photos/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/photos/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/photos/ins.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/photos/ins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/tags/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/tags/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.swig" afterDir="false" />
@@ -208,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554809398507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554809399990" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -323,12 +300,12 @@
       <workItem from="1554716789205" duration="1365000" />
       <workItem from="1554722967431" duration="130000" />
       <workItem from="1554726754408" duration="6881000" />
-      <workItem from="1554788793293" duration="12010000" />
+      <workItem from="1554788793293" duration="12017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317888000" />
+    <option name="totallyTimeSpent" value="317895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,9 +317,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +336,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18624161" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18624161" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

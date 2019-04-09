@@ -36,16 +36,40 @@ git init
 ```
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409192241.png)
 
-## 3.设置远程仓库地址并更新
+## 3.设置远程仓库地址
 ```
 git remote add origin https://github.com/wugenqiang/myblog.git
+```
+### 3.1 fatal: remote origin already exists
+如果遇到如图所示问题：
+
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409194211.png)
+
+解决办法如下：
+（1）先删除远程 Git 仓库
+```
+git remote rm origin
+```
+（2）再添加远程 Git 仓库
+```
+git remote add origin https://github.com/wugenqiang/myblog.git
+```
+发现问题成功解决
+
+## 4.更新远程仓库
+```
 git push -u origin master
 ```
-## 4.修改.gitignore文件
+效果如下：
+
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409194628.png)
+
+## 5.修改.gitignore文件
 
 如果没有请手动创建一个，在里面加入`*.log` 和 `public/` 以及`.deploy*/`。因为每次执行`hexo g`命令时，上述目录都会被重写更新。因此忽略这两个目录下的文件更新，加快push速度。
 注：如果文件中有`*.log` 和 `public/` 以及`.deploy*/`这些的时候，直接进行下一步：
-## 5.提交Hexo源码
+
+## 6.提交Hexo源码
 执行以下命令，完成Hexo源码在本地的提交：
 ```
 git add .

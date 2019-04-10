@@ -21,6 +21,7 @@ updated: 2019-04-04 15:47:54
 当然，如果有条件，最好到阿里云或者腾讯云等地方购买域名，听说1元优惠域名还是很多的
 
 # 2 域名解析
+## 2.1 方法一（不推荐）
 首先获取自己 github 的二级域名的 IP地址，windows 下直接在 cmd 里 Ping 一下自己的博客就会得到 IP 地址：
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404155814.png)
@@ -33,6 +34,12 @@ updated: 2019-04-04 15:47:54
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404162502.png)
 
 记录值就是自己 github 的二级域名的 IP地址。
+## 2.2 方法二（推荐）
+直接解析域名的CNAME记录到你的Git二级域名，不要使用方法一中的A记录，因为ip地址可能会一段时间之后会改变，所以建议记录类型选择CNAME进行解析，记录值填的就是username.github.io，比如：
+
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190410084011.png)
+
+如果你只用github 的二级域名作为博客的地址，那么线路类型选择默认就好，图中我这里是因为采用[Github+Coding双服务器托管Hexo](https://blog.enjoytoshare.club/article/hexo-do-server-hosting.html)，所以在线路类型上，国内默认选择线路是Coding的域名地址，国外选择的是Github的域名地址。
 
 # 3 设置CNAME
 在 hexo 项目下，source 文件夹下面创建 CNAME 文件（没有后缀名的），在里面写上购买的域名。比如：

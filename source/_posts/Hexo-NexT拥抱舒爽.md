@@ -43,7 +43,7 @@ updated: 2019-04-09 13:35:27
 
 修改模板/themes/next/layout/_macro/post.swig，
 
-搜索 rel="tag">#，将 # 换成 <i class="fa fa-envira"></i>
+搜索 rel="tag">#，将 # 换成 `<i class="fa fa-envira"></i>`
 
 效果如下图所示：
 

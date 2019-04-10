@@ -9,7 +9,7 @@ top: true
 date: 2019-03-31 14:32:26
 updated: 2019-04-09 12:27:52
 ---
-<img width="272px" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
+<img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
 
 <!--more-->
 

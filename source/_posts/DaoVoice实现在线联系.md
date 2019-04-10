@@ -9,8 +9,9 @@ author: WuGenQiang
 date: 2019-04-06 10:13:16
 updated: 2019-04-06 10:13:16
 ---
-
-<center>绝佳的用户沟通工具</center>
+{% cq %}
+<font size="4" face="verdana">绝佳的用户沟通工具</font>
+{% endcq %}
 
 <!--more-->
 # 1 注册登录DaoVoice

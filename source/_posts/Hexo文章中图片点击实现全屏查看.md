@@ -8,6 +8,9 @@ author: WuGenQiang
 date: 2019-04-06 14:10:48
 updated: 2019-04-06 14:10:48
 ---
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/062.jpg)
+
+<!--more-->
 # 1 写在前面
 方法一存在图片放大后不美观，建议直接跳到方法二
 如果想尝试解决第一种方法出现的Bug，可以尝试一下，然后我们讨论一下，方便的话可以加我QQ：2422676183

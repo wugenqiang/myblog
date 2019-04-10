@@ -13,8 +13,7 @@ updated: 2019-04-05 17:37:10
 
 首先要生成支付宝和微信收钱二维码
 ## 2 在_config.yml中配置图片
-
-wechat.jpg、alipay.jpg图片放入themes/next/source/images中
+这里的`_config.yml`文件是主题中的配置文件，然后把制作好的wechat.jpg、alipay.jpg图片放入themes/next/source/images中
 
 ```js
 reward:

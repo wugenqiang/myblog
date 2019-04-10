@@ -219,9 +219,11 @@ baidu_push: true
 
 正式提交需要验证，有三种验证方式，我选择Html标签验证，在themes\next\layout \ _partials\head.swing中添加验证代码(根据你实际验证代码来决定这里写什么)：
 ```
-<meta name="baidu-site-verification" content="s8Pe1TBqyy" />
+<meta name="baidu-site-verification" content="bqaja5HAOz" />
 ```
-然后点击完成验证，通过即可。
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190410180738.png)
+
+添加后运行hexo d -g将改动提交，然后点击完成验证，通过即可。
 
 ### 4.4.3 登录[百度站长平台](https://ziyuan.baidu.com/site/index)
 进行链接提交
@@ -249,7 +251,7 @@ baidu_push: true
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409150235.png)
 
-添加后运行hexo d -g将改动提交。稍后就可以验证成功了。
+添加后运行hexo d -g将改动提交，稍后就可以验证成功了。
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409150748.png)
 

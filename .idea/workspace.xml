@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/md5.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe-ui-default.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Hexo-NexT拥抱舒爽.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Hexo-NexT拥抱舒爽.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" afterDir="false" />
@@ -66,17 +67,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="589">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="692" column="17" selection-start-line="692" selection-start-column="17" selection-end-line="692" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -140,12 +150,12 @@
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/source/robots.txt" />
-        <option value="$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig" />
         <option value="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" />
         <option value="$PROJECT_DIR$/scripts/auto_backup.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig" />
       </list>
     </option>
   </component>
@@ -167,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,12 +197,34 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="next" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="_partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="_partials" type="462c0819:PsiDirectoryNode" />
+              <item name="head" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,11 +347,12 @@
       <workItem from="1554726754408" duration="6881000" />
       <workItem from="1554788793293" duration="12017000" />
       <workItem from="1554811876902" duration="7470000" />
+      <workItem from="1554890702498" duration="318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325365000" />
+    <option name="totallyTimeSpent" value="325683000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,7 +366,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -548,13 +583,6 @@
         <state relative-caret-position="-1384" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2185">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/languages/zh-CN.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -621,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="589">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
@@ -630,6 +658,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="692" column="17" selection-start-line="692" selection-start-column="17" selection-end-line="692" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>

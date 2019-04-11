@@ -17,7 +17,7 @@ updated: 2019-03-17 12:18:28
 
 * [sm.ms免费图床](https://sm.ms/)     这个图床可以长期使用，很nice
 * [路过图床](https://imgchr.com/)
-* [PicGo+Github图床构建](https://wugenqiang.github.io/2019/04/01/PicGo-GitHub%E5%9B%BE%E5%BA%8A%EF%BC%8C%E8%AE%A9Markdown%E9%A3%9E%E8%B5%B7/#more)
+* [PicGo+Github图床构建](https://blog.enjoytoshare.club/article/hexo-do-optimization-picture.html)
 
 > ## 图标下载
 

@@ -152,6 +152,34 @@ font:
 访问速度就很快了！哦耶，当然如果你有更好的解决办法也可以提啊
 还有一种方法就是采用Coding+Github双服务器托管Hexo博客，这样访问速度会更快！
 如果想进行这样的操作，可以参考我的文章：[Coding+Github双服务器托管Hexo](https://blog.enjoytoshare.club/article/hexo-do-server-hosting.html)
+
+## 3.6 去掉顶部黑线
+打开`themes\next\source\css\_custom\custom.styl`
+
+```
+//添加代码：
+.headband {display:none;}
+```
+保存刷新一下，黑线就没有了。
+
+## 3.7 设置点击头像返回主页
+
+打开`themes\next\layout\_macro\sidebar.swig`
+```js
+//添加代码：
++        <a href="/">
+          <img class="site-author-image" itemprop="image"
+               src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}"
+               alt="{{ theme.author }}" />
++        </a>
+
+//这里注意找到中间代码，添加a标签就行了，中间不用修改。
+```
+如图：
+
+![20190411-02.jpg](https://i.loli.net/2019/04/11/5caef32ef0b0e.jpg)
+
+重新部署`hexo s`，刷新页面点击头像即可返回主页。
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

@@ -1,4 +1,3 @@
----
 title: IDEA通过插件安装Gitee并clone项目
 tags:
   - Gitee
@@ -7,10 +6,11 @@ urlname: git_idea_clone
 categories:
   - Git
 author: WuGenQiang
+photos:
+  - 'https://i.loli.net/2019/04/11/5caef8dc5b775.jpg'
 date: 2019-04-08 18:00:18
 updated: 2019-04-08 18:00:18
 ---
-
 # 一、前言
 在最新插件版本: 2018.3.1.（2019-01-10 发布）中码云 IDEA 插件已经由gitosc更名为gitee。
 同时值得注意的是：新版插件gitee菜单已经和git菜单合并。

@@ -35,3 +35,5 @@ Hello，欢迎来到青果小站。
 网站名称|网址|内容描述
 :---:|:---:|:---:
 筱林博客|https://x1aolin.com|这个世界就是对弱者不友好，所以请努力变强吧！
+pangzeqi's Blog|https://pangzeqi.github.io|John Doe
+zhengrenjie's Blog|https://www.jelliclecat.cn|如切如磋，如琢如磨

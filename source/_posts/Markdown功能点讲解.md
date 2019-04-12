@@ -168,7 +168,17 @@ ___这里是加粗并斜体___
 
 两个回车结束引用,不在引用范围内了！
 
+## 1.10 修改插入图片尺寸
+```
+<img width="  " alt="描述" src="url"/>
+```
+例如：
+```
+<img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
+```
+效果如下：
 
+<img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
 # 2 高级用法
 
 ## 2.1 插入代码块

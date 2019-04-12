@@ -16,8 +16,6 @@
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/md5.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe-ui-default.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Hexo-NexT拥抱舒爽.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Hexo-NexT拥抱舒爽.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" afterDir="false" />
@@ -326,12 +324,12 @@
       <workItem from="1554979665089" duration="357000" />
       <workItem from="1554990320555" duration="11039000" />
       <workItem from="1555027349164" duration="2700000" />
-      <workItem from="1555034449128" duration="4636000" />
+      <workItem from="1555034449128" duration="4875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357438000" />
+    <option name="totallyTimeSpent" value="357677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

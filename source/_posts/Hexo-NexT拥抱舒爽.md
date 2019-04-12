@@ -402,3 +402,7 @@ site:blog.enjoytoshare.club
 百度收录是真的需要时间，你看下图还没收录：
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409170617.png)
+
+今天是2019-04-12，很幸运，今天查看了一下`site:blog.enjoytoshare.club`，发现已经收录了，很开心！nice
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412142351.png)

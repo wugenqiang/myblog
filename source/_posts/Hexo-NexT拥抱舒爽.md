@@ -215,6 +215,60 @@ npm install hexo-tag-cloud@^2.* --save
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412083501.png)
 
 重新`hexo s`一下，就可以出现我刚刚那个3d标签云啦!
+
+## 3.9 设置标题样式（为浅蓝色）
+进入主题目录 `themes\next\source\css\_common\components\post\` 修改 `post.styl` 文件(博文的样式表)，在配置的后面添加下面的代码:
+```
+/*添加下面的CSS代码来修改博文标题样式*/
+.page-post-detail .post-title {
+  font-size: 26px;
+  text-align: center;
+  word-break: break-word;
+  font-weight: $posts-expand-title-font-weight
+  background-color: #b9d3ee;
+  border-radius:.3em;
+  line-height:1em;
+  padding-bottom:.12em;
+  padding-top:.12em;
+  box-shadow:2px 2px 7px #9fb6cd;
+  +mobile() {
+    font-size: 22px;
+  }
+}
+/*添加上面的CSS代码来修改博文标题样式*/
+@import "post-expand";//这行以上复制就可以啦，此行不用复制
+```
+效果如图所示：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412102323.png)
+
+`注：`如果想把主页标题样式一同修改，可以把 .page-post-detail 去掉即可。
+
+效果如图所示：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412103129.png)
+
+## 3.10 设置文章封面图片(文章内不显示)
+在博客首页的时候会显示文章的封面图片，进入这篇文章的详细页面后，将不显示这张图片。
+操作如下：
+### 3.10.1 修改`post.swig`文件
+修改 \themes\next\layout\_macro\post.swing 文件,将下面代码复制进去：
+```
+{% if post.summary_img  %}
+  <div class="out-img-topic">
+    <img src={{ post.summary_img }} class="img-topic">
+  </div>
+{% endif %}
+```
+添加到下图所示的位置:
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412105951.png)
+
+这样的话，就可以使用`summary_img: imageurl`来设置文章封面了。
+### 3.10.2 添加`summary_img`字段
+在新建的文章添加一个字段属性：`summary_img`，summary_img的值是图片的路径，如下图，但是请注意一下，亲测，本地图片要放在images目录下，网络图片随意啊
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412105621.png)
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

@@ -5,6 +5,10 @@
     <mapping directory="$PROJECT_DIR$/.deploy_git" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/lib/jquery_lazyload" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/next" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next-wugenqiang/source/lib/Han" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next-wugenqiang/source/lib/canvas-nest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next-wugenqiang/source/lib/fancybox" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next-wugenqiang/source/lib/fastclick" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/next/source/lib/Han" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/next/source/lib/canvas-nest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/next/source/lib/fancybox" vcs="Git" />

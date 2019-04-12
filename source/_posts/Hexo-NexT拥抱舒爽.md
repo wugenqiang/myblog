@@ -6,6 +6,7 @@ tags:
 categories:
   - Hexo
 author: WuGenQiang
+top: 26
 date: 2019-03-31 19:01:35
 updated: 2019-04-09 13:35:27
 ---
@@ -180,6 +181,40 @@ font:
 ![20190411-02.jpg](https://i.loli.net/2019/04/11/5caef32ef0b0e.jpg)
 
 重新部署`hexo s`，刷新页面点击头像即可返回主页。
+
+## 3.8 实现3d动态标签云
+效果如图所示：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412082710.png)
+
+可参考[github上标签云使用教程](https://github.com/MikeCoder/hexo-tag-cloud)完成本操作，下面是我的步骤：
+
+### 3.8.1 安装标签云`hexo-tag-cloud`插件
+
+```
+npm install hexo-tag-cloud@^2.* --save
+```
+### 3.8.2 配置`sidebar.swig`文件
+打开`next/layout/_macro/sidebar.swig`，输入：
+
+```
+{% if site.tags.length > 1 %}
+        <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+        <div class="widget-wrap">
+            <div id="myCanvasContainer" class="widget tagcloud">
+                <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                    {{ list_tags() }}
+                </canvas>
+            </div>
+        </div>
+      {% endif %}
+      ```
+位置如图放置，可以根据你的需要放置，下图是我的位置：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412083501.png)
+
+重新`hexo s`一下，就可以出现我刚刚那个3d标签云啦!
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

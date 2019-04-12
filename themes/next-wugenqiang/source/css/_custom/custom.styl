@@ -1,0 +1,62 @@
+// Custom styles.
+
+//文章内链接文本样式
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+
+//文章目录默认展开
+.post-toc .nav .nav-child { display: block; }
+//目录字体大小调整
+.post-toc ol {
+  font-size : 13px;
+}
+
+//Hexo博客NexT主题美化之网站标题栏背景变色
+.site-meta {
+  background: $highlight_theme;
+}
+
+//page code background-color
+.code ::selection {
+  background: #2593a6;
+  color: #fff;
+}
+
+
+//gitalk code background-color
+.gt-container .gt-comment-content .highlight pre, .markdown-body pre{
+  background-color: #2d2d2d;
+}
+.gt-container .gt-comment-content .highlight ::selection {
+  background: #2593a6;
+  color: #fff;
+}
+
+  //添加背景图片
+@media screen and (min-width:1200px) {
+
+  body {
+    background-image:url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:50% 50%;
+  }
+
+  #footer a {
+    color:#eee;
+  }
+}
+
+//添加代码：
+.headband {display:none;}
+//保存刷新发现黑边没有了。
+
+

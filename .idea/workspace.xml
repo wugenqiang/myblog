@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e14f19b-07b1-405c-99a0-057beca2b10b" name="Default Changelist" comment="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）">
-      <change afterPath="$PROJECT_DIR$/themes/next/layout/photo.swig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/dist/APlayer.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/dist/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/images/alipay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/images/fighting_wugenqiang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/images/wechat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/clicklove.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/md5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe-ui-default.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/next/source/js/src/photoswipe.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/.bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jquery_lazyload/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_partials/footer.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_partials/footer.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_partials/head/head-unique.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_partials/head/head-unique.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_partials/head/head.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_partials/post/post-copyright.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_partials/post/post-copyright.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_scripts/pages/post-details.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_scripts/pages/post-details.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_third-party/comments/gitalk.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_third-party/comments/gitalk.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_third-party/comments/valine.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_third-party/comments/valine.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/page.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/page.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/post.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/post.swig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-reward.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-reward.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_schemes/Pisces/_layout.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_schemes/Pisces/_layout.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_schemes/Pisces/_sidebar.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_schemes/Pisces/_sidebar.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/images/favicon-16x16-next.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/images/favicon-16x16-next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/images/favicon-32x32-next.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/images/favicon-32x32-next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/js/src/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/js/src/post-details.js" afterDir="false" />
-    </list>
+    <list default="true" id="9e14f19b-07b1-405c-99a0-057beca2b10b" name="Default Changelist" comment="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +23,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="385" column="21" selection-start-line="385" selection-start-column="21" selection-end-line="385" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -85,7 +32,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/next" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,23 +121,12 @@
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="next" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="next" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,11 +259,12 @@
       <workItem from="1554990320555" duration="11039000" />
       <workItem from="1555027349164" duration="2700000" />
       <workItem from="1555034449128" duration="4875000" />
+      <workItem from="1555069617558" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357677000" />
+    <option name="totallyTimeSpent" value="358050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +278,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

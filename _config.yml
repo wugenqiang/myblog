@@ -105,3 +105,10 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+tag_cloud:
+  textFont: Trebuchet MS, Helvetica
+  textColor: '#fc6423'
+  textHeight: 17
+  outlineColor: '#5cb85c'
+  maxSpeed: 0.07

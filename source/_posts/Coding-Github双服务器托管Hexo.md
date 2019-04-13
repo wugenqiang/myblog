@@ -65,7 +65,7 @@ deploy:
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405101028.png)
 
 # 6 预览地址
-* http://wugenqiang.coding.me/
+* https://wugenqiang.coding.me/
 * https://wugenqiang.github.io/
 
 # 7 设置自定义域名

@@ -14,20 +14,20 @@
     <div class="reading-progress-bar"></div>
   {% endif %}
 
-  <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article">
+  <article class="{{ post_class }}" itemscope itemtype="https://schema.org/Article">
   {##################}
   {### POST BLOCK ###}
   {##################}
   <div class="post-block">
     <link itemprop="mainEntityOfPage" href="{{ config.url }}{{ url_for(post.path) }}"/>
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <span hidden itemprop="author" itemscope itemtype="https://schema.org/Person">
       <meta itemprop="name" content="{{ author }}"/>
       <meta itemprop="description" content="{{ description }}"/>
       <meta itemprop="image" content="{{ url_for( theme.avatar.url | default(theme.images + '/avatar.gif') ) }}"/>
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
       <meta itemprop="name" content="{{ title }}"/>
     </span>
 
@@ -68,10 +68,10 @@
         <div class="post-meta">
           <span class="post-time">
             {% if post.top %}
-                    <i class="fa fa-thumb-tack"></i>
-                    <font color=7D26CD>置顶</font>
-                    <span class="post-meta-divider">|</span>
-                  {% endif %}
+                <i class="fa fa-thumb-tack"></i>
+                <font color=7D26CD>置顶</font>
+                <span class="post-meta-divider">|</span>
+            {% endif %}
             {% set date_diff = date(post.date) != date(post.updated) %}
             {% set time_diff = time(post.date) != time(post.updated) %}
             {% set datetime_diff = date_diff or time_diff %}
@@ -128,7 +128,7 @@
                 <span class="post-meta-item-text">{{ __('post.in') }}</span>
               {% endif %}
               {% for cat in post.categories %}
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">{#
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">{#
                 #}<a href="{{ url_for(cat.path) }}" itemprop="url" rel="index">{#
                   #}<span itemprop="name">{{ cat.name }}</span>{#
                 #}</a>{#
@@ -271,7 +271,7 @@
 
       {# Gallery support #}
       {% if post.photos and post.photos.length %}
-        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <div class="post-gallery" itemscope itemtype="https://schema.org/ImageGallery">
           {% set COLUMN_NUMBER = 3 %}
           {% for photo in post.photos %}
             {% if loop.index0 % COLUMN_NUMBER === 0 %}<div class="post-gallery-row">{% endif %}

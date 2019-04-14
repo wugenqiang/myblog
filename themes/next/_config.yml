@@ -797,8 +797,8 @@ mermaid:
 
 # Use velocity to animate everything.
 motion:
-  enable: true # 启动动画
-  async: true
+  enable: false # 不启动动画
+  async: false
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut

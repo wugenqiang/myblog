@@ -6,9 +6,8 @@ tags:
 categories:
   - Hexo
 author: WuGenQiang
-top: 26
-date: 2019-03-31 19:01:35
-updated: 2019-04-12 09:02:27
+date: 2019-04-14 22:01:35
+updated: 2019-04-15 22:01:35
 ---
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404142303.png)
 
@@ -26,7 +25,7 @@ updated: 2019-04-12 09:02:27
 
 首先在配置Hexo+NexT之前，最好阅读一下[Hexo官方文档](https://hexo.io/zh-cn/docs/)和[NexT使用文档](http://theme-next.iissnan.com/getting-started.html)
 
-# 2 博客安装和配置
+# 2 Hexo安装和配置
 
     参考博客：
 

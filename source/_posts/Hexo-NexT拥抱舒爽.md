@@ -318,7 +318,7 @@ $border-radius                  = 15px;
 ```
 即可
 ## 3.13 修改友链样式
-点此链接查看：[Hexo修改友链样式](https://blog.enjoytoshare.club/article/hexoEditLinkStyle.html)
+点此链接查看：[Hexo+NexT修改友链样式](https://blog.enjoytoshare.club/article/hexoEditLinkStyle.html)
 
 ## 3.14 博文图片模式
 新建博文，设置 `type: picture`，使用 { % gp x-x % }...{ % endgp % } 标签引用要展示的图片地址，如下所示：
@@ -362,6 +362,8 @@ updated: 2019-04-14 18:02:40
 效果如图所示：
 
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414190059.png)
+## 3.15 隐藏特定文章
+点此链接查看：[Hexo+NexT隐藏特定文章](https://blog.enjoytoshare.club/article/hexoNextHideArticleMethod.html)
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

@@ -1,4 +1,4 @@
-title: Hexo修改友链样式
+title: Hexo+NexT修改友链样式
 tags:
   - Hexo
 urlname: hexoEditLinkStyle
@@ -11,6 +11,8 @@ updated: 2019-04-14 13:12:26
 
 # 1 写在前言
 友链的设置是参考大佬 [三水非冰](https://www.sanshuifeibing.cn/) 的博客来完成的，在此表示感谢，样式效果如下：
+
+<!--more-->
 
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414131508.png)
 

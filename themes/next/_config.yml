@@ -1105,3 +1105,7 @@ mylinks:
     avatar: https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/003.jpg  #友链头像
     site: https://blog.enjoytoshare.club  #友链地址
     info: Sometimes your whole life boils down to one insame move.  #友链说明
+
+# Hide single post
+hide:
+  hide_post: true

@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="800" column="14" selection-start-line="800" selection-start-column="14" selection-end-line="800" selection-end-column="14" />
+            <state relative-caret-position="342">
+              <caret line="1107" selection-start-line="1107" selection-end-line="1107" />
             </state>
           </provider>
         </entry>
@@ -97,13 +97,13 @@
         <option value="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/source/links/index.md" />
+        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/Gemini.styl" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/post-collapse.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_layout.swig" />
-        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/Gemini.styl" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
       </list>
     </option>
   </component>
@@ -143,7 +143,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555228141435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555228629203" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -281,12 +281,12 @@
       <workItem from="1555209450571" duration="11945000" />
       <workItem from="1555224788373" duration="323000" />
       <workItem from="1555225894436" duration="937000" />
-      <workItem from="1555227039436" duration="1092000" />
+      <workItem from="1555227039436" duration="1787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389511000" />
+    <option name="totallyTimeSpent" value="390206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,7 +298,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -549,34 +549,6 @@
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_custom/sidebar.swig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3434">
-          <caret line="273" column="58" selection-start-line="273" selection-start-column="58" selection-end-line="273" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post-collapse.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="2" column="94" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3301">
-          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_variables/base.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6072">
@@ -614,10 +586,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6157">
+          <caret line="130" column="64" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post-collapse.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="2" column="95" selection-start-line="2" selection-start-column="95" selection-end-line="2" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3293">
+          <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="800" column="14" selection-start-line="800" selection-start-column="14" selection-end-line="800" selection-end-column="14" />
+        <state relative-caret-position="342">
+          <caret line="1107" selection-start-line="1107" selection-end-line="1107" />
         </state>
       </provider>
     </entry>

@@ -288,7 +288,7 @@ npm install hexo-tag-cloud@^2.* --save
 ```
 即可，颜色自己定义。
 
-## 修改主题页面布局为圆角
+## 3.12 修改主题页面布局为圆角
 
 在`/themes/next/source/css/_variables/custom.styl`文件种添加如下代码（以Gemini风格为例）：
 ```
@@ -308,6 +308,9 @@ $border-radius                    = initial
 $border-radius-inner            = 15px 15px 15px 15px;
 $border-radius                  = 15px;
 ```
+## 3.13 修改友链样式
+点此链接查看：[Hexo修改友链样式](https://blog.enjoytoshare.club/article/hexoEditLinkStyle.html)
+
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

@@ -289,6 +289,7 @@ npm install hexo-tag-cloud@^2.* --save
 即可，颜色自己定义。
 
 ## 3.12 修改主题页面布局为圆角
+### 3.12.1 方法一
 
 在`/themes/next/source/css/_variables/custom.styl`文件种添加如下代码（以Gemini风格为例）：
 ```
@@ -308,6 +309,14 @@ $border-radius                    = initial
 $border-radius-inner            = 15px 15px 15px 15px;
 $border-radius                  = 15px;
 ```
+### 3.12.2 方法二
+在`\themes\next\source\css\_variables\Gemini.styl`文件中直接添加：
+```js
+// 修改主题页面布局为圆角
+$border-radius-inner            = 15px 15px 15px 15px;
+$border-radius                  = 15px;
+```
+即可
 ## 3.13 修改友链样式
 点此链接查看：[Hexo修改友链样式](https://blog.enjoytoshare.club/article/hexoEditLinkStyle.html)
 

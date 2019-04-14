@@ -12,6 +12,18 @@
   }
 }
 
+// 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection {
+  background: #8959a8;
+  color: #f7f7f7;
+}
+/* firefox */
+::-moz-selection {
+  background: #00c4b6;
+  color: #f7f7f7;
+}
+
 //文章目录默认展开
 .post-toc .nav { display: block; }
 //目录字体大小调整
@@ -59,4 +71,23 @@ Hexo博客NexT主题美化之网站标题栏背景变色
 .headband {display:none;}
 //保存刷新发现黑边没有了。
 
+// 鼠标移动至文章标题时的效果
+.posts-expand .post-title-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #49b1f5;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
 

@@ -1101,3 +1101,9 @@ daovoice: true
 daovoice_app_id: b6dbddb6 #我们注册获取的id
 
 use_motion: true  # 开启动画效果
+
+mylinks:
+  - nickname: 青果先生  #友链名称
+    avatar: https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/003.jpg  #友链头像
+    site: https://blog.enjoytoshare.club  #友链地址
+    info: Sometimes your whole life boils down to one insame move.  #友链说明

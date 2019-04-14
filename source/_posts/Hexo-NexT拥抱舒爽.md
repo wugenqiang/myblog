@@ -269,6 +269,45 @@ npm install hexo-tag-cloud@^2.* --save
 在新建的文章添加一个字段属性：`summary_img`，summary_img的值是图片的路径，如下图，但是请注意一下，亲测，本地图片要放在images目录下，网络图片随意啊
 
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412105621.png)
+
+## 3.11 修改阅读全文颜色
+修改`themes\next\source\css\_custom\custom.styl`文件，添加：
+```
+// 修改按键（button）样式
+.btn {
+  color: #49b1f5;
+  background: #fff;
+  border: 2px solid #49b1f5;
+}
+// 按键（button）点击时样式
+.btn:hover {
+  border-color: #49b1f5;
+  color: #fff;
+  background: #49b1f5;
+}
+```
+即可，颜色自己定义。
+
+## 修改主题页面布局为圆角
+
+在`/themes/next/source/css/_variables/custom.styl`文件种添加如下代码（以Gemini风格为例）：
+```
+// 修改主题页面布局为圆角
+// Variables of Gemini scheme
+// =================================================
+@import "Pisces.styl";
+// Settings for some of the most global styles.
+// --------------------------------------------------
+$body-bg-color                    = #eee
+// Borders.
+// --------------------------------------------------
+$box-shadow-inner                 = 0 2px 2px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.06), 0 1px 5px 0 rgba(0,0,0,.12)
+$box-shadow                       = 0 2px 2px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.06), 0 1px 5px 0 rgba(0,0,0,.12), 0 -1px .5px 0 rgba(0,0,0,.09)
+$border-radius-inner              = initial
+$border-radius                    = initial
+$border-radius-inner            = 15px 15px 15px 15px;
+$border-radius                  = 15px;
+```
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

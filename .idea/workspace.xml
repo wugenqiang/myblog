@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="1113" lean-forward="true" selection-start-line="1113" selection-end-line="1113" />
+            <state relative-caret-position="175">
+              <caret line="220" column="17" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -161,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555221440273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555222377505" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -296,12 +296,12 @@
       <workItem from="1555152034507" duration="8026000" />
       <workItem from="1555166490799" duration="535000" />
       <workItem from="1555168072330" duration="5434000" />
-      <workItem from="1555209450571" duration="10053000" />
+      <workItem from="1555209450571" duration="10922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385267000" />
+    <option name="totallyTimeSpent" value="386136000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="1113" lean-forward="true" selection-start-line="1113" selection-end-line="1113" />
+        <state relative-caret-position="175">
+          <caret line="220" column="17" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
         </state>
       </provider>
     </entry>

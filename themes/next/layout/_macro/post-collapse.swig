@@ -1,6 +1,6 @@
 {% macro render(post) %}
 
-  <article class="post post-type-{{ post.type | default('normal') }}" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-{{ post.type | default('normal') }}" itemscope itemtype="https://schema.org/Article">
     <header class="post-header">
 
       <{% if theme.seo %}h3{% else %}h2{% endif %} class="post-title">

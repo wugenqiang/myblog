@@ -292,7 +292,7 @@ npm install hexo-tag-cloud@^2.* --save
 ### 3.12.1 方法一
 
 在`/themes/next/source/css/_variables/custom.styl`文件种添加如下代码（以Gemini风格为例）：
-```
+```js
 // 修改主题页面布局为圆角
 // Variables of Gemini scheme
 // =================================================
@@ -320,6 +320,48 @@ $border-radius                  = 15px;
 ## 3.13 修改友链样式
 点此链接查看：[Hexo修改友链样式](https://blog.enjoytoshare.club/article/hexoEditLinkStyle.html)
 
+## 3.14 博文图片模式
+新建博文，设置 `type: picture`，使用 { % gp x-x % }...{ % endgp % } 标签引用要展示的图片地址，如下所示：
+```js
+title: 测试图片展示
+tags:
+  - Picture
+  - Hexo
+urlname: pictureToDisplayTest_5-3
+categories:
+  - Hexo
+author: WuGenQiang
+type: picture
+date: 2019-04-14 18:02:40
+updated: 2019-04-14 18:02:40
+---
+{% gp 5-3 %}
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/070.gif)
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg)
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/003.jpg)
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/004.jpg)
+![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404142303.png)
+{% endgp %}
+```
+`图片展示效果`:
+{ % gp 5-3 % }：设置图片展示效果，参考 `themes\next\scripts\tags\group-pictures.js` ,`5-3` 的意思就是5张图片将会按照这种布局来展示，Next 提供了多张图片的多种布局，你可以随意选择，请到官网查看：https://theme-next.org/docs/tag-plugins/group-pictures
+
+`注意点`
+
+主题目前首页可以正常显示设置的图片效果，但是点击进入后显示效果丢失，所以需要修改一下`themes\next\source\css\_common\components\tags\group-pictures.styl` 中的以下样式：
+```js
+.page-post-detail .post-body .group-picture-column {
+  //float: none;
+  margin-top: 10px;
+  //width: auto !important;
+  img { margin: 0 auto; }
+}
+```
+效果参照我的测试博文页面：[测试5-3图片展示](https://blog.enjoytoshare.club/article/pictureToDisplayTest_5-3.html)
+
+效果如图所示：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414190059.png)
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

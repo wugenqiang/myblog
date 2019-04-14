@@ -110,5 +110,5 @@ tag_cloud:
   textFont: Trebuchet MS, Helvetica
   textColor: '#fc6423'
   textHeight: 17
-  outlineColor: '#5cb85c'
+  outlineColor: '#b3e5ef'
   maxSpeed: 0.07

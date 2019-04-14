@@ -797,8 +797,8 @@ mermaid:
 
 # Use velocity to animate everything.
 motion:
-  enable: false
-  async: false
+  enable: true # 启动动画
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
@@ -1100,3 +1100,4 @@ tag_generator:
 daovoice: true
 daovoice_app_id: b6dbddb6 #我们注册获取的id
 
+use_motion: true  # 开启动画效果

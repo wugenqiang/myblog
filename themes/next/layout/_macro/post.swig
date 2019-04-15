@@ -382,7 +382,7 @@
       {% if post.tags and post.tags.length and not is_index %}
         <div class="post-tags">
           {% for tag in post.tags %}
-            <a href="{{ url_for(tag.path) }}" rel="tag"><i class="fa fa-envira"></i> {{ tag.name }}</a>
+            <a href="{{ url_for(tag.path) }}" rel="tag"><i class="fa fa-envira"></i><font color=79d626> {{ tag.name }}</font></a>
           {% endfor %}
         </div>
       {% endif %}

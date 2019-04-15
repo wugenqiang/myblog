@@ -361,6 +361,8 @@
         {% include '../_partials/post/reward.swig' %}
       </div>
     {% endif %}
+
+
     {% if theme.wechat_subscriber.enable and not is_index %}
       {% include '../_partials/post/wechat-subscriber.swig' %}
     {% endif %}

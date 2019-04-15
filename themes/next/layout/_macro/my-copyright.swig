@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css">
 
   <p><span>本文标题:</span>{{ page.title }}</a></p>
-  <p><span>文章作者:</span>{{ theme.author }}</a></p>
+  <p><span>文章作者:</span>吴跟强 EnjoyToShare</a></p>
   <p><span>发布时间:</span>{{ page.date.format("YYYY年MM月DD日 - HH:mm:ss") }}</p>
   <p><span>最后更新:</span>{{ page.updated.format("YYYY年MM月DD日 - HH:mm:ss") }}</p>
   <p><span>原始链接:</span><a href="{{ url_for(page.path) }}" title="{{ page.title }}">{{ page.permalink }}</a>

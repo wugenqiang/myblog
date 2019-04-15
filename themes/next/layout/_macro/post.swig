@@ -365,12 +365,6 @@
       {% include '../_partials/post/wechat-subscriber.swig' %}
     {% endif %}
 
-    <div>
-       {% if not is_index %}
-           {% include 'my-copyright.swig' %}
-       {% endif %}
-    </div>
-
     {% if theme.creative_commons.license and theme.creative_commons.post and not is_index %}
       <div>
         {% include '../_partials/post/post-copyright.swig' with { post: post } %}

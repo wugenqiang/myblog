@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="228">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -367,12 +367,12 @@
       <workItem from="1555305253645" duration="15157000" />
       <workItem from="1555328177637" duration="2812000" />
       <workItem from="1555333044643" duration="846000" />
-      <workItem from="1555336552998" duration="2184000" />
+      <workItem from="1555336552998" duration="2790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431509000" />
+    <option name="totallyTimeSpent" value="432115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="228">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>

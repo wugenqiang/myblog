@@ -24,8 +24,7 @@
           title: "",
           text: '复制成功',
           html: false,
-          timer: 2000,
-          showConfirmButton: false,
+          timer: 3000,
           icon: "success"
         });
       });

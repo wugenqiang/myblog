@@ -33,19 +33,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="190">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/my-post-copyright.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="665">
               <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
             </state>
           </provider>
@@ -119,8 +119,8 @@
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
         <option value="$PROJECT_DIR$/scaffolds/post.md" />
-        <option value="$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/my-post-copyright.styl" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig" />
       </list>
     </option>
   </component>
@@ -376,12 +376,12 @@
       <workItem from="1555305253645" duration="15157000" />
       <workItem from="1555328177637" duration="2812000" />
       <workItem from="1555333044643" duration="846000" />
-      <workItem from="1555336552998" duration="4798000" />
+      <workItem from="1555336552998" duration="5753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434123000" />
+    <option name="totallyTimeSpent" value="435078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,6 +394,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -743,17 +744,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig">
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/my-post-copyright.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="665">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/my-post-copyright.styl">
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/my-copyright.swig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>

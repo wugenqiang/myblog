@@ -25,7 +25,8 @@
           text: '复制成功',
           html: false,
           timer: 2000,
-          showConfirmButton: false
+          showConfirmButton: false,
+          icon: "success"
         });
       });
     }));

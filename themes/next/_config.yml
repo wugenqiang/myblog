@@ -312,7 +312,8 @@ codeblock:
 
 # Wechat Subscriber
 wechat_subscriber:
-  enable: false
+  enable: true
+  qcode: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/wechat_subscriber.jpg
   #qcode: /path/to/your/wechatqcode e.g. /uploads/wechat-qcode.jpg
   #description: e.g. subscribe to my blog by scanning my public wechat account
 
@@ -582,7 +583,22 @@ gitalk:
 # networks:
 # Weibo,Wechat,Douban,QQZone,Twitter,Linkedin,Mailto,Reddit,Delicious,StumbleUpon,Pinterest,Facebook,GooglePlus,
 # Slashdot,Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
-
+needmoreshare2:
+  enable: false
+  postbottom:
+    enable: true
+    options:
+      # iconStyle: box
+      # boxForm: horizontal
+      # position: bottomCenter
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+  float:
+    enable: false
+    options:
+      iconStyle: box
+      boxForm: horizontal
+      position: middleRight
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters
@@ -1109,3 +1125,4 @@ mylinks:
 # Hide single post
 hide:
   hide_post: true
+

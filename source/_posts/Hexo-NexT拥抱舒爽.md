@@ -6,8 +6,8 @@ tags:
 categories:
   - Hexo
 author: WuGenQiang
-date: 2019-04-14 22:01:35
-updated: 2019-04-15 22:01:35
+date: 2019-04-15 13:47:35
+updated: 2019-04-15 13:47:35
 ---
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404142303.png)
 
@@ -363,6 +363,166 @@ updated: 2019-04-14 18:02:40
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414190059.png)
 ## 3.15 隐藏特定文章
 点此链接查看：[Hexo+NexT隐藏特定文章](https://blog.enjoytoshare.club/article/hexoNextHideArticleMethod.html)
+
+## 3.16 增加分享功能
+### 3.16.1 方法一
+编辑主题配置文件`_config.yml`，添加/修改字段`baidushare`，值为 `true` 即可。
+```
+# 百度分享服务
+baidushare: true
+```
+效果不太适合我，所以选择了第二种方法
+
+### 3.16.2 方法二
+
+git bash输入：
+```
+$ rm -rf themes/next/source/lib/needsharebutton
+$ git clone https://github.com/theme-next/theme-next-needmoreshare2 themes/next/source/lib/needsharebutton
+```
+然后在`/themes/next/_config.yml`中，搜索 `needmoreshare2`，修改如下：
+```
+needmoreshare2:
+  enable: true
+  postbottom:
+    enable: true
+    options:
+      iconStyle: box
+      boxForm: horizontal
+      position: bottomCenter
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+  float:
+    enable: false # 这里是浮动分享，我没有设置
+    options:
+      iconStyle: box
+      boxForm: horizontal
+      position: middleRight
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+ ```
+效果如下：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415094311.png)
+
+## 3.17 鼠标选取文字提示版权信息
+点此链接查看：[Hexo+NexT选取文字提示版权信息](https://blog.enjoytoshare.club/article/hexoNextSelectWords.html)
+
+## 3.18 自定义文章底部版权声明
+### 3.18.1 新建`my-copyright.swig`文件
+在 `themes/next/layout/_macro/` 下添加 `my-copyright.swig` ，内容如下：
+```js
+{% if page.copyright %}
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+
+  <p><span>本文标题:</span>{{ page.title }}</a></p>
+  <p><span>文章作者:</span>{{ theme.author }}</a></p>
+  <p><span>发布时间:</span>{{ page.date.format("YYYY年MM月DD日 - HH:mm:ss") }}</p>
+  <p><span>最后更新:</span>{{ page.updated.format("YYYY年MM月DD日 - HH:mm:ss") }}</p>
+  <p><span>原始链接:</span><a href="{{ url_for(page.path) }}" title="{{ page.title }}">{{ page.permalink }}</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="{{ page.permalink }}"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({   
+          title: "",   
+          text: '复制成功',   
+          html: false,
+          timer: 500,   
+          showConfirmButton: false
+        });
+      });
+    }));  
+</script>
+{% endif %}
+```
+### 3.18.2 新建`my-post-copyright.styl`文件
+在 `themes/next/source/css/_common/components/post/` 下添加 `my-post-copyright.styl`，内容如下:
+```css
+.my_post_copyright {
+  width: 85%;
+  max-width: 45em;
+  margin: 2.8em auto 0;
+  padding: 0.5em 1.0em;
+  border: 1px solid #d3d3d3;
+  font-size: 0.93rem;
+  line-height: 1.6em;
+  word-break: break-all;
+  background: rgba(255,255,255,0.4);
+}
+.my_post_copyright p{margin:0;}
+.my_post_copyright span {
+  display: inline-block;
+  width: 5.2em;
+  color: #333333; // title color
+  font-weight: bold;
+}
+.my_post_copyright .raw {
+  margin-left: 1em;
+  width: 5em;
+}
+.my_post_copyright a {
+  color: #808080;
+  border-bottom:0;
+}
+.my_post_copyright a:hover {
+  color: #0593d3; // link color
+  text-decoration: underline;
+}
+.my_post_copyright:hover .fa-clipboard {
+  color: #000;
+}
+.my_post_copyright .post-url:hover {
+  font-weight: normal;
+}
+.my_post_copyright .copy-path {
+  margin-left: 1em;
+  width: 1em;
+  +mobile(){display:none;}
+}
+.my_post_copyright .copy-path:hover {
+  color: #808080;
+  cursor: pointer;
+}
+```
+### 3.18.3 修改`post.swig`文件
+修改 `themes/next/layout/_macro/post.swig` ，如下：
+在`end post body`之后根据你个人需要放置位置，添加以下代码：
+```css
+<div>
+    {% if not is_index %}
+        {% include 'my-copyright.swig' %}
+    {% endif %}
+</div>
+```
+### 3.18.4 修改`post.styl`文件
+打开 `themes/next/source/css/_common/components/post/post.styl` 文件，在最后一行增加代码：
+```
+@import "my-post-copyright"
+```
+### 3.18.5 修改`post.md`文件
+
+设置新建文章自动开启 `copyright` ，即新建文章自动显示自定义的版权声明，设置 `～/scaffolds/post.md` 文件，如下：
+```
+---
+title: {{ title }}
+date: {{ date }}
+copyright: true #新增,开启
+---
+```
+### 3.18.6 新建文章测试
+发现新建简单文章可以显示，之前的文章不能显示
+效果图：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415160207.png)
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

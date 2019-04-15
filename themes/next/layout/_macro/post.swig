@@ -351,6 +351,12 @@
     {### END POST BODY ###}
     {#####################}
 
+    <div>
+        {% if not is_index %}
+            {% include 'my-copyright.swig' %}
+        {% endif %}
+    </div>
+
     {% if page.reward === undefined and theme.reward.enable %}
       {% set reward_able = true %}
     {% else %}
@@ -362,9 +368,8 @@
       </div>
     {% endif %}
 
-
     {% if theme.wechat_subscriber.enable and not is_index %}
-      {% include '../_partials/post/wechat-subscriber.swig' %}
+          {% include '../_partials/post/wechat-subscriber.swig' %}
     {% endif %}
 
     {% if theme.creative_commons.license and theme.creative_commons.post and not is_index %}

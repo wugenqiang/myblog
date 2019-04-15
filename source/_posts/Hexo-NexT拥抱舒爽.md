@@ -522,7 +522,7 @@ copyright: true #新增,开启
 发现新建简单文章可以显示，之前的文章不能显示
 效果图：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415160207.png)
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415163917.png)
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

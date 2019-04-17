@@ -1,11 +1,10 @@
-title: LeetCode学习(目录)
+title: LeetCode编程训练
 tags:
   - LeetCode
 copyright: true
-urlname: LeetCodeLearningCatalogue
+urlname: LeetCodeTraining
 categories:
   - LeetCode
-top: 27
 author: WuGenQiang
 date: 2019-04-17 09:10:01
 updated: 2019-04-17 09:10:01
@@ -16,9 +15,6 @@ updated: 2019-04-17 09:10:01
 题目地址：[LeetCode](https://leetcode.com/) 和 [LeetCode-CN](https://leetcode-cn.com/)
 ps:由于 LeetCode 开通了中国区，所以刚开始练习的时候打算先从中国区刷起，之后二刷三刷再上英语版的
 
-编号|题目|分类|备注
-:---:|:---:|:---:|:---:
-1|[两数之和](https://blog.enjoytoshare.club/article/LeetCode001.html)|数组|技巧
-7|整数反转|数学|使用方法
+
 
 

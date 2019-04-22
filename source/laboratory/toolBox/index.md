@@ -45,5 +45,4 @@ updated: 2019-03-17 12:18:28
 
 >## VPN分享
 
-* [VPN免费节点分享](https://lncn.org/) 需要搭配SSR软件使用
-* [SSR下载Windows版本](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases)
+* [FreeVpnToShare](https://blog.enjoytoshare.club/article/FreeVpnToShare.html)

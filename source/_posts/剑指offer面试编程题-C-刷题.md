@@ -1,4 +1,4 @@
-title: 剑指offer面试编程题刷题
+title: 剑指offer面试编程题刷题训练
 tags:
   - 剑指offer面试编程题
 copyright: true

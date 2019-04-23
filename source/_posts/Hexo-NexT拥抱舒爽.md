@@ -523,6 +523,85 @@ copyright: true #新增,开启
 效果图：
 
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415163917.png)
+
+## 3.19 增加词云
+
+方法比较简单，加个js脚本就好了，至于加载哪里都无所谓了，就放在标签云的页面。
+就加在标签的那个页面好了。
+
+打开`themes\next\layout\page.swig`找到:
+```
+{% if page.type === "tags" %}
+```
+将下面这段代码:
+```css
+<div class="tag-cloud">
+
+   <!-- <div class="tag-cloud-title">
+       {{ _p('counter.tag_cloud', site.tags.length) }}
+   </div> -->
+   <div class="tag-cloud-tags" id="tags">
+     {{ tagcloud({min_font: 16, max_font: 16, amount: 300, color: true, start_color: '#fff', end_color: '#fff'}) }}
+   </div>
+ </div>
+ ```
+ 换成下面这段代码：
+ ```
+ <div class="tag-cloud">
+  <!-- <div class="tag-cloud-title">
+      {{ _p('counter.tag_cloud', site.tags.length) }}
+  </div> -->
+  <div class="tag-cloud-tags" id="tags">
+    {{ tagcloud({min_font: 16, max_font: 16, amount: 300, color: true, start_color: '#fff', end_color: '#fff'}) }}
+  </div>
+</div>
+<br>
+
+<script type="text/javascript">
+   var alltags=document.getElementById('tags');
+   var tags=alltags.getElementsByTagName('a');
+
+   for (var i = tags.length - 1; i >= 0; i--) {
+     var r=Math.floor(Math.random()*75+130);
+     var g=Math.floor(Math.random()*75+100);
+     var b=Math.floor(Math.random()*75+80);
+     tags[i].style.background = "rgb("+r+","+g+","+b+")";
+   }
+</script>
+
+<style type="text/css">
+    div#posts.posts-expand .tag-cloud a{
+   background-color: #f5f7f1;
+   border-radius: 6px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 18px;
+
+ }
+
+ .tag-cloud a{
+   background-color: #f5f7f1;
+   border-radius: 4px;
+   padding-right: 5px;
+   padding-left: 5px;
+   margin-right: 5px;
+   margin-left: 0px;
+   margin-top: 8px;
+   margin-bottom: 0px;
+
+ }
+
+ .tag-cloud a:before{
+      content: "📜";
+ }
+
+ .tag-cloud-tags{
+   text-align: left;
+   counter-reset: tags;
+ }
+</style>
+```
+就好啦
 # 4 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
 ## 4.1 生成sitemap

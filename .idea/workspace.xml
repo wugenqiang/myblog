@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="1124" column="2" selection-start-line="1124" selection-start-column="2" selection-end-line="1124" selection-end-column="2" />
+              <caret line="1124" column="31" lean-forward="true" selection-start-line="1124" selection-start-column="31" selection-end-line="1124" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -338,12 +338,12 @@
       <workItem from="1555423888210" duration="1094000" />
       <workItem from="1555426917896" duration="584000" />
       <workItem from="1555555032811" duration="393000" />
-      <workItem from="1556274500733" duration="944000" />
+      <workItem from="1556274500733" duration="1362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441339000" />
+    <option name="totallyTimeSpent" value="441757000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,7 +716,7 @@
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="1124" column="2" selection-start-line="1124" selection-start-column="2" selection-end-line="1124" selection-end-column="2" />
+          <caret line="1124" column="31" lean-forward="true" selection-start-line="1124" selection-start-column="31" selection-end-line="1124" selection-end-column="31" />
         </state>
       </provider>
     </entry>

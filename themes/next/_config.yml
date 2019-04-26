@@ -1085,7 +1085,7 @@ plugins: hexo-generate-feed
 
 # Blog rolls 推荐阅读
 links_icon: paper-plane  #图标
-links_title: 友情链接    #表示Title
+links_title: 推荐阅读    #表示Title
 #links_layout: block
 links_layout: inline
 links:     #打开

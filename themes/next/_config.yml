@@ -138,6 +138,7 @@ menu:
   book: /book/ || book #书籍
   about: /about/ || user #关于
   love: https://love.enjoytoshare.club/ || heart #告白
+  links: /links/ || paper-plane #友链
   laboratory: /laboratory/ || anchor #实验室
   notes: /notes || amazon #札记 & 留言板
   #schedule: /schedule/ || calendar #时间表

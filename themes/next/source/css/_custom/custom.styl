@@ -91,3 +91,94 @@ Hexo博客NexT主题美化之网站标题栏背景变色
   transition-delay: 0s;
 }
 
+  //以下是归档样式修改
+.archive .post-time{
+  position: absolute;
+  color: #fff;
+  background-color: #49b1f5;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 2px;
+}
+
+.page-archive .archive-page-counter{
+  font-size: 20px;
+  background-color: #49b1f5;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+
+.archive a.post-title-link:before{
+  top: 10px;
+  width: 16px;
+  height: 16px;
+
+  content: "\f073";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 16px;
+  line-height: 16px;
+
+}
+
+.archive a.post-title-link{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.archive .post{
+  position: relative;
+  margin-bottom: 1rem;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.archive .post-title{
+  display: block;
+  margin-left: 5rem;
+  color: #4c4948;
+  text-decoration: none;
+  font-size: .8rem;
+  cursor: pointer;
+}
+
+.archive .post-header{
+  position: relative;
+  margin-bottom: 1rem;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+}
+.archive .post-title-link{
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.archive .post-meta{
+  position: absolute;
+  color: #99a9bf;
+  width: 80px;
+  color: #114142;
+}
+//以上是归档样式修改
+
+//以下是页码样式修改
+.pagination{
+  height: 27px;
+}
+
+.pagination .page-number.current{
+  background-color: #a4d8fa;
+  border-radius: 5px;
+}
+//以上是页码样式修改

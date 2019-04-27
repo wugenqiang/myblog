@@ -9,7 +9,7 @@ author: WuGenQiang
 date: 2019-04-15 22:22:22
 updated: 2019-04-27 22:22:27
 ---
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404142303.png)
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/060.jpg)
 
 <!--more-->
 

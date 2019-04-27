@@ -19,7 +19,7 @@ updated: 2019-04-27 12:27:52
 （2）轻松的导出 HTML 和本身的 .md 文件。 
 （3）纯文本内容，兼容所有的文本编辑器与字处理软件。 
 （4）可读，直观。适合所有人的写作语言。
-查资料了解到，Hexo下使用的MarkDown为Github的[GFM](https://help.github.com/en/categories/writing-on-github)，风格很漂亮，简洁美观大方。但是GFM 的MarkDown语法和标准的MarkDown稍有不同，使用过程中需要注意一些，在下面的介绍中我会进行说明的请放心。
+查资料了解到，Hexo下使用的MarkDown为Github的 [GFM](https://help.github.com/en/categories/writing-on-github) ，风格很漂亮，简洁美观大方。但是GFM 的MarkDown语法和标准的MarkDown稍有不同，使用过程中需要注意一些，在下面的介绍中我会进行说明的请放心。
 
 # 1 Markdown语法
 
@@ -462,6 +462,41 @@ size为10：<font size="10">size为10</font>
 
 需要其它更多的颜色，可以到下面这个网址查更多颜色的 RGB，或者直接用颜色的英文代替 RGB
 [RGB颜色查询对照表](http://www.114la.com/other/rgb.htm)
+
+### 1.16.4 同时改变字体，字号和颜色
+```
+<font face="字体" size="字号" color="颜色">这里是需要突出显示的内容</font>
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font>
+<font face="STCAIYUN">我是华文彩云</font>
+<font color=red>我是红色</font>
+<font color=#008000>我是绿色</font>
+<font color=Blue>我是蓝色</font>
+<font size=5>我是尺寸</font>
+<font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
+```
+效果如下：
+
+<font face="字体" size="字号" color="颜色">这里是需要突出显示的内容</font>
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font>
+<font face="STCAIYUN">我是华文彩云</font>
+<font color=red>我是红色</font>
+<font color=#008000>我是绿色</font>
+<font color=Blue>我是蓝色</font>
+<font size=5>我是尺寸</font>
+<font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
+
+## 1.17 使用 Emoji
+举例：
+```
+Hello Hexo NexT :smile:
+```
+效果：
+
+Hello Hexo NexT  :smile:
+
+更多可用 Emoji 代码参见 [emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 # 2 文章编辑
 ## 2.1 文章配置
 在`hexo`文件夹下右键点击`Git Bash here`后键入`$hexo new page "name"`，`source/_post` 文件夹中就会生成`name.md`文件，打开后即可编辑，编辑格式如下：

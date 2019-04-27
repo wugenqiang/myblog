@@ -1,4 +1,4 @@
-title: 【更新至20190427】Hexo+NexT搭建博客拥抱舒爽
+title: 【目录】Hexo+NexT搭建博客拥抱舒爽
 urlname: hexo-do-optimization
 tags:
   - Hexo

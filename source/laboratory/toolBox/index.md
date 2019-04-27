@@ -1,7 +1,7 @@
 title: 工具盒子
 author: WuGenQiang
-date: 2019-03-17 12:18:28
-updated: 2019-03-17 12:18:28
+date: 2019-04-27 12:18:28
+updated: 2019-04-27 12:18:28
 ---
 # 1 Markdown
 
@@ -82,6 +82,10 @@ updated: 2019-03-17 12:18:28
 * [Firefox Send](https://send.firefox.com/)
 端到端加密分享文件
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190427110410.png)
+
+* [CendMe](http://cend.me/)
+局域网文件传送：直接文件传输，无需服务器参与，自动生成密码保护，接受任何尺寸立即传输同一网络上的设备
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190427154718.png)
 
 # 8 视频特效
 * [视频特效 PhotoMosh ](https://photomosh.com/)

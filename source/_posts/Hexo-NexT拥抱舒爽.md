@@ -602,9 +602,41 @@ copyright: true #新增,开启
 </style>
 ```
 就好啦
-# 4 SEO推广
+
+## 3.20 开启文章目录
+点此链接查看：[Hexo博客NexT主题开启文章目录和调整样式](https://blog.enjoytoshare.club/article/hexo-do-catalog.html)
+
+## 3.21 图片点击实现全屏查看
+点此链接查看：[Hexo文章中图片点击实现全屏查看](https://blog.enjoytoshare.club/article/hexo-do-picture-screen.html)
+
+## 3.22 修改内容区域的宽度
+点此链接查看：[Hexo之修改内容区域的宽度](https://blog.enjoytoshare.club/article/hexo-do-edit-screen.html)
+
+## 3.23 DaoVoice实现在线联系
+点此链接查看：[DaoVoice实现在线联系](https://blog.enjoytoshare.club/article/hexo-do-daovoice.html)
+
+## 3.24 打赏功能
+点此链接查看：[Hexo的NexT主题打赏功能](https://blog.enjoytoshare.club/article/hexo-do-donate.html)
+
+## 3.25 加入评论功能gitalk
+点此链接查看：[Hexo NexT 加入评论功能gitalk](https://blog.enjoytoshare.club/article/hexo-do-gitalk.html)
+
+## 3.26 获取网易云音乐外链
+点此链接查看：[Hexo获取网易云音乐外链](https://blog.enjoytoshare.club/article/hexo-do-music-link.html)
+
+# 4 自定义域名
+## 4.1 绑定个人域名
+参考博文：[Hexo博客绑定个人域名](https://blog.enjoytoshare.club/article/hexo-do-domain.html)
+
+## 4.2 开启HTTPS
+参考博文：[Hexo博客自定义域名开启HTTPS](https://blog.enjoytoshare.club/article/hexo-do-https.html)
+
+## 4.3 Coding+Github托管Hexo
+参考博文：[Coding+Github双服务器托管Hexo](https://blog.enjoytoshare.club/article/hexo-do-server-hosting.html)
+
+# 5 SEO推广
 刚搭建完博客，可能你会发现你发表的文章在谷歌或者百度都搜索不到，因为需要进行SEO优化的，什么是SEO，顾名思义，SEO即(Search Engine Optimization):汉译为搜索引擎优化，下面来总结一下SEO优化的方法，让自己的博文能在谷歌百度上搜索到。
-## 4.1 生成sitemap
+## 5.1 生成sitemap
 添加站点地图sitemap
 Sitemap用于通知搜索引擎网站上有哪些可供抓取的网页，以便搜索引擎可以更加智能地抓取网站。
 安装sitemap站点地图自动生成插件`hexo-generator-sitemap`和`hexo-generator-baidu-sitemap`，用于生成`sitemap`,在`git Bash`中执行以下命令:
@@ -627,7 +659,7 @@ url: https://blog.enjoytoshare.club
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409142957.png)
 
-## 4.2 添加蜘蛛协议
+## 5.2 添加蜘蛛协议
 网站通过`Robots协议`告诉搜索引擎哪些页面可以抓取，哪些页面不能抓取。`robots.txt` 通常存放于网站根目录(public目录)。由于我们每次hexo clean都会清空public，着实不方便，我们都知道source目录下的文件通过hexo g命令会转换成public中的文件，所以为了方便起见，我们把`robots.txt`文件放在`source`目录下，我的 robots.txt 内容为：
 ```
 User-agent: *
@@ -648,7 +680,7 @@ Sitemap: https://blog.enjoytoshare.club/baidusitemap.xml
 ```
 其中Allow后面的就是你的menu 
 请自行将blog.enjoytoshare.club改成自己的域名，然后hexo g提交一下
-## 4.3 打开SEO
+## 5.3 打开SEO
 在主题配置文件`_config.yml`中找到：
 
 ```
@@ -656,14 +688,14 @@ seo: false
 ```
 将其设置为`true`
 
-## 4.4 提交站点到百度
+## 5.4 提交站点到百度
 
-### 4.4.1 开启百度自动推送
+### 5.4.1 开启百度自动推送
 在主题配置文件`_config.yml`中添加如下：
 ```
 baidu_push: true
 ```
-### 4.4.2 将网站链接提交到百度
+### 5.4.2 将网站链接提交到百度
 [百度搜索引擎非验证提交入口](http://www.sousuoyinqingtijiao.com/baidu/tijiao/)
 [正式提交入口](https://ziyuan.baidu.com/site/siteadd)
 
@@ -675,7 +707,7 @@ baidu_push: true
 
 添加后运行hexo d -g将改动提交，然后点击完成验证，通过即可。
 
-### 4.4.3 登录[百度站长平台](https://ziyuan.baidu.com/site/index)
+### 5.4.3 登录[百度站长平台](https://ziyuan.baidu.com/site/index)
 进行链接提交
 添加：
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409154624.png)
@@ -686,15 +718,15 @@ baidu_push: true
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409154938.png)
 
-## 4.5 提交站点到Google
+## 5.5 提交站点到Google
 首先保证你要能翻墙出去，连到谷歌，如果没有VPN，可参考下面网址获取：[工具盒子](https://blog.enjoytoshare.club/laboratory/toolBox/index.html)
 
-### 4.5.1 提交博客域名
+### 5.5.1 提交博客域名
 
 打开[Google Search Console](https://www.google.com/webmasters/#?modal_active=none)
 根据提示注册好之后，添加你的博客域名。
 
-### 4.5.2 进行站点验证
+### 5.5.2 进行站点验证
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409150421.png)
 我选择了备用方法中的HTML 标记，将给出的元标记复制到\themes\next\layout\ _partials \head\head.swig文件中。
@@ -705,7 +737,7 @@ baidu_push: true
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409150748.png)
 
-### 4.5.3 提交站点地图
+### 5.5.3 提交站点地图
 还记得我们刚才创建创建sitemap.xml文件吧,现在它要派上用场了。点击左侧工具栏的站点地图
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409151250.png)
@@ -716,9 +748,9 @@ baidu_push: true
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409151735.png)
 
-## 4.6 验证站点是否被收录
+## 5.6 验证站点是否被收录
 在搜索引擎搜索框输入`site:your.domain`可以查看域名是否被该搜索引擎收录，用户可以使用各大搜索引擎站长工具提交个人博客网址。
-### 4.6.1 验证谷歌收录
+### 5.6.1 验证谷歌收录
 ```
 site:blog.enjoytoshare.club
 ```
@@ -727,7 +759,7 @@ site:blog.enjoytoshare.club
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409165959.png)
 
-### 4.6.2 验证百度收录
+### 5.6.2 验证百度收录
 ```
 site:blog.enjoytoshare.club
 ```
@@ -739,3 +771,9 @@ site:blog.enjoytoshare.club
 今天是2019-04-12，很幸运，今天查看了一下`site:blog.enjoytoshare.club`，发现已经收录了，很开心！nice
 
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412142351.png)
+
+
+-----
+到这里，应该博客超级炫了吧哈哈，如果觉得以上操作很多想直接跳过这些配置，可以参考我的博客源码：[myblog](https://github.com/wugenqiang/myblog)
+
+-----

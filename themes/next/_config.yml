@@ -1126,6 +1126,10 @@ mylinks:
     avatar: https://raw.githubusercontent.com/CalmCenter/picGo/master/pictures/20190426182019.jpg  #友链头像
     site: https://calmcenter.github.io/  #友链地址
     info: 就是干！  #友链说明
+  - nickname: Sam Xiong  #友链名称
+    avatar: https://xch900910.github.io/img/lufei.jpg  #友链头像
+    site: https://xch900910.github.io/  #友链地址
+    info: 沉淀是为了更好的出发 | Not three days ,two years.  #友链说明
 
 # Hide single post
 hide:

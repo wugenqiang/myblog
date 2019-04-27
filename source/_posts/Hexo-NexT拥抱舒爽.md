@@ -1,4 +1,4 @@
-title: Hexo+NexT搭建博客拥抱舒爽
+title: 【更新至20190427】Hexo+NexT搭建博客拥抱舒爽
 urlname: hexo-do-optimization
 tags:
   - Hexo
@@ -7,7 +7,7 @@ categories:
   - Hexo
 author: WuGenQiang
 date: 2019-04-15 22:22:22
-updated: 2019-04-15 22:22:27
+updated: 2019-04-27 22:22:27
 ---
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404142303.png)
 

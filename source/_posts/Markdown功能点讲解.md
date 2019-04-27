@@ -5,8 +5,9 @@ tags:
 categories:
   - Markdown
 author: WuGenQiang
+top: 27
 date: 2019-03-31 14:32:26
-updated: 2019-04-09 12:27:52
+updated: 2019-04-27 12:27:52
 ---
 <img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
 
@@ -20,7 +21,7 @@ updated: 2019-04-09 12:27:52
 （4）可读，直观。适合所有人的写作语言。
 查资料了解到，Hexo下使用的MarkDown为Github的[GFM](https://help.github.com/en/categories/writing-on-github)，风格很漂亮，简洁美观大方。但是GFM 的MarkDown语法和标准的MarkDown稍有不同，使用过程中需要注意一些，在下面的介绍中我会进行说明的请放心。
 
-# 1 基础语法
+# 1 Markdown语法
 
 ## 1.1 标题
 
@@ -167,7 +168,9 @@ ___这里是加粗并斜体___
 
 两个回车结束引用,不在引用范围内了！
 
-## 1.10 修改插入图片尺寸
+## 1.10 修改图片
+### 1.10.1 设置图片尺寸
+在 markdown 直接使用提供的语法引入图片是无法设置大小的，所以我们需要用到 html 的 img 标签。
 ```
 <img width="  " alt="描述" src="url"/>
 ```
@@ -178,9 +181,16 @@ ___这里是加粗并斜体___
 效果如下：
 
 <img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
-# 2 高级用法
 
-## 2.1 插入代码块
+### 1.10.2 设置图片居中
+在 markdown 设置图片居中是需要通过 div 来控制的。
+```
+<div align=center><img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/></div>
+```
+效果如下：
+<div align=center><img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/></div>
+
+## 1.11 插入代码块
 
 Markdown在IT圈子里面比较流行的一个重要原因是，它能够轻松漂亮地插入代码。
 方法是，使用三个反引号 \` 进行包裹即可。如果是行内代码引用，使用单个反引号进行包裹
@@ -210,7 +220,7 @@ print 'Hello World!
 \`\`\` 
 \`\`\` 
 \`\`\`\`
-## 2.2 插入表格
+## 1.12 插入表格
 
 表格是Markdown语法中比较复杂的一个，其语法如下：
 ```
@@ -259,7 +269,7 @@ print 'Hello World!
 
 注：三个短竖杠左右的冒号用于控制对齐方式，只放置左边冒号表示文字居左，只放置右边冒号表示文字居右，如果两边都放置冒号表示文字居中。
 
-## 2.3 特殊符号处理
+## 1.13 特殊符号处理
 
 Markdown使用反斜杠\插入语法中用到的特殊符号。在Markdown中，主要有以下几种特殊符号需要处理：
 
@@ -289,7 +299,7 @@ _   底线
 ||	两个竖线: & # 1 2 4 ; & # 1 2 4 ;
 
 
-## 2.4 文本居中引用
+## 1.14 文本居中引用
 
 ```
 {% cq %}
@@ -330,7 +340,7 @@ _   底线
   也只是我们追求的目的！
 </font>
 {% endcq %}
-## 2.5 主题自带样式 note 标签
+## 1.15 主题自带样式 note 标签
 
 ```
 <div class="note default"><p>default</p></div>
@@ -383,8 +393,77 @@ note:
   border_radius: 3
   light_bg_offset: 0
 ```
-# 3 文章编辑
-## 3.1 文章配置
+## 1.16 文字处理
+### 1.16.1 文字背景色
+```
+<table><tr><td bgcolor=#FFFF00>背景色的设置是按照十六进制颜色值：#FFFF00</td></tr></table>
+<table><tr><td bgcolor=#D1EEEE>背景色的设置是按照十六进制颜色值：#D1EEEE</td></tr></table>
+<table><tr><td bgcolor=#C0FF3E>背景色的设置是按照十六进制颜色值：#C0FF3E</td></tr></table>
+<table><tr><td bgcolor=#54FF9F>背景色的设置是按照十六进制颜色值：#54FF9F</td></tr></table>
+```
+效果如下：
+<table><tr><td bgcolor=#FFFF00>背景色的设置是按照十六进制颜色值：#FFFF00</td></tr></table>
+
+<table><tr><td bgcolor=#D1EEEE>背景色的设置是按照十六进制颜色值：#D1EEEE</td></tr></table>
+
+<table><tr><td bgcolor=#C0FF3E>背景色的设置是按照十六进制颜色值：#C0FF3E</td></tr></table>
+
+<table><tr><td bgcolor=#54FF9F>背景色的设置是按照十六进制颜色值：#54FF9F</td></tr></table>
+
+### 1.16.2 文字字体
+```
+<font face="黑体">我是黑体字</font>
+<font face="宋体">我是宋体字</font>
+<font face="微软雅黑">我是微软雅黑字</font>
+```
+效果如下：
+
+<font face="黑体">我是黑体字</font>
+<font face="宋体">我是宋体字</font>
+<font face="微软雅黑">我是微软雅黑字</font>
+
+### 1.16.3 文字大小
+```
+size为1：<font size="1">size为1</font>
+size为2：<font size="2">size为2</font>
+size为3：<font size="3">size为3</font>
+size为4：<font size="4">size为4</font>
+size为10：<font size="10">size为10</font>
+```
+效果如下：
+
+size为1：<font size="1">size为1</font>
+size为2：<font size="2">size为2</font>
+size为3：<font size="3">size为3</font>
+size为4：<font size="4">size为4</font>
+size为10：<font size="10">size为10</font>
+
+### 1.16.4 文字颜色
+```
+红色文字：<font color="red">红色文字</font>
+浅红色文字：<font color="#dd0000">浅红色文字</font> 
+蓝色文字：<font color="blue">蓝色文字</font>
+浅蓝色文字：<font color="#0000dd">浅蓝色文字</font>
+绿色文字：<font color="green">绿色文字</font>
+金黄色文字：<font color="#FFFF00">金黄色文字</font>
+浅黄色文字：<font color="#dddd00">浅黄色文字</font> 
+深黄色文字：<font color="#666600">深黄色文字</font>
+```
+效果如下：
+
+红色文字：<font color="red">红色文字</font>
+浅红色文字：<font color="#dd0000">浅红色文字</font> 
+蓝色文字：<font color="blue">蓝色文字</font>
+浅蓝色文字：<font color="#0000dd">浅蓝色文字</font>
+绿色文字：<font color="green">绿色文字</font>
+金黄色文字：<font color="#FFFF00">金黄色文字</font>
+浅黄色文字：<font color="#dddd00">浅黄色文字</font> 
+深黄色文字：<font color="#666600">深黄色文字</font>
+
+需要其它更多的颜色，可以到下面这个网址查更多颜色的 RGB，或者直接用颜色的英文代替 RGB
+[RGB颜色查询对照表](http://www.114la.com/other/rgb.htm)
+# 2 文章编辑
+## 2.1 文章配置
 在`hexo`文件夹下右键点击`Git Bash here`后键入`$hexo new page "name"`，`source/_post` 文件夹中就会生成`name.md`文件，打开后即可编辑，编辑格式如下：
 
 ```java
@@ -398,7 +477,7 @@ photos:                       //如果使用Fancybox（文章头部展示图片�
                               //注意冒号后面有空格
 ---
 ```
-## 3.2 文章折叠 
+## 2.2 文章折叠 
 在要显示的文字末尾添加如下代码实现文章在主页的折叠显示。
 
 ```

@@ -55,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="412" lean-forward="true" selection-start-line="412" selection-end-line="412" />
+            <state relative-caret-position="180">
+              <caret line="410" column="25" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -348,12 +348,12 @@
       <workItem from="1556458898184" duration="64000" />
       <workItem from="1556460449738" duration="245000" />
       <workItem from="1556461004541" duration="2397000" />
-      <workItem from="1556465064892" duration="249000" />
+      <workItem from="1556465064892" duration="962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465159000" />
+    <option name="totallyTimeSpent" value="465872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,6 +366,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -699,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="412" lean-forward="true" selection-start-line="412" selection-end-line="412" />
+        <state relative-caret-position="180">
+          <caret line="410" column="25" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="25" />
         </state>
       </provider>
     </entry>

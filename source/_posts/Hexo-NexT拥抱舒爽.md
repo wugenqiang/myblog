@@ -624,6 +624,99 @@ copyright: true #新增,开启
 ## 3.26 获取网易云音乐外链
 点此链接查看：[Hexo获取网易云音乐外链](https://blog.enjoytoshare.club/article/hexo-do-music-link.html)
 
+## 3.27 开启emoji表情
+如何让 `markdown` 可以解析 `emoji` 呢？实际上我们发现，在编辑器中输入 `:smile:` 并没有表情出现，是为什么呢？
+这是 `markdown` 渲染引擎的问题 ，将 `markdown` 变成 `html` 的转换器叫做`markdown渲染器` 。 Hexo默认是采用 `hexo-renderer-marked` ,这个渲染器不支持插件扩展，当然就不行了，还有一个支持插件扩展的是 `hexo-renderer-markdown-it` ，这个支持插件配置，可以使用 `markwon-it-emoji` 插件来支持emoji。需要将原来的 `marked` 渲染器换成 `markdown-it` 渲染器。所以我们可以使用这个渲染引擎来支持emoji表情。
+
+### 3.27.1 安装新的渲染器
+首先进入博客目录，卸载hexo默认的 `marked` 渲染器，安装 `markdown-it` 渲染器，运行的命令如：
+```
+$ npm un hexo-renderer-marked --save
+$ npm i hexo-renderer-markdown-it --save
+```
+之后安装 `markdown-it-emoji` 插件 ：
+```
+$ npm install markdown-it-emoji --save
+```
+据说 `hexo-renderer-markdown-it` 的速度要比 `Hexo` 原装插件要快，而且功能更多
+
+### 3.27.2 编辑站点配置文件
+这里的站点配置文件是指位于博客根目录下的` _config.yml`，编辑它，然后在末尾添加如下内容：
+```
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji  ## add emoji
+  anchors:
+    level: 1
+    collisionSuffix: 'v'
+    # If `true`, creates an anchor tag with a permalink besides the heading.
+    permalink: true  
+    permalinkClass: header-anchor
+    # The symbol used to make the permalink
+    permalinkSymbol: ¶
+```
+说明一下：
+* level：生成 Heading ID 的标题等级
+* collisionSuffix：Heading ID 重复时，数字的后缀
+* permalink：'true'，则创建一个锚标记，除标题外还有一个固定链接
+* permalinkClass：用于固定链接锚标记的样式
+* permalinkSymbol：用于固定链接标记的符号
+
+若想更改 `permalinkSymbol` 里面符号，可以参考：[permalinkSymbol](https://graphemica.com/unicode/characters)
+
+注：如果不想显示 `permalinkSymbol` 的符号，可以改 `permalink: true` 为 `permalink: false` 即可
+
+* html：定义文档中的HTML内容是否应转义或传递给最终结果。
+```
+html: true # 不转义 HTML 内容
+html: false # 转义 HTML 内容，使标签作为文本输出
+```
+* xhtmlOut：定义解析器是否将导出完全兼容XHTML的标记。
+```
+xhtmlOut: true # 必须使用完全的 XHTML 代码，换行必须为 <br/>
+xhtmlOut: false # 不必必使用完全的 XHTML 代码，换行可以为 <br>
+```
+* breaks：使源文件中的换行符被解析为<br>标记。每次按Enter键都会创建换行符。
+```
+breaks: true # 每次会车换行相当于一个 <br/> 标签
+breaks: false # Pa每次会车换行会被忽略
+```
+
+* linkify：解析器能够将直接粘贴到文本中的链接内联。
+```
+linkify: true # 类似链接的文本，作为链接输出
+linkify: false # 类似链接的文本，依然作为文本输出
+```
+
+* typographer：可以替换常见的排版元素。
+```
+typographer: true # 替换常见的排版元素
+typographer: false # 不替换常见的排版元素
+```
+
+* quotes：单引号、双引号如何被替换
+```
+quotes: '“”‘’' # 'single'、"double" 变成 ‘single’、“double”
+quotes: '«»“”' # 'single'、"double" 变成 “single”、«single»
+```
+### 3.27.3 使用方法
+在 [Emoji](https://www.emojicopy.com/) 中找到你想要的表情，然后点击即可复制。
+比如你想发一个笑脸 😄 直接输入笑脸对应的 `emoji` 编码 `:smile:` 就可以。
+
 # 4 自定义域名
 ## 4.1 绑定个人域名
 参考博文：[Hexo博客绑定个人域名](https://blog.enjoytoshare.club/article/hexo-do-domain.html)

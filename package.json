@@ -27,7 +27,7 @@
     "hexo-myadmin": "^0.4.1",
     "hexo-pdf": "^1.1.1",
     "hexo-renderer-ejs": "^0.3.1",
-    "hexo-renderer-marked": "^0.3.2",
+    "hexo-renderer-markdown-it": "^3.4.1",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
     "hexo-symbols-count-time": "^0.4.4",
@@ -36,6 +36,7 @@
     "image-size": "^0.7.2",
     "live2d-widget-model-koharu": "^1.0.5",
     "live2d-widget-model-wanko": "^1.0.5",
+    "markdown-it-emoji": "^1.4.0",
     "shelljs": "^0.8.3"
   }
 }

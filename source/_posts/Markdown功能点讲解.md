@@ -487,7 +487,10 @@ size为10：<font size="10">size为10</font>
 <font size=5>我是尺寸</font>
 <font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
 
-## 1.17 使用 Emoji
+## 1.17 使用Emoji
+使用前首先要开启 `emoji`，默认是不显示的，参考：[开启emoji表情](https://blog.enjoytoshare.club/article/hexo-do-optimization.html#3-27-%E5%BC%80%E5%90%AFemoji%E8%A1%A8%E6%83%85)
+开启 `emoji` 后进行操作
+
 举例：
 ```
 Hello Hexo NexT :smile:
@@ -496,7 +499,7 @@ Hello Hexo NexT :smile:
 
 Hello Hexo NexT  :smile:
 
-更多可用 Emoji 代码参见 [emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+更多可用 Emoji 代码参见 [emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) 和 [emojicopy](https://www.emojicopy.com/)
 # 2 文章编辑
 ## 2.1 文章配置
 在`hexo`文件夹下右键点击`Git Bash here`后键入`$hexo new page "name"`，`source/_post` 文件夹中就会生成`name.md`文件，打开后即可编辑，编辑格式如下：

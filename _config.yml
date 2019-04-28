@@ -112,3 +112,29 @@ tag_cloud:
   textHeight: 17
   outlineColor: '#b3e5ef'
   maxSpeed: 0.07
+
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji  # add emoji
+  anchors:
+    level: 1
+    collisionSuffix: 'v'
+    # If `true`, creates an anchor tag with a permalink besides the heading.
+    permalink: false
+    permalinkClass: header-anchor
+    # The symbol used to make the permalink
+    permalinkSymbol: ˃

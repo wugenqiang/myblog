@@ -487,7 +487,7 @@ size为10：<font size="10">size为10</font>
 <font size=5>我是尺寸</font>
 <font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
 
-## 1.17 使用Emoji
+## 1.17 使用Emoji表情
 使用前首先要开启 `emoji`，默认是不显示的，参考：[开启emoji表情](https://blog.enjoytoshare.club/article/hexo-do-optimization.html#3-27-%E5%BC%80%E5%90%AFemoji%E8%A1%A8%E6%83%85)
 开启 `emoji` 后进行操作
 

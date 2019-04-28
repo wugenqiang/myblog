@@ -714,8 +714,8 @@ quotes: '“”‘’' # 'single'、"double" 变成 ‘single’、“double”
 quotes: '«»“”' # 'single'、"double" 变成 “single”、«single»
 ```
 ### 3.27.3 使用方法
-在 [Emoji](https://www.emojicopy.com/) 中找到你想要的表情，然后点击即可复制。
-比如你想发一个笑脸 😄 直接输入笑脸对应的 `emoji` 编码 `:smile:` 就可以。
+在 [Emoji](https://www.emojicopy.com/) 中找到你想要的表情，然后点击复制即可
+或者你想发一个笑脸 😄 也可以直接输入笑脸对应的 `emoji` 编码 `:smile:` 
 
 # 4 自定义域名
 ## 4.1 绑定个人域名

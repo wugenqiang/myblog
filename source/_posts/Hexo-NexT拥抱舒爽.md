@@ -717,6 +717,29 @@ quotes: '«»“”' # 'single'、"double" 变成 “single”、«single»
 在 [Emoji](https://www.emojicopy.com/) 中找到你想要的表情，然后点击复制即可
 或者你想发一个笑脸 😄 也可以直接输入笑脸对应的 `emoji` 编码 `:smile:` 
 
+## 3.28 修改\`\`代码块自定义样式
+打开 `\themes\next\source\css\_custom\custom.styl` ,向里面加入：(颜色可以自己定义)
+
+```css
+// 以下修改``代码块自定义样式
+// Custom styles.
+code {
+  color: #ff7600;
+  background: #fbf7f8;
+  margin: 2px;
+}
+.highlight, code, pre {
+  border: 1px solid #d6d6d6;
+}
+// 以上修改``代码块自定义样式
+```
+
+效果图如下：
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190428132730.png)
+
+## 3.29 添加PDF
+
+参考博文：[Hexo NexT主题内添加pdf 插件](https://blog.csdn.net/wugenqiang/article/details/88377669)
 # 4 自定义域名
 ## 4.1 绑定个人域名
 参考博文：[Hexo博客绑定个人域名](https://blog.enjoytoshare.club/article/hexo-do-domain.html)

@@ -55,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="410" column="25" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="25" />
+            <state relative-caret-position="199">
+              <caret line="411" column="31" lean-forward="true" selection-start-line="411" selection-start-column="31" selection-end-line="411" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -153,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,22 +160,12 @@
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="next" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,12 +337,13 @@
       <workItem from="1556458898184" duration="64000" />
       <workItem from="1556460449738" duration="245000" />
       <workItem from="1556461004541" duration="2397000" />
-      <workItem from="1556465064892" duration="962000" />
+      <workItem from="1556465064892" duration="1262000" />
+      <workItem from="1556523869181" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465872000" />
+    <option name="totallyTimeSpent" value="466197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +358,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30332828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -700,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="410" column="25" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="25" />
+        <state relative-caret-position="199">
+          <caret line="411" column="31" lean-forward="true" selection-start-line="411" selection-start-column="31" selection-end-line="411" selection-end-column="31" />
         </state>
       </provider>
     </entry>

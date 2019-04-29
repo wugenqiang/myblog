@@ -1134,6 +1134,10 @@ mylinks:
     avatar: http://www.ucco.net/images/avatar.png  #友链头像
     site: http://www.ucco.net  #友链地址
     info: 犹有花枝俏  #友链说明
+  - nickname: Kelly  #友链名称
+    avatar: https://www.biogithub.com/images/avatar.png  #友链头像
+    site: https://www.biogithub.com/  #友链地址
+    info: 已是悬崖百丈冰  #友链说明
 
 # Hide single post
 hide:

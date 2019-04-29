@@ -89,12 +89,12 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/wugenqiang/wugenqiang.github.io.git #复制过来
-  branch: master
-  #repo:
-  #  github: https://github.com/wugenqiang/wugenqiang.github.io.git,master
-  #  coding: https://dev.tencent.com/u/wugenqiang/p/wugenqiang.coding.me.git,master
-  #  gitee: https://gitee.com/wugenqiang/wugenqiang.git,master
+  #repository: https://github.com/wugenqiang/wugenqiang.github.io.git #复制过来
+  #branch: master
+  repo:
+    github: https://github.com/wugenqiang/wugenqiang.github.io.git,master
+    coding: https://dev.tencent.com/u/wugenqiang/p/wugenqiang.coding.me.git,master
+    gitee: https://gitee.com/wugenqiang/wugenqiang.git,master
 
 admin:
   username: wugenqiang

@@ -811,7 +811,7 @@ gulp.task('default', [
 
 在hexo 最新3.8版本里面安装gulp 进行压缩。发现会进行报错。百思不得其解，发现是因为网络上的gulp教程均适用于 gulp 4.0 版本以下 ，如果是安装了最新的gulp 4.0 版本的情况下，则就会进行报错。解决办法在下面有说明
 
-![](https://img-blog.csdnimg.cn/20190310212231760.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d1Z2VucWlhbmc=,size_16,color_FFFFFF,t_70)
+![](https://img-blog.csdnimg.cn/20190310212231760.png)
 
 解决办法参考：https://master.compassionate-raman-1e7f63.netlify.com/posts/74d69307.html
 
@@ -853,6 +853,7 @@ gulp.task('build', gulp.parallel('minify-html', 'minify-css', 'minify-js'
     //build the website
 ));
 ```
+
 ![](https://img-blog.csdnimg.cn/20190310212624574.png)
 
 欧克，成功

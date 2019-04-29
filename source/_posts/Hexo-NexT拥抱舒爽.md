@@ -768,7 +768,7 @@ $ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-htmlclean gulp --sav
 ```
 在如下图所示，新建 gulpfile.js ，并填入以下内容：
 
-![](https://img-blog.csdnimg.cn/20190310211626245.png)
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190429165943.png)
 
 ```
 var gulp = require('gulp');
@@ -811,7 +811,7 @@ gulp.task('default', [
 
 在hexo 最新3.8版本里面安装gulp 进行压缩。发现会进行报错。百思不得其解，发现是因为网络上的gulp教程均适用于 gulp 4.0 版本以下 ，如果是安装了最新的gulp 4.0 版本的情况下，则就会进行报错。解决办法在下面有说明
 
-![](https://img-blog.csdnimg.cn/20190310212231760.png)
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190429170024.png)
 
 解决办法参考：https://master.compassionate-raman-1e7f63.netlify.com/posts/74d69307.html
 
@@ -854,7 +854,7 @@ gulp.task('build', gulp.parallel('minify-html', 'minify-css', 'minify-js'
 ));
 ```
 
-![](https://img-blog.csdnimg.cn/20190310212624574.png)
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190429170248.png)
 
 欧克，成功
 # 4 自定义域名

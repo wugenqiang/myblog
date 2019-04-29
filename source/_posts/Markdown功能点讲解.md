@@ -55,12 +55,12 @@ Markdown针对链接和图片的处理也比较简单，可以使用下面的语
 
 ```
 [点击跳转至百度](https://www.baidu.com)
-![图片](https://upload-images.jianshu.io/upload_images/703764-605e3cc2ecb664f6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/015.jpg)
 ```
 以上标记显示效果如下：
 
 [点击跳转至百度](https://www.baidu.com)
-![图片](https://upload-images.jianshu.io/upload_images/703764-605e3cc2ecb664f6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/015.jpg)
 
 注： 引用图片和链接的唯一区别就是在最前方添加一个感叹号。
 

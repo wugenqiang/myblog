@@ -501,6 +501,44 @@ Hello Hexo NexT :smile:
 Hello Hexo NexT  :smile:
 
 更多可用 Emoji 代码参见 [emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) 和 [emojicopy](https://www.emojicopy.com/)
+
+## 1.18 复选框列表(github可用,hexo不支持)
+在列表符号后面加上 `[x]` 或者 `[ ]` 代表`选中`或者`未选中`情况
+```
+- [ ] content 
+-空格[空格]空格content 
+解释: [ ]括号里面的空格可以换成[x],代表选中对话框
+```
+
+- [x] C
+- [x] C++
+- [x] Java
+- [x] Qt
+- [x] Android
+- [ ] C#
+- [ ] .NET
+
+## 1.19 脚注
+使用 `[^1]` `[^1]: `的脚注对来表示
+```
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+    Subsequent paragraphs are indented to show that they
+    belong to the previous footnote.
+```
+效果如下：
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+    Subsequent paragraphs are indented to show that they
+    belong to the previous footnote.
+
 # 2 文章编辑
 ## 2.1 文章配置
 在`hexo`文件夹下右键点击`Git Bash here`后键入`$hexo new page "name"`，`source/_post` 文件夹中就会生成`name.md`文件，打开后即可编辑，编辑格式如下：

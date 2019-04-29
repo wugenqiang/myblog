@@ -158,6 +158,10 @@ font:
 ```
 访问速度就很快了！哦耶，当然如果你有更好的解决办法也可以提啊
 
+效果演示：
+
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/gif008.gif)
+
 ### 3.5.2 方法二：博文压缩
 这里我来分享以下如何压缩，参考 [实现博文压缩](https://blog.enjoytoshare.club/article/hexo-do-optimization.html#3-30-%E5%AE%9E%E7%8E%B0%E5%8D%9A%E6%96%87%E5%8E%8B%E7%BC%A9)
 

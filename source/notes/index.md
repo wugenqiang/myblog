@@ -6,6 +6,11 @@ date: 2019-04-27 08:03:27
 ![醉心话，君听我诉说](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/025.jpg)
 
 # 2019 幸运年
+## 05 开心，毕业前答辩
+### 17 终期答辩结果出来
+* 今天最终答辩结果出来挺满意的
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190522-02.jpg)
+![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190522-01.jpg)
 ## 04 欢喜，这个月线代复习要赶上
 
 ### 01 愚人节呆呆的工作啊哈哈哈

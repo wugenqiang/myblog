@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="1125" column="86" selection-start-line="1125" selection-start-column="12" selection-end-line="1125" selection-end-column="86" />
+            <state relative-caret-position="71">
+              <caret line="1141" column="12" selection-start-line="1141" selection-start-column="12" selection-end-line="1141" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -151,12 +151,12 @@
         <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" />
         <option value="$PROJECT_DIR$/themes/next/layout/_partials/post/reward.swig" />
-        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
         <option value="$PROJECT_DIR$/scaffolds/post.md" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/menu.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-nav.styl" />
+        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
       </list>
     </option>
   </component>
@@ -395,12 +395,12 @@
       <workItem from="1558425712373" duration="231000" />
       <workItem from="1558538128828" duration="3870000" />
       <workItem from="1558570271300" duration="5558000" />
-      <workItem from="1558581237661" duration="257000" />
+      <workItem from="1558581237661" duration="1018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="480963000" />
+    <option name="totallyTimeSpent" value="481724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,10 +412,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,7 +431,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2852349" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2852349" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -728,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="1125" column="86" selection-start-line="1125" selection-start-column="12" selection-end-line="1125" selection-end-column="86" />
+        <state relative-caret-position="71">
+          <caret line="1141" column="12" selection-start-line="1141" selection-start-column="12" selection-end-line="1141" selection-end-column="12" />
         </state>
       </provider>
     </entry>

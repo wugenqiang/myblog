@@ -1096,7 +1096,7 @@ links:     #打开
   # V2EX: https://www.v2ex.com/
   # 印记中文: https://www.v2ex.com/
   # EnjoyToShare: https://wugenqiang.github.io/
-  庞泽琪的博客: https://pangzeqi.github.io/
+  Lee的博客: https://nanaandlee.github.io/
   筱林博客: https://x1aolin.com/
   开源中国: https://my.oschina.net/wugenqiang
   zhengrenjie's Blog: https://www.jelliclecat.cn
@@ -1138,6 +1138,10 @@ mylinks:
     avatar: https://www.biogithub.com/images/avatar.png  #友链头像
     site: https://www.biogithub.com/  #友链地址
     info: 已是悬崖百丈冰  #友链说明
+  - nickname: Lee  #友链名称
+    avatar: https://user-images.githubusercontent.com/44157819/58195494-a6959580-7cfa-11e9-9744-e55d969cbdba.jpg  #友链头像
+    site: https://nanaandlee.github.io/  #友链地址
+    info: 当你迷茫的时候，千万不要停下脚步 #友链说明
 
 # Hide single post
 hide:

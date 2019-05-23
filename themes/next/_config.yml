@@ -313,7 +313,7 @@ codeblock:
 
 # Wechat Subscriber
 wechat_subscriber:
-  enable: true
+  enable: false
   qcode: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/wechat_subscriber.jpg
   #qcode: /path/to/your/wechatqcode e.g. /uploads/wechat-qcode.jpg
   #description: e.g. subscribe to my blog by scanning my public wechat account
@@ -324,9 +324,9 @@ wechat_subscriber:
 reward:
   enable: true
   #打赏功能
-  comment: 原创技术分享，您的支持将鼓励我继续创作
-  wechatpay: /images/wechat.jpg
+  comment: 如果你喜欢这篇文章，可以请我喝一杯 Coffee ~
   alipay: /images/alipay.jpg
+  wechatpay: /images/wechat.jpg
   #comment: Donate comment here
   #wechatpay: /images/wechatpay.jpg
   #alipay: /images/alipay.jpg

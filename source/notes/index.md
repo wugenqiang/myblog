@@ -6,12 +6,12 @@ date: 2019-04-27 08:03:27
 ![醉心话，君听我诉说](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/025.jpg)
 
 # 2019 幸运年
-## 2019/05 开心，毕业前答辩
+## 5月欣喜，毕业前答辩
 ### 2019/05/17 终期答辩结果出来
 * 今天最终答辩结果出来挺满意的
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190522-02.jpg)
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190522-01.jpg)
-## 2019/04 欢喜，这个月线代复习要赶上
+## 4月欢喜，这个月线代复习要赶上
 
 ### 2019/04/01 愚人节呆呆的工作啊哈哈哈
 
@@ -30,7 +30,7 @@ date: 2019-04-27 08:03:27
 
 最后，不说再见，因为：告别，是为了下次更好的相见，我们会在未来最短的时间内以更好的姿态回归。
 
-## 2019/03 该喜，这个月要概率复习完全
+## 3月该喜，这个月要概率复习完全
 
 ### 2019/03/16 奋斗的誓言
 

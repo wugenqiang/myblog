@@ -68,20 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/base.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="237">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/source/css/_variables/base.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-567">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="152">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
             </state>
           </provider>
         </entry>
@@ -154,9 +154,9 @@
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-title.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/base.styl" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" />
       </list>
     </option>
   </component>
@@ -510,12 +510,12 @@
       <workItem from="1558425712373" duration="231000" />
       <workItem from="1558538128828" duration="3870000" />
       <workItem from="1558570271300" duration="5558000" />
-      <workItem from="1558581237661" duration="4607000" />
+      <workItem from="1558581237661" duration="5155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="485313000" />
+    <option name="totallyTimeSpent" value="485861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,17 +801,17 @@
         <state relative-caret-position="-941" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_variables/base.styl">
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/base.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="237">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/base.styl">
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_variables/base.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="152">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>

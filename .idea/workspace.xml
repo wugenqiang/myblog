@@ -142,18 +142,6 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="links" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,12 +344,12 @@
       <workItem from="1558570271300" duration="5558000" />
       <workItem from="1558581237661" duration="6087000" />
       <workItem from="1558662112952" duration="599000" />
-      <workItem from="1558860546375" duration="2127000" />
+      <workItem from="1558860546375" duration="2745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489519000" />
+    <option name="totallyTimeSpent" value="490137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

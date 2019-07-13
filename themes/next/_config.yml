@@ -1142,6 +1142,10 @@ mylinks:
     avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190523-03.jpg  #友链头像
     site: https://nanaandlee.github.io/  #友链地址
     info: 当你迷茫的时候，千万不要停下脚步 #友链说明
+  - nickname: Jacob's blog  #友链名称
+    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190713102007.jpg #友链头像
+    site: https://www.jbblogs.cn/  #友链地址
+    info: 生命不息，奋斗不止！  #友链说明
 
 # Hide single post
 hide:

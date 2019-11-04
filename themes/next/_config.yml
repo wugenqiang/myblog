@@ -1146,6 +1146,14 @@ mylinks:
     avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190713102007.jpg #友链头像
     site: https://www.jbblogs.cn/  #友链地址
     info: 生命不息，奋斗不止！  #友链说明
+  - nickname: 小军的博客  #友链名称
+    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20191104235818.jpg   #友链头像
+    site: https://www.dogooo.cn  #友链地址
+    info: CODE ()> EAT() > SLEEP ()> REPEAT()  #友链说明
+  - nickname: DragonBaby308's Blog  #友链名称
+    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20191105000009.jpg    #友链头像
+    site: http://www.dragonbaby308.com/ #友链地址
+    info: 记住迄今为止每一次失败时有心无力的感受，Fighting for BAT !!! #友链说明
 
 # Hide single post
 hide:

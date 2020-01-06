@@ -706,13 +706,13 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: false
   total_visitors_icon: false
   total_views: false
   total_views_icon: false
-  post_views: true
-  post_views_icon: eye
+  post_views: false
+  post_views_icon: false
 
 # Tencent analytics ID
 #tencent_analytics:

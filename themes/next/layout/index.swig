@@ -10,12 +10,6 @@
 
 {% block content %}
 
-  {% if theme.giteement.enable %}
-  <script src="https://gitee.com/wugenqiang/giteement/raw/master/dist/oauthcallback.browser.js"></script>
-  <script>
-    Oauthcallback();
-  </script>
-  {% endif %}
   <section id="posts" class="posts-expand">
 
     {% for post in page.posts %}

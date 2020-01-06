@@ -135,7 +135,7 @@ menu:
   categories: /categories/ || th #分类
   archives: /archives/ || archive #归档
   photos: /photos/ || camera  #摄影相册
-  book: /book/ || book #书籍
+  book: https://wugenqiang.gitee.io/ibooks/ || book #书籍
   about: /about/ || user #关于
   love: https://wugenqiang.gitee.io/wgq520mll/ || heart #告白
   links: /links/ || paper-plane #友链
@@ -523,7 +523,7 @@ valine:
   appkey: orYWc8ltQOxyT6Y9HEQdrizt # 将应用key的App Key设置在这里
   notify: true # 邮箱通知 , https://github.com/xCss/Valine/wiki，默认为false
   verify: true # 验证码 默认为false
-  placeholder: Just go go ^_^ # 初始化评论显示，根据自己修改，这里默认，
+  placeholder: 交流中我们一起进步哈哈 # 初始化评论显示，根据自己修改，这里默认，
   avatar: wavatar # 头像风格，默认为mm，可进入网址：https://valine.js.org/visitor.html查看头像设置，这里有许多头像风格，进行设置
   guest_info: nick,mail,link # 自定义评论标题
   pageSize: 10 # 分页大小，10页就自动分页
@@ -706,7 +706,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: false
   total_visitors_icon: false
   total_views: false

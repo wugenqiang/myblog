@@ -93,7 +93,7 @@ deploy:
   #branch: master
   repo:
     github: https://github.com/wugenqiang/wugenqiang.github.io.git,master
-    coding: https://dev.tencent.com/u/wugenqiang/p/wugenqiang.coding.me.git,master
+   # coding: https://dev.tencent.com/u/wugenqiang/p/wugenqiang.coding.me.git,master
     gitee: https://gitee.com/wugenqiang/wugenqiang.git,master
 
 admin:

@@ -35,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="-1230">
               <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
@@ -44,13 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1482" />
+            <state relative-caret-position="-1767" />
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -90,8 +85,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="559" column="25" lean-forward="true" selection-start-line="559" selection-start-column="25" selection-end-line="559" selection-end-column="25" />
+            <state relative-caret-position="209">
+              <caret line="1124" column="43" selection-start-line="1124" selection-start-column="43" selection-end-line="1124" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/links/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="142">
+                <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -174,7 +181,6 @@
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/scaffolding/base.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" />
-        <option value="$PROJECT_DIR$/source/links/index.md" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -184,6 +190,7 @@
         <option value="$PROJECT_DIR$/themes/next/layout/index.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_partials/comments.swig" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/source/links/index.md" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
       </list>
     </option>
@@ -212,6 +219,11 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -425,12 +437,12 @@
       <workItem from="1578284791715" duration="14792000" />
       <workItem from="1578303871141" duration="272000" />
       <workItem from="1578304989624" duration="888000" />
-      <workItem from="1578316245435" duration="3888000" />
+      <workItem from="1578316245435" duration="4599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="516018000" />
+    <option name="totallyTimeSpent" value="516729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,10 +454,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,7 +474,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22818792" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22818792" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -616,7 +628,6 @@
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/back-to-top.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/links/index.md" />
     <entry file="file://$PROJECT_DIR$/source/about/index.md">
       <provider editor-type-id="text-editor" />
     </entry>
@@ -714,22 +725,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/links/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="142">
+            <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="-1230">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1482" />
+        <state relative-caret-position="-1767" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="559" column="25" lean-forward="true" selection-start-line="559" selection-start-column="25" selection-end-line="559" selection-end-column="25" />
+        <state relative-caret-position="209">
+          <caret line="1124" column="43" selection-start-line="1124" selection-start-column="43" selection-end-line="1124" selection-end-column="43" />
         </state>
       </provider>
     </entry>

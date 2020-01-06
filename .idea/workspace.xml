@@ -88,7 +88,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="3134">
               <caret line="714" column="22" selection-start-line="714" selection-start-column="22" selection-end-line="714" selection-end-column="22" />
             </state>
           </provider>
@@ -435,12 +435,12 @@
       <workItem from="1577266671235" duration="649000" />
       <workItem from="1578284791715" duration="14792000" />
       <workItem from="1578303871141" duration="272000" />
-      <workItem from="1578304989624" duration="58000" />
+      <workItem from="1578304989624" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="511300000" />
+    <option name="totallyTimeSpent" value="511907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +453,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1732224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -740,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="3134">
           <caret line="714" column="22" selection-start-line="714" selection-start-column="22" selection-end-line="714" selection-end-column="22" />
         </state>
       </provider>

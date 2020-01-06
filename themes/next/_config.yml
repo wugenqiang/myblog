@@ -518,7 +518,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: true # 设置为true，默认为false
+  enable: false # 设置为true，默认为false
   appid: j5U5IGzSMQcvLyhW1Y6opNX6-gzGzoHsz  # 将应用key的App ID设置在这里
   appkey: orYWc8ltQOxyT6Y9HEQdrizt # 将应用key的App Key设置在这里
   notify: true # 邮箱通知 , https://github.com/xCss/Valine/wiki，默认为false
@@ -553,7 +553,7 @@ gitment:
 # Demo: https://gitalk.github.io
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
 gitalk:
-  enable: false
+  enable: true
   github_id: wugenqiang  # Github repo owner
   repo: wugenqiang.gitee.io # Repository name to store issues
   client_id: bab1ce865740e8dbb948 #ee225c7b65db41a1b788 # Github Application Client ID
@@ -711,8 +711,8 @@ busuanzi_count:
   total_visitors_icon: false
   total_views: false
   total_views_icon: false
-  post_views: false
-  post_views_icon: false
+  post_views: true
+  post_views_icon: eye
 
 # Tencent analytics ID
 #tencent_analytics:

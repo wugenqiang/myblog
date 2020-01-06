@@ -518,7 +518,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: false # 设置为true，默认为false
+  enable: true # 设置为true，默认为false
   appid: j5U5IGzSMQcvLyhW1Y6opNX6-gzGzoHsz  # 将应用key的App ID设置在这里
   appkey: orYWc8ltQOxyT6Y9HEQdrizt # 将应用key的App Key设置在这里
   notify: true # 邮箱通知 , https://github.com/xCss/Valine/wiki，默认为false
@@ -566,7 +566,7 @@ gitalk:
   language:
 
 giteement:
-  enable: true  # 是否启用码云评论系统
+  enable: false  # 是否启用码云评论系统
   # 是否使用官方js(false可以提升访问速度)
   remote: false
   redirect_uri: https://wugenqiang.gitee.io/  # 应用回调地址(请和配置的第三方应用保持一致)

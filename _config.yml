@@ -13,7 +13,7 @@ timezone: UTC #时区
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wugenqiang.gitee.io # wugenqiang是我的账号，修改为自己的账号
+url: https://wugenqiang.github.io # wugenqiang是我的账号，修改为自己的账号
 root: /
 permalink: articles/:urlname.html #:year/:month/:day/:title/
 permalink_defaults:

@@ -50,12 +50,12 @@
       <script src="https://giteement.oss-cn-beijing.aliyuncs.com/giteement.browser.js"></script>
       <script>
       var giteement = new Giteement({
-        id:{{date(page.date,'YYYYMMDDHHmmss')}},
-        owner:'{{theme.giteement.giteeID}}',
-        repo:'{{theme.giteement.repo}}',
-        backcall_uri:'{{theme.giteement.redirect_uri}}',
-        oauth_uri:'{{theme.giteement.oauth_uri}}',
-        oauth:{
+        id: {{date(page.date, 'YYYYMMDDHHmmss')}},
+        owner: '{{theme.giteement.giteeID}}',
+        repo: '{{theme.giteement.repo}}',
+        backcall_uri: '{{theme.giteement.redirect_uri}}',
+        oauth_uri: '{{theme.giteement.oauth_uri}}',
+        oauth: {
           client_id:'{{theme.giteement.gitment_oauth.client_id}}',
           client_secret:'{{theme.giteement.gitment_oauth.client_secret}}'
         },

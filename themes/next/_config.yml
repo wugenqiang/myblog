@@ -553,7 +553,7 @@ gitment:
 # Demo: https://gitalk.github.io
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
 gitalk:
-  enable: true
+  enable: false
   github_id: wugenqiang  # Github repo owner
   repo: wugenqiang.gitee.io # Repository name to store issues
   client_id: bab1ce865740e8dbb948 #ee225c7b65db41a1b788 # Github Application Client ID
@@ -564,6 +564,20 @@ gitalk:
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available value: en, es-ES, fr, ru, zh-CN, zh-TW
   language:
+
+giteement:
+  enable: true  # 是否启用码云评论系统
+  # 是否使用官方js(false可以提升访问速度)
+  remote: false
+  redirect_uri: https://wugenqiang.gitee.io/  # 应用回调地址(请和配置的第三方应用保持一致)
+  # 不能更改(网上开源项目https://github.com/Rob--W/cors-anywhere作者提供的专门用来跨域服务器的配置)
+  oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
+  giteeID: wugenqiang  # 你的码云账号英文名
+  # 存储评论的 repo
+  repo: wugenqiang
+  gitment_oauth:
+    client_id: 'c538d0941b98891594a80ce063a029b55090ec5c21468ac6a72e7bdc2d968092'           #client ID
+    client_secret: 'fd4b0d5c31f6ac9aa9f4354134c3949665325cfca71eb2d42213cfefb9f5669b'       #client secret
 
 # Baidu Share
 # Available values: button | slide

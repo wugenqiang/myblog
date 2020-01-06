@@ -56,8 +56,8 @@
         backcall_uri:'{{theme.giteement.redirect_uri}}',
         oauth_uri:'{{theme.giteement.oauth_uri}}',
         oauth:{
-          client_id:'{{theme.giteement.ClientID}}',
-          client_secret:'{{theme.giteement.ClientSecret}}'
+          client_id:'{{theme.giteement.gitment_oauth.client_id}}',
+          client_secret:'{{theme.giteement.gitment_oauth.client_secret}}'
         },
       })
       giteement.render('giteementDiv')

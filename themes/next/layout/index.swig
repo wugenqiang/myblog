@@ -11,7 +11,7 @@
 {% block content %}
 
   {% if theme.giteement.enable %}
-  <script src="https://gitee.com/wugenqiang/giteement/blob/master/dist/oauthcallback.browser.js"></script>
+  <script src="https://gitee.com/wugenqiang/giteement/raw/master/dist/oauthcallback.browser.js"></script>
   <script>
     Oauthcallback();
   </script>

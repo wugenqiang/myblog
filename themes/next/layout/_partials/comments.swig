@@ -46,8 +46,8 @@
 
   {% elif theme.giteement.enable %}
       <div id="giteementDiv"></div>
-      <link rel="stylesheet" href="https://gitee.com/wugenqiang/giteement/blob/master/style/default.css">
-      <script src="https://gitee.com/wugenqiang/giteement/blob/master/dist/giteement.browser.js"></script>
+      <link rel="stylesheet" href="https://gitee.com/wugenqiang/giteement/raw/master/style/default.css">
+      <script src="https://gitee.com/wugenqiang/giteement/raw/master/dist/giteement.browser.js"></script>
       <script>
       var giteement = new Giteement({
         id: {{date(page.date, 'YYYYMMDDHHmmss')}},

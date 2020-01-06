@@ -135,7 +135,7 @@ menu:
   categories: /categories/ || th #分类
   archives: /archives/ || archive #归档
   photos: /photos/ || camera  #摄影相册
-  book: https://wugenqiang.gitee.io/ibooks/ || book #书籍
+  # book: https://wugenqiang.gitee.io/ibooks/ || book #书籍
   about: /about/ || user #关于
   love: https://wugenqiang.gitee.io/wgq520mll/ || heart #告白
   links: /links/ || paper-plane #友链

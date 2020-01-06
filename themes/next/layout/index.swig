@@ -9,6 +9,13 @@
 {% endblock %}
 
 {% block content %}
+
+  {% if theme.giteement.enable %}
+  <script src="https://giteement.oss-cn-beijing.aliyuncs.com/oauthcallback.browser.js"></script>
+  <script>
+    Oauthcallback();
+  </script>
+  {% endif %}
   <section id="posts" class="posts-expand">
 
     {% for post in page.posts %}

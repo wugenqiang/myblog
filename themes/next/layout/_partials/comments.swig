@@ -44,6 +44,26 @@
       {% endif %}
     </div>
 
+  {% elif theme.giteement.enable %}
+      <div id="giteementDiv"></div>
+      <link rel="stylesheet" href="https://giteement.oss-cn-beijing.aliyuncs.com/default.css">
+      <script src="https://giteement.oss-cn-beijing.aliyuncs.com/giteement.browser.js"></script>
+      <script>
+      var giteement = new Giteement({
+        id:{{date(page.date,'YYYYMMDDHHmmss')}},
+        owner:'{{theme.giteement.giteeID}}',
+        repo:'{{theme.giteement.repo}}',
+        backcall_uri:'{{theme.giteement.redirect_uri}}',
+        oauth_uri:'{{theme.giteement.oauth_uri}}',
+        oauth:{
+          client_id:'{{theme.giteement.ClientID}}',
+          client_secret:'{{theme.giteement.ClientSecret}}'
+        },
+      })
+      giteement.render('giteementDiv')
+      </script>
+
+
   {% elif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
     <div class="comments" id="comments">
     </div>

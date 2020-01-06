@@ -32,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-223">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="214">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -85,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4598">
+            <state relative-caret-position="-4199">
               <caret line="559" column="17" selection-start-line="559" selection-start-column="17" selection-end-line="559" selection-end-column="17" />
             </state>
           </provider>
@@ -181,8 +181,8 @@
         <option value="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" />
         <option value="$PROJECT_DIR$/themes/next/layout/index.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_partials/comments.swig" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -444,12 +444,12 @@
       <workItem from="1578284791715" duration="14792000" />
       <workItem from="1578303871141" duration="272000" />
       <workItem from="1578304989624" duration="888000" />
-      <workItem from="1578316245435" duration="1614000" />
+      <workItem from="1578316245435" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="513744000" />
+    <option name="totallyTimeSpent" value="513945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,6 +462,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -735,17 +736,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="-4199">
+          <caret line="559" column="17" selection-start-line="559" selection-start-column="17" selection-end-line="559" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4598">
-          <caret line="559" column="17" selection-start-line="559" selection-start-column="17" selection-end-line="559" selection-end-column="17" />
+        <state relative-caret-position="214">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>

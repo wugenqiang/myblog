@@ -1100,8 +1100,6 @@ links:     #打开
   筱林博客: https://x1aolin.com/
   开源中国: https://my.oschina.net/wugenqiang
   zhengrenjie's Blog: https://www.jelliclecat.cn
-  个人WiKi资料库: https://wiki.enjoytoshare.club/
-  青果 | 引航: https://enjoytoshare.club/
 
 index_generator:
   per_page: 6
@@ -1120,7 +1118,7 @@ daovoice_app_id: b6dbddb6 #我们注册获取的id
 mylinks:
   - nickname: 青果先生  #友链名称
     avatar: https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/003.jpg  #友链头像
-    site: https://blog.enjoytoshare.club  #友链地址
+    site: https://wugenqiang.github.io  #友链地址
     info: Sometimes your whole life boils down to one insame move.  #友链说明
   - nickname: CalmCenter  #友链名称
     avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190523-05.jpg  #友链头像

@@ -11,5 +11,5 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://blog.enjoytoshare.club/sitemap.xml
-Sitemap: https://blog.enjoytoshare.club/baidusitemap.xml
+Sitemap: https://wugenqiang.gitee.io/sitemap.xml
+Sitemap: https://wugenqiang.gitee.io/baidusitemap.xml

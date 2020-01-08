@@ -1077,11 +1077,11 @@ passage_end_tag:
 # 添加共享按钮
 shareto: false
 
-#feed: # RSS订阅插件
-#  type: atom
-#  path: atom.xml
-#  limit: 0
-# plugins: hexo-generate-feed
+feed: # RSS订阅插件
+  type: atom
+  path: atom.xml
+  limit: 0
+plugins: hexo-generate-feed
 
 # Blog rolls 推荐阅读
 #links_icon: paper-plane  #图标

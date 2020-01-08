@@ -3,7 +3,7 @@ tags:
   - C++
 urlname: LearnC++ByMyselfAndMooc
 categories:
-  - C++
+  - 技术
 author: WuGenQiang
 date: 2019-06-22 21:06:57
 updated: 2019-06-22 21:06:57

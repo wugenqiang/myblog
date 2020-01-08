@@ -1,10 +1,10 @@
 title: DaoVoice实现在线联系
 urlname: hexo-do-daovoice
 tags:
-  - Hexo
+  - Hexo-NexT-Template
   - DaoVoice
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-06 10:13:16
 updated: 2019-04-06 10:13:16

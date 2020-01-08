@@ -1,9 +1,9 @@
 title: Hexo NexT 加入背景图片
 urlname: hexo-do-bg-picture
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-03-31 13:21:57
 updated: 2019-03-31 13:21:57

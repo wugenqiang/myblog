@@ -1,9 +1,9 @@
 title: Hexo+NexT修改友链样式
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 urlname: hexoEditLinkStyle
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-14 13:12:26
 updated: 2019-04-14 13:12:26
@@ -168,7 +168,7 @@ type: links
 
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414133048.png)
 
-点击这里查看实际效果：[戳我戳我好疼啊](https://blog.enjoytoshare.club/links/)
+点击这里查看实际效果：[戳我戳我好疼啊](https://wugenqiang.gitee.io/links/)
 
 肯定到这里有人会问了，这是链接一个人的效果，如果链接两个人以及以上呢？当然也有办法：
 在2.3步骤中如图设置即可，需要链接几个人就添加几条记录：

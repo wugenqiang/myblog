@@ -1,10 +1,9 @@
----
 title: Hexo+NexT选取文字提示版权信息
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 urlname: hexoNextSelectWords
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-15 13:37:07
 updated: 2019-04-15 13:37:07

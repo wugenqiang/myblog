@@ -3,7 +3,7 @@ urlname: hexo-do-optimization-picture
 tags:
   - Markdown
 categories:
-  - Markdown
+  - ToolBox
 author: WuGenQiang
 date: 2019-03-31 16:37:53
 updated: 2019-03-31 16:37:53

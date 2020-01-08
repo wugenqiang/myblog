@@ -1,9 +1,9 @@
 title: Hexo之修改内容区域的宽度
 urlname: hexo-do-edit-screen
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-05 23:20:27
 updated: 2019-04-05 23:20:27

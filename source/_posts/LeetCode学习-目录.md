@@ -4,7 +4,7 @@ tags:
 copyright: true
 urlname: LeetCodeTraining
 categories:
-  - LeetCode
+  - 技术
 author: WuGenQiang
 date: 2019-04-17 09:10:01
 updated: 2019-04-17 09:10:01

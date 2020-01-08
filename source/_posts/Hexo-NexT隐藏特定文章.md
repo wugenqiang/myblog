@@ -1,9 +1,9 @@
 title: Hexo+NexT隐藏特定文章
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 urlname: hexoNextHideArticleMethod
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-14 20:32:01
 updated: 2019-04-14 21:32:01

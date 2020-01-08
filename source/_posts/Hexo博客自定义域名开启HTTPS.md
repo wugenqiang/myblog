@@ -1,11 +1,11 @@
 title: Hexo博客自定义域名开启HTTPS
 urlname: hexo-do-https
 tags:
-  - Hexo
+  - Hexo-NexT-Template
   - 域名
   - Https
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-04 16:44:18
 updated: 2019-04-04 16:44:18

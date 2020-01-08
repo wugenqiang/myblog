@@ -1,9 +1,9 @@
 title: Hexo博客NexT主题开启文章目录和调整样式
 urlname: hexo-do-catalog
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-03-16 23:37:41
 updated: 2019-03-16 23:37:41

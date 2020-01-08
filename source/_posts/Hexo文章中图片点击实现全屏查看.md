@@ -1,9 +1,9 @@
 title: Hexo文章中图片点击实现全屏查看
 urlname: hexo-do-picture-screen
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-06 14:10:48
 updated: 2019-04-06 14:10:48

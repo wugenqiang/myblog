@@ -1,9 +1,9 @@
 title: Hexo的NexT主题打赏功能
 urlname: hexo-do-donate
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-05 17:37:10
 updated: 2019-04-05 17:37:10

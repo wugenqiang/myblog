@@ -1,10 +1,10 @@
 title: Hexo博客绑定个人域名
 urlname: hexo-do-domain
 tags:
-  - Hexo
+  - Hexo-NexT-Template
   - 域名
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-04 15:47:54
 updated: 2019-04-04 15:47:54
@@ -39,7 +39,7 @@ updated: 2019-04-04 15:47:54
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190410084011.png)
 
-如果你只用github 的二级域名作为博客的地址，那么线路类型选择默认就好，图中我这里是因为采用[Github+Coding双服务器托管Hexo](https://blog.enjoytoshare.club/article/hexo-do-server-hosting.html)，所以在线路类型上，国内默认选择线路是Coding的域名地址，国外选择的是Github的域名地址。
+如果你只用github 的二级域名作为博客的地址，那么线路类型选择默认就好，图中我这里是因为采用[Github+Coding双服务器托管Hexo](https://wugenqiang.gitee.io/articles/hexo-do-server-hosting.html)，所以在线路类型上，国内默认选择线路是Coding的域名地址，国外选择的是Github的域名地址。
 
 # 3 设置CNAME
 在 hexo 项目下，source 文件夹下面创建 CNAME 文件（没有后缀名的），在里面写上购买的域名。比如：

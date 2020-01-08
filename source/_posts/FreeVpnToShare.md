@@ -1,12 +1,11 @@
 title: FreeVpnToShare
 tags:
-  - 工具
+  - ToolBox
   - FreeVPN
 copyright: true
 urlname: FreeVpnToShare
 categories:
-  - 工具
-  - FreeVPN
+  - ToolBox
 author: WuGenQiang
 date: 2019-04-22 08:40:39
 updated: 2019-04-22 08:40:39

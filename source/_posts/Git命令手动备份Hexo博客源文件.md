@@ -1,10 +1,10 @@
 title: Git命令手动备份Hexo博客源文件
 tags:
-  - Hexo
+  - Hexo-NexT-Template
   - Git
 urlname: manual_backup_blog_source_files
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-09 19:04:19
 updated: 2019-04-09 19:04:19
@@ -110,4 +110,4 @@ git push -u origin master
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409205709.png)
 
 在本地编写完博客时，顺次执行实现三步骤中的4、6、7命令，即可完成Hexo博客源文件更新同步，保持Github上的Hexo源码为最新版本。ok，分享就到这里啦，如果觉得这样手动操作有点辛苦的话，可以参考我的另一篇博客：
-* [自动备份Hexo博客源文件](https://blog.enjoytoshare.club/article/auto_backup_blog_source_files.html)
+* [自动备份Hexo博客源文件](https://wugenqiang.gitee.io/articles/auto_backup_blog_source_files.html)

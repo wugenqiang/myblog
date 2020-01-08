@@ -1,10 +1,10 @@
 title: Hexo NexT 加入评论功能gitalk
 urlname: hexo-do-gitalk
 tags:
-  - Hexo
+  - Hexo-NexT-Template
   - gitalk
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 comments: true
 author: WuGenQiang
 date: 2019-03-31 10:55:02

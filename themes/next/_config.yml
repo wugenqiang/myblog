@@ -59,10 +59,10 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+#rss:
 
 footer:
-  since: 1995
+  since: 2018
   icon:
     name: heart  #设置图标，想修改图标从https://fontawesome.com/v4.7.0/icons获取
     animated: true  #是否要为图标设置动画，默认为false
@@ -131,16 +131,16 @@ exturl: false
 #目录
 menu:
   home: / || home  #首页
-  tags: /tags/ || tags #标签
-  categories: /categories/ || th #分类
-  archives: /archives/ || archive #归档
-  photos: /photos/ || camera  #摄影相册
+  # tags: /tags/ || tags #标签
+  # categories: /categories/ || th #分类
+  # archives: /archives/ || archive #归档
   # book: https://wugenqiang.gitee.io/ibooks/ || book #书籍
   about: /about/ || user #关于
   love: https://wugenqiang.gitee.io/wgq520mll/ || heart #告白
   links: /links/ || paper-plane #友链
-  laboratory: /laboratory/ || anchor #实验室
-  notes: /notes || amazon #札记 & 留言板
+  photos: /photos/ || camera  #摄影相册
+  toolBox: /laboratory/toolBox/index.html || amazon #工具Box
+  # notes: /notes || amazon #札记 & 留言板
   #schedule: /schedule/ || calendar #时间表
   #sitemap: /sitemap.xml || sitemap #网站地图
   #commonweal: /404/ || heartbeat #公益
@@ -178,8 +178,8 @@ site_state: true
 social:
   GitHub: https://github.com/wugenqiang || github
   Gitee: https://gitee.com/wugenqiang || gitlab
-  简书: https://www.jianshu.com/u/60afda94ea5a || heartbeat
-  Coding: https://dev.tencent.com/u/wugenqiang || twitter
+ # 简书: https://www.jianshu.com/u/60afda94ea5a || heartbeat
+ # Coding: https://dev.tencent.com/u/wugenqiang || twitter
   CSDN: https://blog.csdn.net/wugenqiang || git-square
   #E-Mail: mailto:2422676183@qq.com || envelope
   #Segmentfault: https://segmentfault.com/blog/iconye_vue || link
@@ -289,7 +289,7 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: false
+  separated_meta: true
   #文章中的显示是否显示文字（本文字数|阅读时长）
   item_text_post: false
   #网页底部的显示是否显示文字（站点总字数|站点阅读时长）
@@ -324,7 +324,7 @@ wechat_subscriber:
 reward:
   enable: true
   #打赏功能
-  comment: 如果你喜欢这篇文章，可以请我喝一杯 Coffee ~
+  #comment: 但行好事,莫问前程
   alipay: /images/alipay.jpg
   wechatpay: /images/wechat.jpg
   #comment: Donate comment here
@@ -814,7 +814,7 @@ mermaid:
 
 # Use velocity to animate everything.
 motion:
-  enable: false # 不启动动画
+  enable: true # 不启动动画
   async: false
   transition:
     # Transition variants:
@@ -1077,18 +1077,18 @@ passage_end_tag:
 # 添加共享按钮
 shareto: false
 
-feed: # RSS订阅插件
-  type: atom
-  path: atom.xml
-  limit: 0
-plugins: hexo-generate-feed
+#feed: # RSS订阅插件
+#  type: atom
+#  path: atom.xml
+#  limit: 0
+# plugins: hexo-generate-feed
 
 # Blog rolls 推荐阅读
-links_icon: paper-plane  #图标
-links_title: 推荐阅读    #表示Title
+#links_icon: paper-plane  #图标
+#links_title: 推荐阅读    #表示Title
 #links_layout: block
-links_layout: inline
-links:     #打开
+#links_layout: inline
+#links:     #打开
   #所需添加的友情链接 Title是表示友情链接的博客名称或者随意你取，后面是链接，冒号后面记得空格
   # Web前端导航: http://www.alloyteam.com/nav/
   # 创造狮导航: http://www.chuangzaoshi.com/code
@@ -1096,10 +1096,10 @@ links:     #打开
   # V2EX: https://www.v2ex.com/
   # 印记中文: https://www.v2ex.com/
   # EnjoyToShare: https://wugenqiang.github.io/
-  Lee 的博客: https://nanaandlee.github.io/
-  筱林博客: https://x1aolin.com/
-  开源中国: https://my.oschina.net/wugenqiang
-  zhengrenjie's Blog: https://www.jelliclecat.cn
+  #Lee 的博客: https://nanaandlee.github.io/
+  #筱林博客: https://x1aolin.com/
+  #开源中国: https://my.oschina.net/wugenqiang
+  #zhengrenjie's Blog: https://www.jelliclecat.cn
 
 index_generator:
   per_page: 6

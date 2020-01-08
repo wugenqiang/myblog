@@ -5,8 +5,7 @@ tags:
   - Springboot
   - 小程序
 categories:
-  - 小程序
-  - Springboot
+  - 技术
 author: WuGenQiang
 date: 2019-03-16 11:38:24
 updated: 2019-03-16 11:38:24

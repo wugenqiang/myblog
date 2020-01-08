@@ -1,9 +1,9 @@
 title: Coding+Github双服务器托管Hexo
 urlname: hexo-do-server-hosting
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-05 09:36:34
 updated: 2019-04-05 09:36:34
@@ -14,11 +14,11 @@ updated: 2019-04-05 09:36:34
 # 2 部署优化Hexo
 这一步我之前写过，在这里我就不详细赘述了啊
 
-* [Hexo+NexT拥抱舒爽](https://wugenqiang.github.io/article/hexo-do-optimization.html)
+* [Hexo+NexT拥抱舒爽](https://wugenqiang.gitee.io/articles/hexo-do-optimization.html)
 
 # 3 创建Github公开库
 
-* [Hexo博客上传至Github](https://blog.csdn.net/wugenqiang/article/details/88373385)
+* [Hexo博客上传至Github](https://wugenqiang.gitee.io/articles/details/88373385)
 
 # 4 创建Coding公开库
 创建腾讯云开发者平台（或Coding）公开库，因为目前两家公司战略合作，现在共用了。
@@ -70,7 +70,7 @@ deploy:
 
 # 7 设置自定义域名
 对于Github来说，可参考：
-* [Hexo博客绑定个人域名]( https://wugenqiang.github.io/article/hexo-do-domain.html)
+* [Hexo博客绑定个人域名]( https://wugenqiang.gitee.io/articles/hexo-do-domain.html)
 
 对于Coding来说，来进行下面步骤：
 1.进入项目，进入Page服务页
@@ -93,4 +93,4 @@ ok
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405113112.png)
 
-来访问试试吧，嘿嘿嘿 [死命点我吧，亲](https://blog.enjoytoshare.club/)
+来访问试试吧，嘿嘿嘿 [死命点我吧，亲](https://wugenqiang.gitee.io/)

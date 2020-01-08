@@ -1,9 +1,9 @@
 title: 自动备份Hexo博客源文件
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 urlname: auto_backup_blog_source_files
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-09 18:15:46
 updated: 2019-04-09 18:15:46
@@ -29,7 +29,7 @@ new|在文章文件建立后发布
 # 三、实现
 ## 1.将Hexo目录加入Git仓库
 本脚本需要提前将Hexo加入Git仓库并与Github或者Gitee远程仓库绑定之后，才能正常工作。如果你不知道该怎样进行操作，可以参考我的另一篇博文：
-* [Git命令手动备份Hexo博客源文件](https://blog.enjoytoshare.club/article/manual_backup_blog_source_files.html)
+* [Git命令手动备份Hexo博客源文件](https://wugenqiang.gitee.io/articles/manual_backup_blog_source_files.html)
 
 ## 2.安装`shelljs`模块
 要实现这个自动备份功能，需要依赖NodeJs的一个shelljs模块,该模块重新包装了child_process,调用系统命令更加的方便。（其实就是因为我懒( ╯▽╰)）该模块需要安装后使用。

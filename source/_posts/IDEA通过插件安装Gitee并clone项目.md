@@ -4,7 +4,7 @@ tags:
   - IDEA
 urlname: git_idea_clone
 categories:
-  - Git
+  - 技术
 author: WuGenQiang
 photos:
   - 'https://i.loli.net/2019/04/11/5caef8dc5b775.jpg'

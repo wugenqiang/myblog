@@ -1,9 +1,9 @@
 title: Hexo获取网易云音乐外链
 urlname: hexo-do-music-link
 tags:
-  - Hexo
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-03-17 14:50:29
 updated: 2019-03-17 14:50:29
@@ -42,6 +42,6 @@ id就是350909
 
 可以自己到我的技术博客那个音乐吧浏览，底部哦
 
-这是地址，比小心心~~ [我是地址点我点我哟](https://wugenqiang.github.io/laboratory/music/index.html)
+这是地址，比小心心~~ [我是地址点我点我哟](https://wugenqiang.gitee.io/laboratory/music/index.html)
 
 其实这个还有一个好处就是可以下载，唯一的小缺憾就是不美观耶，不过耳朵舒服呢

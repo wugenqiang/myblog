@@ -1,10 +1,9 @@
 title: 【目录】Hexo+NexT搭建博客拥抱舒爽
 urlname: hexo-do-optimization
 tags:
-  - Hexo
-  - NexT
+  - Hexo-NexT-Template
 categories:
-  - Hexo
+  - Hexo-NexT-Template
 author: WuGenQiang
 date: 2019-04-15 22:22:22
 updated: 2019-04-27 22:22:27
@@ -166,11 +165,11 @@ font:
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/gif008.gif)
 
 ### 3.5.2 方法二：博文压缩
-这里我来分享以下如何压缩，参考 [实现博文压缩](https://blog.enjoytoshare.club/article/hexo-do-optimization.html#3-30-%E5%AE%9E%E7%8E%B0%E5%8D%9A%E6%96%87%E5%8E%8B%E7%BC%A9)
+这里我来分享以下如何压缩，参考 [实现博文压缩](https://wugenqiang.gitee.io/articles/hexo-do-optimization.html#3-30-%E5%AE%9E%E7%8E%B0%E5%8D%9A%E6%96%87%E5%8E%8B%E7%BC%A9)
 
 ### 3.5.3 方法三：双服务器托管
 还有一种方法就是采用Coding+Github双服务器托管Hexo博客，这样访问速度会更快！
-如果想进行这样的操作，可以参考我的文章：[Coding+Github双服务器托管Hexo](https://blog.enjoytoshare.club/article/hexo-do-server-hosting.html)
+如果想进行这样的操作，可以参考我的文章：[Coding+Github双服务器托管Hexo](https://wugenqiang.gitee.io/articles/hexo-do-server-hosting.html)
 
 ## 3.6 去掉顶部黑线
 打开`themes\next\source\css\_custom\custom.styl`
@@ -336,7 +335,7 @@ $border-radius                  = 15px;
 ```
 即可
 ## 3.13 修改友链样式
-点此链接查看：[Hexo+NexT修改友链样式](https://blog.enjoytoshare.club/article/hexoEditLinkStyle.html)
+点此链接查看：[Hexo+NexT修改友链样式](https://wugenqiang.gitee.io/articles/hexoEditLinkStyle.html)
 
 ## 3.14 博文图片模式
 新建博文，设置 `type: picture`，使用 { % gp x-x % }...{ % endgp % } 标签引用要展示的图片地址，如下所示：
@@ -375,13 +374,13 @@ updated: 2019-04-14 18:02:40
   img { margin: 0 auto; }
 }
 ```
-效果参照我的测试博文页面：[测试5-3图片展示](https://blog.enjoytoshare.club/article/pictureToDisplayTest_5-3.html)
+效果参照我的测试博文页面：[测试5-3图片展示](https://wugenqiang.gitee.io/articles/pictureToDisplayTest_5-3.html)
 
 效果如图所示：
 
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414190059.png)
 ## 3.15 隐藏特定文章
-点此链接查看：[Hexo+NexT隐藏特定文章](https://blog.enjoytoshare.club/article/hexoNextHideArticleMethod.html)
+点此链接查看：[Hexo+NexT隐藏特定文章](https://wugenqiang.gitee.io/articles/hexoNextHideArticleMethod.html)
 
 ## 3.16 增加分享功能
 ### 3.16.1 方法一
@@ -423,7 +422,7 @@ needmoreshare2:
 ![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415094311.png)
 
 ## 3.17 鼠标选取文字提示版权信息
-点此链接查看：[Hexo+NexT选取文字提示版权信息](https://blog.enjoytoshare.club/article/hexoNextSelectWords.html)
+点此链接查看：[Hexo+NexT选取文字提示版权信息](https://wugenqiang.gitee.io/articles/hexoNextSelectWords.html)
 
 ## 3.18 自定义文章底部版权声明
 ### 3.18.1 新建`my-copyright.swig`文件
@@ -623,25 +622,25 @@ copyright: true #新增,开启
 就好啦
 
 ## 3.20 开启文章目录
-点此链接查看：[Hexo博客NexT主题开启文章目录和调整样式](https://blog.enjoytoshare.club/article/hexo-do-catalog.html)
+点此链接查看：[Hexo博客NexT主题开启文章目录和调整样式](https://wugenqiang.gitee.io/articles/hexo-do-catalog.html)
 
 ## 3.21 图片点击实现全屏查看
-点此链接查看：[Hexo文章中图片点击实现全屏查看](https://blog.enjoytoshare.club/article/hexo-do-picture-screen.html)
+点此链接查看：[Hexo文章中图片点击实现全屏查看](https://wugenqiang.gitee.io/articles/hexo-do-picture-screen.html)
 
 ## 3.22 修改内容区域的宽度
-点此链接查看：[Hexo之修改内容区域的宽度](https://blog.enjoytoshare.club/article/hexo-do-edit-screen.html)
+点此链接查看：[Hexo之修改内容区域的宽度](https://wugenqiang.gitee.io/articles/hexo-do-edit-screen.html)
 
 ## 3.23 DaoVoice实现在线联系
-点此链接查看：[DaoVoice实现在线联系](https://blog.enjoytoshare.club/article/hexo-do-daovoice.html)
+点此链接查看：[DaoVoice实现在线联系](https://wugenqiang.gitee.io/articles/hexo-do-daovoice.html)
 
 ## 3.24 打赏功能
-点此链接查看：[Hexo的NexT主题打赏功能](https://blog.enjoytoshare.club/article/hexo-do-donate.html)
+点此链接查看：[Hexo的NexT主题打赏功能](https://wugenqiang.gitee.io/articles/hexo-do-donate.html)
 
 ## 3.25 加入评论功能gitalk
-点此链接查看：[Hexo NexT 加入评论功能gitalk](https://blog.enjoytoshare.club/article/hexo-do-gitalk.html)
+点此链接查看：[Hexo NexT 加入评论功能gitalk](https://wugenqiang.gitee.io/articles/hexo-do-gitalk.html)
 
 ## 3.26 获取网易云音乐外链
-点此链接查看：[Hexo获取网易云音乐外链](https://blog.enjoytoshare.club/article/hexo-do-music-link.html)
+点此链接查看：[Hexo获取网易云音乐外链](https://wugenqiang.gitee.io/articles/hexo-do-music-link.html)
 
 ## 3.27 开启emoji表情
 如何让 `markdown` 可以解析 `emoji` 呢？实际上我们发现，在编辑器中输入 `:smile:` 并没有表情出现，是为什么呢？
@@ -859,13 +858,13 @@ gulp.task('build', gulp.parallel('minify-html', 'minify-css', 'minify-js'
 欧克，成功
 # 4 自定义域名
 ## 4.1 绑定个人域名
-参考博文：[Hexo博客绑定个人域名](https://blog.enjoytoshare.club/article/hexo-do-domain.html)
+参考博文：[Hexo博客绑定个人域名](https://wugenqiang.gitee.io/articles/hexo-do-domain.html)
 
 ## 4.2 开启HTTPS
-参考博文：[Hexo博客自定义域名开启HTTPS](https://blog.enjoytoshare.club/article/hexo-do-https.html)
+参考博文：[Hexo博客自定义域名开启HTTPS](https://wugenqiang.gitee.io/articles/hexo-do-https.html)
 
 ## 4.3 Coding+Github托管Hexo
-参考博文：[Coding+Github双服务器托管Hexo](https://blog.enjoytoshare.club/article/hexo-do-server-hosting.html)
+参考博文：[Coding+Github双服务器托管Hexo](https://wugenqiang.gitee.io/articles/hexo-do-server-hosting.html)
 
 欧克，成功
 # 5 SEO推广
@@ -953,7 +952,7 @@ baidu_push: true
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409154938.png)
 
 ## 5.5 提交站点到Google
-首先保证你要能翻墙出去，连到谷歌，如果没有VPN，可参考下面网址获取：[工具盒子](https://blog.enjoytoshare.club/laboratory/toolBox/index.html)
+首先保证你要能翻墙出去，连到谷歌，如果没有VPN，可参考下面网址获取：[工具盒子](https://wugenqiang.gitee.io/laboratory/toolBox/index.html)
 
 ### 5.5.1 提交博客域名
 
@@ -988,7 +987,7 @@ baidu_push: true
 ```
 site:blog.enjoytoshare.club
 ```
-域名换成你自己的，谷歌是一定支持的，不过你需要翻墙VPN！如果没有，可参考下面网址获取：[工具盒子](https://blog.enjoytoshare.club/laboratory/toolBox/index.html)，如果没有找到你的博客说明没有被收录！
+域名换成你自己的，谷歌是一定支持的，不过你需要翻墙VPN！如果没有，可参考下面网址获取：[工具盒子](https://wugenqiang.gitee.io/laboratory/toolBox/index.html)，如果没有找到你的博客说明没有被收录！
 成功收录会如下图一样：
 
 ![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409165959.png)

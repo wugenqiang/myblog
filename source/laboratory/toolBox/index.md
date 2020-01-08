@@ -18,7 +18,7 @@ updated: 2019-04-27 12:18:28
 * [sm.ms免费图床](https://sm.ms/)     
 这个图床可以长期使用，很nice
 * [路过图床](https://imgchr.com/)
-* [PicGo+Github图床构建](https://blog.enjoytoshare.club/article/hexo-do-optimization-picture.html)
+* [PicGo+Github图床构建](https://wugenqiang.gitee.io/articles/hexo-do-optimization-picture.html)
 
  ## 2.2 图标下载
 
@@ -76,7 +76,7 @@ updated: 2019-04-27 12:18:28
 
 # 6 VPN分享
 
-* [FreeVpnToShare](https://blog.enjoytoshare.club/article/FreeVpnToShare.html)
+* [FreeVpnToShare](https://wugenqiang.gitee.io/articles/FreeVpnToShare.html)
 
 # 7 文件互传
 * [Firefox Send](https://send.firefox.com/)

@@ -410,7 +410,7 @@ font:
   # 外链字体库地址，例如 //fonts.googleapis.com (默认值)
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   # fonts.lug.ustc.edu.cn是中科大的源,解决Hexo NexT主题访问慢
-  host: //fonts.lug.ustc.edu.cn
+  host: //fonts.googleapis.com
 
   # 全局字体，应用在 body 元素上
   global:

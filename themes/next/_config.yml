@@ -138,9 +138,10 @@ menu:
   about: /about/ || user #关于
   love: https://wugenqiang.gitee.io/wgq520mll/ || heart #告白
   links: /links/ || paper-plane #友链
+  ibooks: https://wugenqiang.gitee.io/ibooks || book #技术笔记
   photos: /photos/ || camera  #摄影相册
   toolBox: /laboratory/toolBox/index.html || amazon #工具Box
-  # notes: /notes || amazon #札记 & 留言板
+  #notes: /notes || amazon #札记 & 留言板
   #schedule: /schedule/ || calendar #时间表
   #sitemap: /sitemap.xml || sitemap #网站地图
   #commonweal: /404/ || heartbeat #公益

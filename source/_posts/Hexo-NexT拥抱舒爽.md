@@ -5,15 +5,11 @@ tags:
 categories:
   - Hexo-NexT-Template
 author: WuGenQiang
-date: 2019-04-15 22:22:22
-updated: 2019-04-27 22:22:27
+date: 2019-12-27 22:22:22
+updated: 2020-01-07 22:22:27
 ---
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/060.jpg)
-
-<!--more-->
-
-# 1 写在前面
-
+-----
+# 1 前言
 本文主要是Hexo+NexT搭建博客并且进行主题的配置以及页面的样式优化
 
 本篇文档参考了许多大佬的文章以及配置文件，在此感谢大佬们。
@@ -22,7 +18,10 @@ updated: 2019-04-27 22:22:27
 
 本文内容会在后续的优化中慢慢补充完整~~
 
-首先在配置Hexo+NexT之前，最好阅读一下[Hexo官方文档](https://hexo.io/zh-cn/docs/)和[NexT使用文档](http://theme-next.iissnan.com/getting-started.html)
+-----
+<!--more-->
+
+首先在配置Hexo+NexT之前，最好阅读一下 [Hexo官方文档](https://hexo.io/zh-cn/docs/) 和 [NexT使用文档](http://theme-next.iissnan.com/getting-started.html)
 
 # 2 Hexo安装和配置
 

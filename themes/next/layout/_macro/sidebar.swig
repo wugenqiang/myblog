@@ -25,7 +25,7 @@
 
       <div class="site-overview-wrap sidebar-panel{% if not display_toc or toc(page.content).length <= 1 %} sidebar-panel-active{% endif %}">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             {% if theme.avatar.url %}
               <a href="/">
                 <img class="site-author-image" itemprop="image"
@@ -129,7 +129,7 @@
               {% else %}
                 {% set ccType = 'licenses/' + theme.creative_commons.license + '/4.0/' + ccLanguage %}
               {% endif %}
-              {% set ccURL = 'https://creativecommons.org/' + ccType %}
+              {% set ccURL = 'http://creativecommons.org/' + ccType %}
               {% set ccImage = '<img src="' + url_for(theme.images + '/cc-' + theme.creative_commons.license + '.svg') + '" alt="Creative Commons"/>' %}
               {{ next_url(ccURL, ccImage, {class: 'cc-opacity'}) }}
              </div>

@@ -145,7 +145,10 @@ neat_enable: true
 # 压缩html
 neat_html:
   enable: true
+  # 一些百度、Google 的验证文件需要排除掉
   exclude:
+    - '**/baidu*.html'
+    - '**/google*.html'
 # 压缩css
 neat_css:
   enable: true

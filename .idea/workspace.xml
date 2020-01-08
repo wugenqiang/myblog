@@ -72,20 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/next/languages/zh-CN.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <caret line="140" column="59" lean-forward="true" selection-start-line="140" selection-start-column="59" selection-end-line="140" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -177,8 +168,8 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
         <option value="$PROJECT_DIR$/source/_posts/Coding-Github双服务器托管Hexo.md" />
-        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" />
+        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
       </list>
     </option>
   </component>
@@ -186,7 +177,7 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="372" />
     <option name="y" value="285" />
     <option name="width" value="972" />
@@ -435,12 +426,12 @@
       <workItem from="1578316245435" duration="6661000" />
       <workItem from="1578326534043" duration="476000" />
       <workItem from="1578459495637" duration="15988000" />
-      <workItem from="1578480017154" duration="1407000" />
+      <workItem from="1578480017154" duration="2146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="536662000" />
+    <option name="totallyTimeSpent" value="537401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +446,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,7 +463,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19127516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19127516" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -724,17 +715,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/languages/zh-CN.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="140" column="59" lean-forward="true" selection-start-line="140" selection-start-column="59" selection-end-line="140" selection-end-column="59" />
         </state>
       </provider>
     </entry>

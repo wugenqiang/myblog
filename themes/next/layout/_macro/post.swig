@@ -27,7 +27,7 @@
       <meta itemprop="image" content="{{ url_for( theme.avatar.url | default(theme.images + '/avatar.gif') ) }}"/>
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="{{ title }}"/>
     </span>
 
@@ -128,7 +128,7 @@
                 <span class="post-meta-item-text">{{ __('post.in') }}</span>
               {% endif %}
               {% for cat in post.categories %}
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">{#
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">{#
                 #}<a href="{{ url_for(cat.path) }}" itemprop="url" rel="index">{#
                   #}<span itemprop="name">{{ cat.name }}</span>{#
                 #}</a>{#

@@ -18,7 +18,7 @@ updated: 2019-04-05 09:36:34
 
 # 3 创建Github公开库
 
-* [Hexo博客上传至Github](https://wugenqiang.gitee.io/articles/details/88373385)
+* [Hexo博客上传至Github](https://blog.csdn.net/wugenqiang/article/details/88373385)
 
 # 4 创建Coding公开库
 创建腾讯云开发者平台（或Coding）公开库，因为目前两家公司战略合作，现在共用了。

@@ -131,8 +131,8 @@ exturl: false
 #目录
 menu:
   home: / || home  #首页
-  # tags: /tags/ || tags #标签
-  # categories: /categories/ || th #分类
+  tags: /tags/ || tags #标签
+  categories: /categories/ || th #分类
   # archives: /archives/ || archive #归档
   # book: https://wugenqiang.gitee.io/ibooks/ || book #书籍
   about: /about/ || user #关于

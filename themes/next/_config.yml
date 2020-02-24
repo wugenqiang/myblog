@@ -533,6 +533,7 @@ valine:
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
+livere_uid: MTAyMC80MzA4MC8xOTYyNg==
 
 # Gitment
 # Introduction: https://github.com/imsun/gitment
@@ -554,7 +555,7 @@ gitment:
 # Demo: https://gitalk.github.io
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
 gitalk:
-  enable: true
+  enable: false
   github_id: wugenqiang  # Github repo owner
   repo: wugenqiang.github.io # Repository name to store issues
   client_id: bab1ce865740e8dbb948 #ee225c7b65db41a1b788 # Github Application Client ID

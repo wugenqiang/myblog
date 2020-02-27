@@ -17,8 +17,8 @@ url: https://wugenqiang.gitee.io # wugenqiang是我的账号，修改为自己�
 root: /
 permalink: articles/:urlname.html #:year/:month/:day/:title/
 permalink_defaults:
-    #alg: crc32  # 算法：crc16(default) and crc32
-    #rep: hex    # 进制：dec(default) and hex
+#alg: crc32  # 算法：crc16(default) and crc32
+#rep: hex    # 进制：dec(default) and hex
 
 # Directory
 source_dir: source
@@ -93,8 +93,8 @@ deploy:
   #branch: master
   repo:
     github: https://github.com/wugenqiang/wugenqiang.github.io.git,master
-   # coding: https://dev.tencent.com/u/wugenqiang/p/wugenqiang.coding.me.git,master
-   # gitee: https://gitee.com/wugenqiang/wugenqiang.git,master
+    # coding: https://dev.tencent.com/u/wugenqiang/p/wugenqiang.coding.me.git,master
+    gitee: https://gitee.com/wugenqiang/wugenqiang.git,master
 
 admin:
   username: wugenqiang

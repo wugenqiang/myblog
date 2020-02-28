@@ -31,17 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -100,21 +90,21 @@
         <option value="$PROJECT_DIR$/themes/next/layout/_partials/comments.swig" />
         <option value="$PROJECT_DIR$/source/links/index.md" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
         <option value="$PROJECT_DIR$/source/_posts/Coding-Github双服务器托管Hexo.md" />
         <option value="$PROJECT_DIR$/themes/next/languages/zh-CN.yml" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/post-collapse.swig" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" />
-        <option value="$PROJECT_DIR$/themes/next/layout/_layout.swig" />
         <option value="$PROJECT_DIR$/source/ibooks/index.md" />
         <option value="$PROJECT_DIR$/source/photos/index.swig" />
         <option value="$PROJECT_DIR$/source/photos/ins.js" />
-        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_layout.swig" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
       </list>
     </option>
   </component>
@@ -136,8 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,17 +138,7 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="scaffolds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,11 +366,12 @@
       <workItem from="1582727034380" duration="279000" />
       <workItem from="1582768436331" duration="13000" />
       <workItem from="1582768563519" duration="402000" />
+      <workItem from="1582877251695" duration="2896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="554203000" />
+    <option name="totallyTimeSpent" value="557099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,9 +384,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -422,7 +402,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2600671" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2600671" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -489,14 +469,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/github-banner.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/headerband.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -623,13 +595,6 @@
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_scripts/noscript.swig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/_scripts/pages/post-details.swig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -712,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="537" column="9" lean-forward="true" selection-start-line="537" selection-start-column="9" selection-end-line="537" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -734,6 +692,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/auto_backup.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="41" column="88" selection-start-line="41" selection-start-column="88" selection-end-line="41" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">

@@ -62,7 +62,7 @@ favicon:
 #rss:
 
 footer:
-  since: 2018
+  since: 2019
   icon:
     name: heart  #设置图标，想修改图标从https://fontawesome.com/v4.7.0/icons获取
     animated: true  #是否要为图标设置动画，默认为false

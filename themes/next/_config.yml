@@ -292,7 +292,7 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   #文章中的显示是否显示文字（本文字数|阅读时长）
-  item_text_post: false
+  item_text_post: true
   #网页底部的显示是否显示文字（站点总字数|站点阅读时长）
   item_text_total: false
   # Average Word Length (chars count in word)
@@ -816,7 +816,7 @@ mermaid:
 
 # Use velocity to animate everything.
 motion:
-  enable: true # 不启动动画
+  enable: false # 不启动动画
   async: false
   transition:
     # Transition variants:

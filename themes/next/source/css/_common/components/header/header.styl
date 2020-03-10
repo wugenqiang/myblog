@@ -1,6 +1,32 @@
-.header { background: $head-bg; }
+.header {
+  background: $head-bg;
+  margin: 0 auto;
+}
 
-.header-inner { position: relative; }
+.header-inner {
+  overflow: hidden;
+  padding: 0;
+  background: white;
+  border-radius: $border-radius-inner;
+
+}
+
+.main-header {
+  display: none;
+}
+
+.main-header > .header-inner {
+  position: relative;
+  width: auto;
+  border-radius: initial;
+  margin-top: 10px;
+}
+
++tablet-mobile() {
+  .main-header {
+    display: block;
+  }
+}
 
 @import "headerband";
 @import "site-meta";

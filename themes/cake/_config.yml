@@ -1,0 +1,244 @@
+# Set web site favicon
+#favicons:
+#  - rel: icon
+#    type: image/png
+#    sizes: 64x64
+#    href: /images/favicon-64.png
+#  - rel: icon
+#    type: image/png
+#    sizes: 128x128
+#    href: /images/favicon-128.png
+#  - rel: apple-touch-icon
+#    sizes: 180x180
+#    href: /images/favicon-180.png
+#  - rel: mask-icon
+#    color: red
+#    href: /images/favicon.svg
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  #since: 2015
+
+  # Icon between year and copyright info.
+  icon:
+    name: fas fa-heart
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#ff0000"
+
+# Creative Commons 4.0 International License.
+# See: https://creativecommons.org/share-your-work/licensing-types-examples
+# Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+# You can set a language value if you prefer a translated version of CC license.
+creative_commons:
+  post: true
+  license: by-nc-sa
+
+# Set a canonical link tag in your hexo, you could use it for your SEO of blog.
+# See: https://support.google.com/webmasters/answer/139066
+# Tips: Before you open this tag, remember set up your URL in hexo _config.yml (e.g. url: http://yourdomain.com)
+canonical: true
+
+# If true, will add site-subtitle to index page, added in main hexo config.
+index_with_subtitle: false
+
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+# Usage: `Key: /link/ || icon`
+# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
+# Value before `||` delimeter is the target link.
+# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
+# External url should start with http:// or https://
+menu:
+  home: / || fas fa-home
+  #tags: /tags/ || fas fa-tags
+  #categories: /categories/ || fas fa-th
+  archives: /archives/ || fas fa-archive
+  #sitemap: /sitemap.xml || fas fa-sitemap
+  #commonweal: /404/ || fas fa-heartbeat
+
+# Enable / Disable menu icons.
+menu_settings:
+  icons: true
+
+# Posts / Categories / Tags in sidebar.
+site_state: true
+
+# Social Links
+# Usage: `Key: permalink || icon`
+# Key is the link label showing to end users.
+# Value before `||` delimeter is the target permalink.
+# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
+social:
+  #GitHub: https://github.com/yourname || fab fa-github
+  #E-Mail: mailto:yourname@gmail.com || fas fa-envelope
+  #Weibo: https://weibo.com/yourname || fab fa-weibo
+  #Google: https://plus.google.com/yourname || fab fa-google
+  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  #FB Page: https://www.facebook.com/yourname || fab fa-facebook
+  #VK Group: https://vk.com/yourname || fab fa-vk
+  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  #YouTube: https://youtube.com/yourname || fab fa-youtube
+  #Instagram: https://instagram.com/yourname || fab fa-instagram
+  #Skype: skype:yourname?call|chat || fab fa-skype
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+# Sidebar Avatar
+avatar:
+  # In theme directory (source/images): /images/avatar.gif
+  # In site directory (source/uploads): /uploads/avatar.gif
+  # You can also use other linking images.
+  url: /images/avatar.gif
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  # If true, the avatar would be rotated with the cursor.
+  rotated: false
+
+# Table Of Contents in the Sidebar
+toc:
+  enable: true
+  # Automatically add list number to toc.
+  number: true
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: false
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: false
+  # Maximum heading depth of generated toc. You can set it in one post through `toc_max_depth` in Front Matter.
+  max_depth: 6
+
+# back2top removed, you can use hexo-cake-moon-menu instead of it
+# See: https://github.com/jiangtj-lab/hexo-cake-moon-menu
+
+# Scroll behavior.
+scroll:
+  more: true
+  save: false
+
+# Read more button
+# If true, the read more button would be displayed in excerpt section.
+read_more_btn: true
+
+# Post meta display settings
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at:
+    enable: false
+    hide_same: true
+  categories: true
+
+# Reward (Donate)
+reward_settings:
+  # If true, reward would be displayed in every article by default.
+  # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
+  enable: false
+  comment: Donate comment here
+
+reward:
+  # wechat:
+  #   icon: fab fa-weixin
+  #   image: /images/wechatpay.png
+  # alipay:
+  #   icon: fab fa-alipay
+  #   image: /images/alipay.png
+  #   url_name: 点击跳转
+  #   url: HTTPS://QR.ALIPAY.COM/FKX06416WJNHOWKMRQQFFE
+  # paypal:
+  #   icon: fab fa-paypal
+  #   image: /images/paypal.png
+  #   url: https://www.paypal.me/jiangtj
+
+
+# Header panel color.
+theme_color: "#414852"
+
+# Custom Logo
+custom_logo: #/uploads/custom-logo.jpg
+
+# Code Highlight theme
+# Available values: normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
+
+# TagCloud settings for tags page.
+tagcloud:
+  # If true, font size, font color and amount of tags can be customized
+  enable: false
+  # All values below are same as default, change them by yourself
+  min: 12 # min font size in px
+  max: 30 # max font size in px
+  start: "#ccc" # start color (hex, rgba, hsla or color keywords)
+  end: "#111" # end color (hex, rgba, hsla or color keywords)
+  amount: 200 # amount of tags, chage it if you have more than 200 tags
+
+# Show previous post and next post in post footer if exists
+# Available values: left | right | false
+post_navigation: left
+
+# Multiple Comment System Support
+comments:
+  # Choose a comment system to be displayed by default
+  # Supported values: disqus | livere | valine
+  active:
+  # Lazyload all comment systems.
+  lazyload: false
+  # Modify icons and texts for any style, here are some examples
+  nav:
+    #disqus: disqus
+    #facebook_comments_plugin: <i class="fab fa-facebook-official" aria-hidden="true"></i> facebook
+    #gitalk: Load Gitalk
+    #vkontakte: vkontakte
+
+# Disqus
+disqus:
+  enable: false
+  shortname:
+  count: true
+
+# A JavaScript library for zooming images like Medium
+medium_zoom:
+  enable: true
+  selector: .post-body img:not([data-zoomable="false"]), [data-zoomable]:not([data-zoomable="false"])
+  cdn: //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js
+
+# lozad lib
+lozad:
+  enable: true
+  cdn: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
+
+# Progress bar in the top during page loading.
+pace:
+  enable: true
+  cdn: //cdn.jsdelivr.net/npm/pace-js@1/pace.min.js
+  # Themes list:
+  # pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom
+  # pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator
+  # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
+  # set: //cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/${theme—name}.css
+  theme: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css
+
+# Set font (default)
+font: https://fonts.googleapis.com/css?family=Inconsolata|Itim|Lobster
+
+# Set fontawesome cdn
+fontawesome:
+  # You can choose npm or kit. There are some example about them.
+  type: cdn
+  url: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css
+  #integrity: sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=
+  #type: kit
+  #url: https://kit.fontawesome.com/your-id.js
+  # todo npm
+
+# Config cdn
+cdn:
+  # js cdn
+  # version: cake theme version e.g. 1.6.0
+  # file: js file name e.g. next-boot.js
+  #js: https://cdn.jsdelivr.net/gh/jiangtj/hexo-theme-cake@${version}/source/js/${file}

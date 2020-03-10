@@ -36,50 +36,56 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-widgets.styl">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/menu.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-619">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-meta.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/menu.styl">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-nav.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="171">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/github-banner.styl">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/header.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
+        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/headerband.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/source/css/_schemes/Gemini/index.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2850" />
           </provider>
         </entry>
       </file>
@@ -179,8 +185,6 @@
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/base.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_mixins/base.styl" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-meta.styl" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-nav.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/highlight/theme.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/pages/archive.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/pages/categories.styl" />
@@ -190,9 +194,11 @@
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-button.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/post/post-widgets.styl" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/header.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/Gemini.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/menu.styl" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/header.styl" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-meta.styl" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-nav.styl" />
       </list>
     </option>
   </component>
@@ -383,7 +389,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583815352237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583815573907" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/cake" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -604,12 +610,12 @@
       <workItem from="1583414588857" duration="39000" />
       <workItem from="1583655476813" duration="412000" />
       <workItem from="1583656052114" duration="161000" />
-      <workItem from="1583803888092" duration="10016000" />
+      <workItem from="1583803888092" duration="10413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="568295000" />
+    <option name="totallyTimeSpent" value="568692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -622,9 +628,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.18154311" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889135" visible="true" weight="0.18154311" />
       <window_info id="Structure" order="1" sideWeight="0.50110865" side_tool="true" weight="0.3448276" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -641,7 +646,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29865772" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29865772" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -792,13 +797,6 @@
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_mixins/Muse.styl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-nav.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/cake-first/source/css/_common/components/highlight/highlight.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -832,20 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/headerband.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-meta.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -906,16 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/github-banner.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/header.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -956,10 +930,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/github-banner.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/header.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/headerband.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/menu.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-meta.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/header/site-nav.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -1,12 +1,6 @@
-.site-brand-wrapper {
-  position: relative;
-}
 .site-meta {
   margin: 0;
   text-align: $site-meta-text-align;
-  padding: 20px 0;
-  color: white;
-  background: $color-12;
 
   +mobile() { text-align: center; }
 }
@@ -14,14 +8,11 @@
 .brand {
   position: relative;
   display: inline-block;
-  padding: 0;
+  padding: 0 40px;
   color: $brand-color;
-  background: none;
+  background: $brand-bg;
   border-bottom: none;
-
-  &:hover {
-    color: white;
-  }
+  &:hover { color: $brand-hover-color; }
 }
 
 .logo {
@@ -37,15 +28,7 @@
   line-height: 36px;
   font-size: $logo-font-size;
   font-weight: normal;
-  font-family: $logo-font-family;
-  color: white;
-}
-
-.custom-logo-image {
-  margin-top: 20px;
-  +tablet-mobile() {
-    hide();
-  }
+  font-family: $font-family-logo;
 }
 
 .site-subtitle {

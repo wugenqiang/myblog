@@ -63,6 +63,9 @@
 
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
+<!-- 样式二（飘动的彩带） -->
+<script type="text/javascript" src="/js/src/piaodai.js"></script>
+
 
 <div>
 <!-- 网站运行时间的设置 -->

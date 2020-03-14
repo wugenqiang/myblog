@@ -1,7 +1,0 @@
-{
-  "extends": "theme-next",
-  "root": true,
-  "rules": {
-    "linebreak-style":"off"
-  }
-}

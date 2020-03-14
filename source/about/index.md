@@ -5,7 +5,7 @@ date: 2019-05-26 00:53:47
 updated: 2019-05-26 17:47:23
 ---
 
-<img alt="青果先生" style="width:127px; height:127px; border-radius:50%; overflow:hidden;" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/003.jpg"/>
+<img alt="青果先生" style="width:127px; height:127px; border-radius:50%; overflow:hidden;" src="https://wugenqiang.gitee.io/images/fighting_wugenqiang.jpg"/>
 
 Hello，欢迎来到青果小站 🍊 
 

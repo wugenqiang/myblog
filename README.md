@@ -1,3 +1,2 @@
-# myblog
-我的博客源码，嘿嘿
+# Blog
 博客空间：https://wugenqiang.github.io

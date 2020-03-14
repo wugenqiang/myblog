@@ -315,7 +315,7 @@ codeblock:
 # Wechat Subscriber
 wechat_subscriber:
   enable: false
-  qcode: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/wechat_subscriber.jpg
+  qcode: https://wugenqiang.github.io/PictureBed/pictures/wechat_subscriber.jpg
   #qcode: /path/to/your/wechatqcode e.g. /uploads/wechat-qcode.jpg
   #description: e.g. subscribe to my blog by scanning my public wechat account
 
@@ -1120,39 +1120,39 @@ daovoice_app_id: b6dbddb6 #我们注册获取的id
 
 mylinks:
   - nickname: 青果先生  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/003.jpg  #友链头像
+    avatar: https://wugenqiang.gitee.io/images/fighting_wugenqiang.jpg  #友链头像
     site: https://wugenqiang.gitee.io  #友链地址
     info: Sometimes your whole life boils down to one insame move.  #友链说明
   - nickname: CalmCenter  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190523-05.jpg  #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20190523-05.jpg  #友链头像
     site: https://calmcenter.github.io/  #友链地址
     info: 就是干！  #友链说明
   - nickname: Sam Xiong  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190523-02.jpg  #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20190523-02.jpg  #友链头像
     site: https://xch900910.github.io/  #友链地址
     info: 沉淀是为了更好的出发 | Not three days ,two years.  #友链说明
   - nickname: KK  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190523-04.jpg  #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20190523-04.jpg  #友链头像
     site: http://www.ucco.net  #友链地址
     info: 犹有花枝俏  #友链说明
   - nickname: Kelly  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190523-04.jpg  #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20190523-04.jpg  #友链头像
     site: https://www.biogithub.com/  #友链地址
     info: 已是悬崖百丈冰  #友链说明
   - nickname: Lee  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190523-03.jpg  #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20190523-03.jpg  #友链头像
     site: https://nanaandlee.github.io/  #友链地址
     info: 当你迷茫的时候，千万不要停下脚步 #友链说明
   - nickname: Jacob's blog  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190713102007.jpg #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20190713102007.jpg #友链头像
     site: https://www.jbblogs.cn/  #友链地址
     info: 生命不息，奋斗不止！  #友链说明
   - nickname: 小军的博客  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20191104235818.jpg   #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20191104235818.jpg   #友链头像
     site: https://www.dogooo.cn  #友链地址
     info: CODE ()> EAT() > SLEEP ()> REPEAT()  #友链说明
   - nickname: DragonBaby308's Blog  #友链名称
-    avatar: https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20191105000009.jpg    #友链头像
+    avatar: https://wugenqiang.github.io/PictureBed/pictures/20191105000009.jpg    #友链头像
     site: http://www.dragonbaby308.com/ #友链地址
     info: 记住迄今为止每一次失败时有心无力的感受，Fighting for BAT !!! #友链说明
 

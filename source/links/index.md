@@ -13,7 +13,7 @@ date: 2019-05-26 08:03:27
 🍊 申请方式：
   1. 先将本站的友链添加到您站点的醒目位置，信息如下（可按照贵站样式修改）
   > 名称：青果先生
-  > 头像：https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/003.jpg
+  > 头像：https://wugenqiang.gitee.io/images/fighting_wugenqiang.jpg
   > 主页：https://wugenqiang.gitee.io
   > 说明：Sometimes your whole life boils down to one insame move. 
 

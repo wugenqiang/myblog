@@ -43,11 +43,6 @@ updated: 2020-01-07 22:22:27
 
 搜索 rel="tag">#，将 # 换成 `<i class="fa fa-envira"></i>`
 
-效果如下图所示：
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190331200159.png)
-
-
 ## 3.2 点击出现爱心效果
 
 在/themes/next/source/js/love.js下新建文件love.js，接着把该链接下的代码拷贝粘贴到love.js文件中
@@ -63,10 +58,6 @@ updated: 2020-01-07 22:22:27
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
 ```
-
-效果如下图所示：
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190331200832.png)
 
 
 ## 3.3 文章加密访问
@@ -99,9 +90,7 @@ password: 123456
 date: 2019-03-31 19:01:35
 updated: 2019-03-31 19:01:35
 ```
-效果如图所示：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190331210050.png)
 
 ## 3.4 优化深色代码高亮背景
 
@@ -161,7 +150,7 @@ font:
 
 效果演示：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/gif008.gif)
+![](https://wugenqiang.github.io/PictureBed/pictures/gif008.gif)
 
 ### 3.5.2 方法二：博文压缩
 这里我来分享以下如何压缩，参考 [实现博文压缩](https://wugenqiang.gitee.io/articles/hexo-do-optimization.html#3-30-%E5%AE%9E%E7%8E%B0%E5%8D%9A%E6%96%87%E5%8E%8B%E7%BC%A9)
@@ -228,7 +217,7 @@ npm install hexo-tag-cloud@^2.* --save
       ```
 位置如图放置，可以根据你的需要放置，下图是我的位置：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412083501.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190412083501.png)
 
 重新`hexo s`一下，就可以出现我刚刚那个3d标签云啦!
 
@@ -256,13 +245,13 @@ npm install hexo-tag-cloud@^2.* --save
 ```
 效果如图所示：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412102323.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190412102323.png)
 
 `注：`如果想把主页标题样式一同修改，可以把 .page-post-detail 去掉即可。
 
 效果如图所示：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412103129.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190412103129.png)
 
 ## 3.10 设置文章封面图片(文章内不显示)
 在博客首页的时候会显示文章的封面图片，进入这篇文章的详细页面后，将不显示这张图片。
@@ -278,13 +267,13 @@ npm install hexo-tag-cloud@^2.* --save
 ```
 添加到下图所示的位置:
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412105951.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190412105951.png)
 
 这样的话，就可以使用`summary_img: imageurl`来设置文章封面了。
 ### 3.10.2 添加`summary_img`字段
 在新建的文章添加一个字段属性：`summary_img`，summary_img的值是图片的路径，如下图，但是请注意一下，亲测，本地图片要放在images目录下，网络图片随意啊
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412105621.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190412105621.png)
 
 ## 3.11 修改阅读全文颜色
 修改`themes\next\source\css\_custom\custom.styl`文件，添加：
@@ -377,7 +366,7 @@ updated: 2019-04-14 18:02:40
 
 效果如图所示：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414190059.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190414190059.png)
 ## 3.15 隐藏特定文章
 点此链接查看：[Hexo+NexT隐藏特定文章](https://wugenqiang.gitee.io/articles/hexoNextHideArticleMethod.html)
 
@@ -418,7 +407,7 @@ needmoreshare2:
  ```
 效果如下：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415094311.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190415094311.png)
 
 ## 3.17 鼠标选取文字提示版权信息
 点此链接查看：[Hexo+NexT选取文字提示版权信息](https://wugenqiang.gitee.io/articles/hexoNextSelectWords.html)
@@ -539,7 +528,7 @@ copyright: true #新增,开启
 发现新建简单文章可以显示，之前的文章不能显示
 效果图：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415163917.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190415163917.png)
 
 ## 3.19 增加词云
 
@@ -752,7 +741,7 @@ code {
 ```
 
 效果图如下：
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190428132730.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190428132730.png)
 
 ## 3.29 添加PDF
 
@@ -766,7 +755,7 @@ $ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-htmlclean gulp --sav
 ```
 在如下图所示，新建 gulpfile.js ，并填入以下内容：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190429165943.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190429165943.png)
 
 ```
 var gulp = require('gulp');
@@ -809,7 +798,7 @@ gulp.task('default', [
 
 在hexo 最新3.8版本里面安装gulp 进行压缩。发现会进行报错。百思不得其解，发现是因为网络上的gulp教程均适用于 gulp 4.0 版本以下 ，如果是安装了最新的gulp 4.0 版本的情况下，则就会进行报错。解决办法在下面有说明
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190429170024.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190429170024.png)
 
 解决办法参考：https://master.compassionate-raman-1e7f63.netlify.com/posts/74d69307.html
 
@@ -852,7 +841,7 @@ gulp.task('build', gulp.parallel('minify-html', 'minify-css', 'minify-js'
 ));
 ```
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190429170248.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190429170248.png)
 
 欧克，成功
 # 4 自定义域名
@@ -889,7 +878,7 @@ url: https://blog.enjoytoshare.club
 ```
 配置好后，执行hexo g 就能在网站根目录(public目录)中生成sitemap.xml 和 baidusitemap.xml了;其中第一个是一会要提交给google的，后面那个看名字当然就是提交给Baidu的了；
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409142957.png)
+
 
 ## 5.2 添加蜘蛛协议
 网站通过`Robots协议`告诉搜索引擎哪些页面可以抓取，哪些页面不能抓取。`robots.txt` 通常存放于网站根目录(public目录)。由于我们每次hexo clean都会清空public，着实不方便，我们都知道source目录下的文件通过hexo g命令会转换成public中的文件，所以为了方便起见，我们把`robots.txt`文件放在`source`目录下，我的 robots.txt 内容为：
@@ -935,20 +924,12 @@ baidu_push: true
 ```
 <meta name="baidu-site-verification" content="bqaja5HAOz" />
 ```
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190410180738.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190410180738.png)
 
 添加后运行hexo d -g将改动提交，然后点击完成验证，通过即可。
 
 ### 5.4.3 登录[百度站长平台](https://ziyuan.baidu.com/site/index)
-进行链接提交
-添加：
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409154624.png)
 
-出现这个即成功：
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409154650.png)
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409154938.png)
 
 ## 5.5 提交站点到Google
 首先保证你要能翻墙出去，连到谷歌，如果没有VPN，可参考下面网址获取：[工具盒子](https://wugenqiang.gitee.io/laboratory/toolBox/index.html)
@@ -960,25 +941,12 @@ baidu_push: true
 
 ### 5.5.2 进行站点验证
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409150421.png)
 我选择了备用方法中的HTML 标记，将给出的元标记复制到\themes\next\layout\ _partials \head\head.swig文件中。
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409150235.png)
 
 添加后运行hexo d -g将改动提交，稍后就可以验证成功了。
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409150748.png)
-
 ### 5.5.3 提交站点地图
 还记得我们刚才创建创建sitemap.xml文件吧,现在它要派上用场了。点击左侧工具栏的站点地图
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409151250.png)
-
-提交成功会提示：
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409151459.png)
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409151735.png)
 
 ## 5.6 验证站点是否被收录
 在搜索引擎搜索框输入`site:your.domain`可以查看域名是否被该搜索引擎收录，用户可以使用各大搜索引擎站长工具提交个人博客网址。
@@ -987,23 +955,17 @@ baidu_push: true
 site:blog.enjoytoshare.club
 ```
 域名换成你自己的，谷歌是一定支持的，不过你需要翻墙VPN！如果没有，可参考下面网址获取：[工具盒子](https://wugenqiang.gitee.io/laboratory/toolBox/index.html)，如果没有找到你的博客说明没有被收录！
-成功收录会如下图一样：
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409165959.png)
 
 ### 5.6.2 验证百度收录
 ```
 site:blog.enjoytoshare.club
 ```
 域名换成你自己的，如果没有找到你的博客说明没有被收录！
-百度收录是真的需要时间，你看下图还没收录：
-
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409170617.png)
+百度收录是真的需要时间
 
 今天是2019-04-12，很幸运，今天查看了一下`site:blog.enjoytoshare.club`，发现已经收录了，很开心！nice
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412142351.png)
-
+![](https://wugenqiang.github.io/PictureBed/pictures/20190412142351.png)
 
 -----
 到这里，应该博客超级炫了吧哈哈，如果觉得以上操作很多想直接跳过这些配置，可以参考我的博客源码：[myblog](https://github.com/wugenqiang/myblog)

@@ -26,7 +26,7 @@ function run() {
 
         echo("======================Auto Backup Begin===========================");
 
-        cd('E:/work/myblog');    //此处修改为Hexo根目录路径
+        cd('E:/work/CS-BlogSource');    //此处修改为Hexo根目录路径
 
         if (exec('git add --all').code !== 0) {
 

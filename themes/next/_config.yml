@@ -816,7 +816,7 @@ mermaid:
 
 # Use velocity to animate everything.
 motion:
-  enable: false # 不启动动画
+  enable: true # 不启动动画
   async: false
   transition:
     # Transition variants:

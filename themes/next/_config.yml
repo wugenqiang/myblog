@@ -303,7 +303,7 @@ symbols_count_time:
 codeblock:
   # Manual define the border radius in codeblock
   # Leave it empty for the default 1
-  border_radius:
+  border_radius: 5
   # Add copy button on codeblock
   copy_button:
     enable: true  #是否添加复制按钮
@@ -376,7 +376,7 @@ custom_logo:
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 # Available values: normal | night | night eighties | night blue | night bright
-highlight_theme: normal #设置喜欢的模式，默认：normal
+highlight_theme: night #设置喜欢的模式，默认：normal
 
 # Enable "cheers" for archive page.
 cheers: true
@@ -410,7 +410,7 @@ font:
   # 外链字体库地址，例如 //fonts.googleapis.com (默认值)
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   # fonts.lug.ustc.edu.cn是中科大的源,解决Hexo NexT主题访问慢
-  host: //fonts.googleapis.com/css?family=Inconsolata|Itim|Lobster
+  host: //fonts.googleapis.com
 
   # 全局字体，应用在 body 元素上
   global:

@@ -28,7 +28,7 @@ $my-code-foreground = #dd0055  // 用``围出的代码块字体颜色
 $my-code-background = #eee  // 用``围出的代码块背景颜色
 
 $color-12 = #48505b
-$color-11 = #59606a
+$color-11 = #555555 //#59606a
 $color-10 = #697079
 $color-9 = #7a8088
 $color-8 = #8b9097
@@ -74,7 +74,7 @@ get_font_family(config) {
 // Font families.
 $font-family-chinese      = "PingFang SC", "Microsoft YaHei"
 
-$font-family-base         = 'Itim', $font-family-chinese, sans-serif
+$font-family-base         = 'Lato', $font-family-chinese, sans-serif //'Itim', $font-family-chinese, sans-serif
 $font-family-base         = get_font_family('global'), $font-family-chinese, sans-serif if get_font_family('global')
 
 $font-family-logo         = $font-family-base
@@ -150,7 +150,7 @@ $table-row-hover-bg-color       = $whitesmoke
 // Code & Code Blocks // 用``围出的代码块 // --------------------------------------------------
 $code-font-family               = 'Inconsolata', consolas, $font-family-chinese, monospace
 $code-font-size                 = 15px
-$code-border-radius             = 3px
+$code-border-radius             = .5rem //3px
 $code-foreground                = $black-light
 $code-background                = $gainsboro
 
@@ -200,7 +200,7 @@ $content-mobile-padding         = 8px
 // Headband
 // --------------------------------------------------
 $headband-height                = 3px
-$headband-bg                    = $gainsboro //$black-deep
+$headband-bg                    = $black-deep //$gainsboro //
 
 
 // Section Header

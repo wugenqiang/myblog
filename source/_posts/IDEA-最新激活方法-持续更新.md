@@ -1,5 +1,6 @@
-title: 'IDEA 最新激活方法[持续更新]'
+title: 【持续更新】IDEA 最新激活方法 
 tags:
+
   - ToolBox
   - IDEA
 urlname: IDEA-Used-Methods
@@ -15,7 +16,7 @@ updated: 2020-04-14 16:26:47
 
 ### IDEA 2019.3.3
 
-> 官网下载之后，采用[激活方式](https://wugenqiang.github.io/articles/IDEA-Used-Methods.html#idea-2019-3-4)才能激活！百度云链接下载直接激活！推荐使用百度云链接下载，集成了很多好用的插件和功能！
+> 官网下载之后，采用[激活方式](/articles/IDEA-Used-Methods.html#idea-2019-3-4)才能激活！百度云链接下载直接激活！推荐使用百度云链接下载，集成了很多好用的插件和功能！
 
 * 下载一：[官网下载 https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
 
@@ -83,7 +84,7 @@ http://fls.jetbrains-agent.com
 
 ### IDEA 2020.1
 
-> 官网下载之后，采用[激活方式](https://wugenqiang.github.io/articles/IDEA-Used-Methods.html#idea-2019-3-4)才能激活！
+> 官网下载之后，采用[激活方式](/articles/IDEA-Used-Methods.html#idea-2019-3-4)才能激活！
 
 * [官网下载 https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
-* [点击此处获取激活方式](https://wugenqiang.github.io/articles/IDEA-Used-Methods.html#idea-2019-3-4)
+* [点击此处获取激活方式](/articles/IDEA-Used-Methods.html#idea-2019-3-4)

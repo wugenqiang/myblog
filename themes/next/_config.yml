@@ -376,7 +376,7 @@ custom_logo:
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 # Available values: normal | night | night eighties | night blue | night bright
-highlight_theme: night #设置喜欢的模式，默认：normal
+highlight_theme: normal #设置喜欢的模式，默认：normal
 
 # Enable "cheers" for archive page.
 cheers: true

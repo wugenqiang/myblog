@@ -71,7 +71,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584411691543" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/Java-Learning/Java-Basic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -296,7 +296,7 @@
       <workItem from="1585204958387" duration="165000" />
       <workItem from="1585443649136" duration="3821000" />
       <workItem from="1585447852223" duration="568000" />
-      <workItem from="1585794724182" duration="1150000" />
+      <workItem from="1585794724182" duration="1785000" />
     </task>
     <servers />
   </component>
@@ -331,10 +331,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1585447486307">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1585796639363">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585447486307" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585796639363" />
     <state x="645" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585446603146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

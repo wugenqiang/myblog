@@ -24,20 +24,20 @@ updated: 2019-04-04 15:47:54
 ## 2.1 方法一（不推荐）
 首先获取自己 github 的二级域名的 IP地址，windows 下直接在 cmd 里 Ping 一下自己的博客就会得到 IP 地址：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404155814.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404155814.png)
 
 我的ip是185.199.111.153
 下面通过 DNS域名解析将购买的域名指向 github 的二级域名：username.github.io，
 我的是在腾讯云购买的1元用一年的，
 进入腾讯云的管理控制台-域名与网站-云解析 DNS，进入域名的解析设置，点击新手指导，将得到的 IP 地址填到记录值一栏，点击确定就 OK 了。填完以后的解析列表会出现：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404162502.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404162502.png)
 
 记录值就是自己 github 的二级域名的 IP地址。
 ## 2.2 方法二（推荐）
 直接解析域名的CNAME记录到你的Git二级域名，不要使用方法一中的A记录，因为ip地址可能会一段时间之后会改变，所以建议记录类型选择CNAME进行解析，记录值填的就是username.github.io，比如：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190410084011.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190410084011.png)
 
 如果你只用github 的二级域名作为博客的地址，那么线路类型选择默认就好，图中我这里是因为采用[Github+Coding双服务器托管Hexo](https://wugenqiang.gitee.io/articles/hexo-do-server-hosting.html)，所以在线路类型上，国内默认选择线路是Coding的域名地址，国外选择的是Github的域名地址。
 
@@ -47,11 +47,11 @@ blog.enjoytoshare.club
 
 在 github 上面，打开 username.github.io 项目的（Settings）设置，然后在 GitHub Pages的 Custom domain设置里填上购买的域名。比如：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404162901.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404162901.png)
 
 好了，新域名配置完成，可以访问了。
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404163631.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404163631.png)
 
 
 

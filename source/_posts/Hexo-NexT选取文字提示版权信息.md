@@ -12,7 +12,7 @@ updated: 2019-04-15 13:37:07
 # 1 写在前面
 效果图：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190415134019.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190415134019.png)
 
 <!--more-->
 

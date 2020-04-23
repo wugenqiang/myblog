@@ -25,7 +25,7 @@ reward:
 ```
 到目前为止，已经实现了需要的功能，如图所示：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405180715.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405180715.png)
 
 但是出现闪动Bug，所以进行下面的修复
 

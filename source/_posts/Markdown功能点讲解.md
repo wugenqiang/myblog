@@ -8,7 +8,7 @@ author: WuGenQiang
 date: 2019-03-31 14:32:26
 updated: 2019-04-27 12:27:52
 ---
-<img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
+<img width="267px" alt="欢迎来访呀朋友" src="https://wugenqiang.github.io/PictureBed/pictures/013.jpg"/>
 
 <!--more-->
 
@@ -45,7 +45,7 @@ Markdown提供了一个特殊符号 > 用于段首进行强调，被强调的文
 
 以上标记显示效果如下：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190331144721.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190331144721.png)
 
 
 ## 1.3 插入链接或图片
@@ -54,12 +54,12 @@ Markdown针对链接和图片的处理也比较简单，可以使用下面的语
 
 ```
 [点击跳转至百度](https://www.baidu.com)
-![图片](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/015.jpg)
+![图片](https://wugenqiang.github.io/PictureBed/pictures/015.jpg)
 ```
 以上标记显示效果如下：
 
 [点击跳转至百度](https://www.baidu.com)
-![图片](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/015.jpg)
+![图片](https://wugenqiang.github.io/PictureBed/pictures/015.jpg)
 
 注： 引用图片和链接的唯一区别就是在最前方添加一个感叹号。
 
@@ -175,19 +175,19 @@ ___这里是加粗并斜体___
 ```
 例如：
 ```
-<img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
+<img width="267px" alt="欢迎来访呀朋友" src="https://wugenqiang.github.io/PictureBed/pictures/013.jpg"/>
 ```
 效果如下：
 
-<img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/>
+<img width="267px" alt="欢迎来访呀朋友" src="https://wugenqiang.github.io/PictureBed/pictures/013.jpg"/>
 
 ### 1.10.2 设置图片居中
 在 markdown 设置图片居中是需要通过 div 来控制的。
 ```
-<div align=center><img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/></div>
+<div align=center><img width="267px" alt="欢迎来访呀朋友" src="https://wugenqiang.github.io/PictureBed/pictures/013.jpg"/></div>
 ```
 效果如下：
-<div align=center><img width="267px" alt="欢迎来访呀朋友" src="https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/013.jpg"/></div>
+<div align=center><img width="267px" alt="欢迎来访呀朋友" src="https://wugenqiang.github.io/PictureBed/pictures/013.jpg"/></div>
 
 ## 1.11 插入代码块
 
@@ -197,7 +197,7 @@ Markdown在IT圈子里面比较流行的一个重要原因是，它能够轻松�
 代码块语法遵循标准 `markdown` 代码，使用 \`\`\` 开始 ，\`\`\` 结束 例如：
 
 ````
-```Python
+​```Python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 print 'Hello World! 
@@ -210,7 +210,7 @@ print 'Hello World!
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 print 'Hello World! 
- ```
+```
 注：很多人不知道怎么输入反引号。在英文模式下，找到键盘最左侧esc键下面的第一个键点击即可。
 有人会问：
 如何在代码块中打出 \`\`\` 

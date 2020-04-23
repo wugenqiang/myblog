@@ -24,18 +24,18 @@ updated: 2019-04-05 09:36:34
 创建腾讯云开发者平台（或Coding）公开库，因为目前两家公司战略合作，现在共用了。
 [https://dev.tencent.com/](https://dev.tencent.com/)
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405095056.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405095056.png)
 
 ## 4.1 创建项目
 项目地址格式是 username.coding.me，格式不对会404哦，项目名称随便，确定就ok
 例如我的：
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405095539.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405095539.png)
 
 ## 4.2 开启page服务
 创建完记得进入代码浏览，看看是否正确生成，然后进入page服务，然后开启
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405095901.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405095901.png)
 开启成功效果图：
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405100027.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405100027.png)
 
 # 5 配置服务并将文件部署到Github
 ## 5.1 修改_config.yml 
@@ -57,12 +57,12 @@ deploy:
 页面上没问题的话，就可以执行hexo d
 
 会弹出输入github账号密码，和腾讯开发者平台的账号密码。
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405100903.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405100903.png)
 后面通过生成ssh私钥，公钥就不用频繁输入用户名密码
 
 部署成功，按照各自平台的pages服务提示的网址即可访问
 在这里我就演示coding的吧，嘿嘿
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405101028.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405101028.png)
 
 # 6 预览地址
 * https://wugenqiang.coding.me/
@@ -74,23 +74,23 @@ deploy:
 
 对于Coding来说，来进行下面步骤：
 1.进入项目，进入Page服务页
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405103203.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405103203.png)
 
 点击设置进入
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405103257.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405103257.png)
 
 2.设置域名指向
 设置自定义域名指向wugenqiang.coding.me
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405103808.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405103808.png)
 
 ok
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405104001.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405104001.png)
 
 # 8 加快访问速度
 修改解析记录，点击 修改，然后将github解析线路改成海外，然后保存，这样国外的用户访问你的博客的话会跳转到你的github的页面。国内默认coding.me，加快访问速度，欧耶
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190405113112.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190405113112.png)
 
 来访问试试吧，嘿嘿嘿 [死命点我吧，亲](https://wugenqiang.gitee.io/)

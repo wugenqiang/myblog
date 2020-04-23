@@ -21,11 +21,11 @@ GitHub官方曾经宣布，GitHub Pages的自定义域名获得对HTTPS的支持
 完成后，博客就全站支持HTTPS了。
 
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404165057.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404165057.png)
 
 效果如下：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404165246.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404165246.png)
 
 但是爆红就让人心态不好了，所以下面使用Netlify来优化https方案
 
@@ -46,34 +46,34 @@ Netlify是一家专注于提供静态网站托管服务的公司，通过自己�
 
 接着点击页面右上角的 New site from Git
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404170805.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404170805.png)
 
 这里选择的 GitHub ,别忘记勾选访问公共仓库选项.之后授权给 Netlify 指定Repository,然后 Deploy
 
 设置自定义域名
 点击 Domain settings 然后点击 Add custom domain.
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404171035.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404171035.png)
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404171134.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404171134.png)
 
 然后到域名解析处,修改域名CNAME记录,记录值就是设置完域名页面显示的配置值
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404172505.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404172505.png)
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404172429.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404172429.png)
 
 ## 1.2 添加SSL证书
 设置完成域名绑定后,设置中心选项有所变化 , 点击
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404173233.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404173233.png)
 
 至此配置完成
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404173821.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404173821.png)
 
 效果显示：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190404174519.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190404174519.png)
 
 完美~~

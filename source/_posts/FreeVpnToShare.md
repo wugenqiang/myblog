@@ -31,11 +31,11 @@ SSR（全称 ShadowsocksR ）是 SS 的修改版，也算是增强版，是在SS
 这个网址貌似要外网之后才可以访问，不过官网上也提供了一个网内版的链接：[小胡同](https://xiaohutong.org/)
 进入网址后只需要点击
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190422090142.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190422090142.png)
 
 然后使用你的SSR工具，点击`剪贴板批量导入ssr`，然后在`服务器`选项中选择合适的节点即可。
 
 ## 3.2 分享二
 点击[FreeSS](https://do.freess.today/)网址进入，点击图片即可显示二维码，扫码即可连接，然后选择服务器节点，不过每4小时更新一次
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/gif001.gif)
+![](https://wugenqiang.github.io/PictureBed/pictures/gif001.gif)

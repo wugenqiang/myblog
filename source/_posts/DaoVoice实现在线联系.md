@@ -36,11 +36,11 @@ daovoice('update');
 ```
 这段代码从这里找：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406110355.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406110355.png)
 
 根据你自己的进行修改，参照下图：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406103518.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406103518.png)
 
 # 3 修改主题的配置文件
 在主题的配置文件中添加:
@@ -52,28 +52,28 @@ daovoice_app_id: 我们注册获取的id
 # 4 重新部署
 输入hexo s部署之后发现DaoVoice官网会提示
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406104400.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406104400.png)
 
 同时网页右下角出现了DaoVoice的图标
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406104538.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406104538.png)
 
 # 5 测试
 输入hello wugenqiang
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406104806.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406104806.png)
 
 回车键发送，效果如图：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406104855.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406104855.png)
 
 与此同时，DaoVoice后台也同样收到了信息
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406105018.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406105018.png)
 
 如果每次都要登录DaoVoice进行回复有些麻烦，所以建议在DaoVocie内绑定微信，然后使用DaoVoice的小程序进行手机上的回复操作就很方便了。
 
 绑定微信的途径：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406110140.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406110140.png)
 

@@ -43,7 +43,7 @@ Git提交正确步骤：
 ```
 git init
 ```
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409192241.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190409192241.png)
 
 ## 3.修改.gitignore文件
 
@@ -63,7 +63,7 @@ git remote add origin https://github.com/wugenqiang/myblog.git
 ```
 如果出现问题：fatal: remote origin already exists
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409194211.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190409194211.png)
 
 解决办法如下：
 （1）先删除远程 Git 仓库
@@ -74,6 +74,8 @@ git remote rm origin
 ```
 git remote add origin https://github.com/wugenqiang/myblog.git
 ```
+
+
 发现问题成功解决。
 
 切记！！
@@ -87,7 +89,7 @@ git pull --rebase origin master
 ```
 我就属于创建README.md的一群人，真的是习惯造成的，执行这一步效果如下：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409202006.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190409202006.png)
 
 ## 7.更新远程仓库
 ```
@@ -95,19 +97,22 @@ git push -u origin master
 ```
 效果如下：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409202215.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190409202215.png)
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409200850.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190409200850.png)
 
 如果创建仓库不为空而且不执行第4步直接执行第5步则会出现：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409202447.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190409202447.png)
 
 # 四、结语
-到现在为止，我们的任务已经完成了。现在可以做到的是，在任何一台电脑上，只需要`git clone https://github.com/wugenqiang/myblog.git`,即可完成将Hexo源文件复制到本地。（请将后面的`https://github.com/wugenqiang/myblog.git`替换为自己相应的仓库地址。否则，克隆的将是我的博客源码:)）
+> 注明：写于 2020 - 04 - 23 目前源代码地址已经从 myblog 变成了 CS-BlogSource，如果是参考本文的话，源文件地址记得修改哈！再次强调一下，不然访问不了的。
+
+到现在为止，我们的任务已经完成了。现在可以做到的是，在任何一台电脑上，只需要`git clone https://github.com/wugenqiang/CS-BlogSource.git`,即可完成将Hexo源文件复制到本地。（请将后面的`https://github.com/wugenqiang/CS-BlogSource.git`替换为自己相应的仓库地址。否则，克隆的将是我的博客源码:)）
 效果如下：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190409205709.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190409205709.png)
 
 在本地编写完博客时，顺次执行实现三步骤中的4、6、7命令，即可完成Hexo博客源文件更新同步，保持Github上的Hexo源码为最新版本。ok，分享就到这里啦，如果觉得这样手动操作有点辛苦的话，可以参考我的另一篇博客：
+
 * [自动备份Hexo博客源文件](https://wugenqiang.gitee.io/articles/auto_backup_blog_source_files.html)

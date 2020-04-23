@@ -190,7 +190,7 @@ font:
 ## 3.8 实现3d动态标签云
 效果如图所示：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190412082710.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190412082710.png)
 
 可参考[github上标签云使用教程](https://github.com/MikeCoder/hexo-tag-cloud)完成本操作，下面是我的步骤：
 
@@ -214,7 +214,7 @@ npm install hexo-tag-cloud@^2.* --save
             </div>
         </div>
       {% endif %}
-      ```
+```
 位置如图放置，可以根据你的需要放置，下图是我的位置：
 
 ![](https://wugenqiang.github.io/PictureBed/pictures/20190412083501.png)
@@ -404,7 +404,7 @@ needmoreshare2:
       boxForm: horizontal
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
- ```
+```
 效果如下：
 
 ![](https://wugenqiang.github.io/PictureBed/pictures/20190415094311.png)
@@ -550,7 +550,7 @@ copyright: true #新增,开启
      {{ tagcloud({min_font: 16, max_font: 16, amount: 300, color: true, start_color: '#fff', end_color: '#fff'}) }}
    </div>
  </div>
- ```
+```
  换成下面这段代码：
  ```
  <div class="tag-cloud">
@@ -606,7 +606,7 @@ copyright: true #新增,开启
    counter-reset: tags;
  }
 </style>
-```
+ ```
 就好啦
 
 ## 3.20 开启文章目录
@@ -968,6 +968,6 @@ site:blog.enjoytoshare.club
 ![](https://wugenqiang.github.io/PictureBed/pictures/20190412142351.png)
 
 -----
-到这里，应该博客超级炫了吧哈哈，如果觉得以上操作很多想直接跳过这些配置，可以参考我的博客源码：[myblog](https://github.com/wugenqiang/myblog)
+到这里，应该博客超级炫了吧哈哈，如果觉得以上操作很多想直接跳过这些配置，可以参考我的博客源码：[CS-BlogSource](https://github.com/wugenqiang/CS-BlogSource)
 
 -----

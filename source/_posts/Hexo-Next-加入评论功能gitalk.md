@@ -24,7 +24,7 @@ Gitalk:
 
 
 | 参数 | 说明 |
-| -------- | -------- | 
+| -------- | -------- |
 | Application name	| 应用名称, 可以任意填入|
 | Homepage URL	| 网站URL, 注意用https://开头, 开头如https://vonsdite.cn |
 | Application description |	应用描述, 可以任意填入 |
@@ -68,6 +68,6 @@ gitalk:
 
 就可以看到：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190331111229.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190331111229.png)
 
 如果上述配置均无误, 点击使用GitHub登录就会建立一个评论区(实际上是在你的Github博客仓库下开了一个Issue)

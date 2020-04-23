@@ -13,6 +13,8 @@ updated: 2019-03-31 16:37:53
 
 <!--more-->
 
+
+
 注：这段话写于 2020 - 04 -23，这篇文章这种方式在之前还是很棒的，但是随着 PicGo 支持 Gitee 插件之后，更好的图床工具就出现了，所以建议你使用新方式：[Typora + PicGo + Gitee 实现图片上传功能](https://wugenqiang.github.io/articles/Typora-PicGo-Gitee-PictureBed-Cool.html)，当然还可以继续浏览本篇文章，这种方式依然能用！
 
 # 1 PicGo 介绍
@@ -66,7 +68,7 @@ Settings -> Developer settings -> Personal access tokens
 
 ![](https://wugenqiang.github.io/PictureBed/pictures/20190331170410.png)
 
-# 4 配置PicGo客户端
+# 4 配置 PicGo 客户端
 如下图配置：
 
 ![](https://wugenqiang.github.io/PictureBed/pictures/20190331170716.png)

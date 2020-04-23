@@ -1155,6 +1155,18 @@ mylinks:
     avatar: https://wugenqiang.github.io/PictureBed/pictures/20191105000009.jpg    #友链头像
     site: http://www.dragonbaby308.com/ #友链地址
     info: 记住迄今为止每一次失败时有心无力的感受，Fighting for BAT !!! #友链说明
+  - nickname: AomanHao  #友链名称
+    avatar: https://gitee.com/wugenqiang/PictureBed/raw/master/CS-Notes/20200423221913.jpg    #友链头像
+    site: https://www.aomanhao.top/ #友链地址
+    info: 热爱图像处理，优化彩色世界  #友链说明
+  - nickname: 筱林博客  #友链名称
+    avatar: https://gitee.com/wugenqiang/PictureBed/raw/master/CS-Notes/20200423222319.jpg    #友链头像
+    site: https://x1aolin.com #友链地址
+    info: 这个世界就是对弱者不友好，所以请努力变强吧！  #友链说明
+  - nickname: zhengrenjie’s Blog	  #友链名称
+    avatar: https://gitee.com/wugenqiang/PictureBed/raw/master/CS-Notes/20200423222440.jpg    #友链头像
+    site: https://www.jelliclecat.cn #友链地址
+    info: 如切如磋，如琢如磨  #友链说明
 
 # Hide single post
 hide:

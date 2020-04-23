@@ -8,7 +8,7 @@ author: WuGenQiang
 date: 2019-04-06 14:10:48
 updated: 2019-04-06 14:10:48
 ---
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/062.jpg)
+![](https://wugenqiang.github.io/PictureBed/pictures/062.jpg)
 
 <!--more-->
 # 1 写在前面
@@ -94,7 +94,7 @@ cd next/source/lib
 ```java
 git clone https://github.com/theme-next/theme-next-fancybox3 fancybox
 ```
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406155520.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406155520.png)
 
 ## 3.3 更改主题配置文件
 更改next/_config.yml文件
@@ -105,6 +105,6 @@ fancybox: true
 ## 3.4 测试效果
 部署hexo s之后点击图片，如图：
 
-![](https://raw.githubusercontent.com/wugenqiang/picGo/master/pictures/20190406155801.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190406155801.png)
 
 完美，这种效果我很满意，你觉得呢，还是大神优秀啊~~ 好好学习！

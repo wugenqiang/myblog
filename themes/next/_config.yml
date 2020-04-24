@@ -519,13 +519,13 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: false # 设置为true，默认为false
+  enable: true # 设置为true，默认为false
   appid: j5U5IGzSMQcvLyhW1Y6opNX6-gzGzoHsz  # 将应用key的App ID设置在这里
   appkey: orYWc8ltQOxyT6Y9HEQdrizt # 将应用key的App Key设置在这里
-  notify: true # 邮箱通知 , https://github.com/xCss/Valine/wiki，默认为false
+  notify: false # 邮箱通知 , https://github.com/xCss/Valine/wiki，默认为false
   verify: false # 验证码 默认为false
-  placeholder: 交流中我们一起进步哈哈 # 初始化评论显示，根据自己修改，这里默认，
-  avatar: wavatar # 头像风格，默认为mm，可进入网址：https://valine.js.org/visitor.html查看头像设置，这里有许多头像风格，进行设置
+  placeholder: 交流中让我们一起进步 # 初始化评论显示，根据自己修改，这里默认，
+  avatar: monsterid # 头像风格，默认为mm，可进入网址：https://valine.js.org/visitor.html查看头像设置，这里有许多头像风格，进行设置
   guest_info: nick,mail,link # 自定义评论标题
   pageSize: 10 # 分页大小，10页就自动分页
   visitor: true # 是否允许游客评论 ，进入官网查看设置：https://valine.js.org/visitor.html
@@ -533,7 +533,7 @@ valine:
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
-livere_uid: MTAyMC80MzA4MC8xOTYyNg==
+#livere_uid: MTAyMC80MzA4MC8xOTYyNg==
 
 # Gitment
 # Introduction: https://github.com/imsun/gitment
@@ -694,7 +694,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: false
   total_visitors_icon: false
   total_views: false

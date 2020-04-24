@@ -301,7 +301,9 @@
       <workItem from="1586862865839" duration="622000" />
       <workItem from="1587550354542" duration="229000" />
       <workItem from="1587651207809" duration="924000" />
-      <workItem from="1587697918130" duration="117000" />
+      <workItem from="1587697918130" duration="239000" />
+      <workItem from="1587698200531" duration="247000" />
+      <workItem from="1587712861442" duration="2493000" />
     </task>
     <servers />
   </component>
@@ -336,10 +338,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1587550449945">
+    <state x="275" y="10" key="#Plugins" timestamp="1587698322935">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1587550449945" />
+    <state x="275" y="10" key="#Plugins/0.0.1366.738@0.0.1366.738" timestamp="1587698322935" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1587698447102">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1587698447102" />
     <state x="645" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585446603146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

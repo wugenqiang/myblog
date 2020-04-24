@@ -32,21 +32,6 @@
     <expand />
     <select />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>rel=&quot;tag&quot;</find>
-      <find>http</find>
-      <find>schema.o</find>
-      <find>http://schema.org/WebPage</find>
-      <find>https://schema.org/WebPage</find>
-      <find>use_motion</find>
-      <find>rel</find>
-      <find>page</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>schema</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/next/source/lib/needsharebutton" />
   </component>
@@ -303,7 +288,7 @@
       <workItem from="1587651207809" duration="924000" />
       <workItem from="1587697918130" duration="239000" />
       <workItem from="1587698200531" duration="247000" />
-      <workItem from="1587712861442" duration="4590000" />
+      <workItem from="1587712861442" duration="7834000" />
     </task>
     <servers />
   </component>

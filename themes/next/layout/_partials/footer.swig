@@ -67,6 +67,11 @@
 <script type="text/javascript" src="/js/src/piaodai.js"></script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<!-- 先引入样式 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<!-- 引入Valine -->
+<!-- https://unpkg.com/valine/dist/Valine.min.js -->
+<script src="./js/src/Valine.min.js"></script>
 
 
 <div>

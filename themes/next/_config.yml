@@ -1172,3 +1172,5 @@ mylinks:
 hide:
   hide_post: true
 
+# visitors count
+counter: true

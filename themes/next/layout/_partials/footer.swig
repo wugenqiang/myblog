@@ -65,6 +65,8 @@
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
 <!-- 样式二（飘动的彩带） -->
 <script type="text/javascript" src="/js/src/piaodai.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
 
 <div>
@@ -91,18 +93,18 @@ setInterval("createtime()",250);
 <!-- 网站底部字数统计 -->
 <div class="theme-info">
   <i class="fa fa-pencil"></i>
-  <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+  <span class="post-count">博客全站共 {{ totalcount(site) }} 字</span>
 </div>
 
 <!-- 不蒜字统计 -->
 <div>
 	<i class="fa fa-user-md"></i>
 	<span id="busuanzi_container_site_uv">
-	  访问人数：<span id="busuanzi_value_site_uv"></span>
-	</span>&nbsp;|&nbsp;
+    本站访客数 <span id="busuanzi_value_site_uv"></span> 人次
+  </span>&nbsp;|&nbsp;
 
 	<i class="fa fa-eye"></i>
 	<span id="busuanzi_container_site_pv">
-	  总访问量：<span id="busuanzi_value_site_pv"></span>
-	</span>
+      本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+  </span>
 </div>

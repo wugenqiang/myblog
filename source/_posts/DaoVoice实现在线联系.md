@@ -22,7 +22,7 @@ http://www.daovoice.io/
 http://dashboard.daovoice.io/get-started?invite_code=b6dbddb6
 
 # 2 复制粘贴代码
-修改的hexo的文件路劲如下: themes/next/layout/_partials/head.swig 添加下面的代码:
+修改的hexo的文件路劲如下: themes/next/layout/_partials/head/head.swig 添加下面的代码:
 
 ```js
 {% if theme.daovoice %}

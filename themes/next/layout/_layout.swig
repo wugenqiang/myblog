@@ -124,6 +124,7 @@
   {% include '_third-party/pangu.swig' %}
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
+  {% include '_third-party/gitter.swig' %}
   {% if page.type === "photos" %}
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">

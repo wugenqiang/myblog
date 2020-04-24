@@ -1115,8 +1115,8 @@ archive_generator:
 tag_generator:
   per_page: 10
 
-daovoice: true
-daovoice_app_id: b6dbddb6 #我们注册获取的id
+#daovoice: true  #daovoice
+#daovoice_app_id: b6dbddb6 #我们注册获取的id
 
 mylinks:
   - nickname: 青果先生  #友链名称

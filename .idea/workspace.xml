@@ -288,18 +288,10 @@
       <workItem from="1587651207809" duration="924000" />
       <workItem from="1587697918130" duration="239000" />
       <workItem from="1587698200531" duration="247000" />
-      <workItem from="1587712861442" duration="9401000" />
+      <workItem from="1587712861442" duration="9576000" />
+      <workItem from="1587729199256" duration="701000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -327,10 +319,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="10" key="#Plugins/0.0.1366.738@0.0.1366.738" timestamp="1587698322935" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1587698447102">
+    <state x="416" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587729348935">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1587698447102" />
+    <state x="416" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1587729348935" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1587728506467">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1587728506467" />
     <state x="645" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585446603146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

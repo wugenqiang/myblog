@@ -13,10 +13,10 @@ date: 2019-05-26 08:03:27
 🍊 申请方式：
   1. 先将本站的友链添加到您站点的醒目位置，信息如下（可按照贵站样式修改）
   > 名称：青果先生
-  > 头像：https://wugenqiang.gitee.io/images/fighting_wugenqiang.jpg
-  > 主页：https://wugenqiang.gitee.io
-  > 说明：Sometimes your whole life boils down to one insame move. 
+  > 头像：https://wugenqiang.github.io/images/fighting_wugenqiang.jpg
+  > 主页：https://wugenqiang.github.io
+  > 说明：要么出众，要么出局！ 
 
   2. 然后按照以上格式在本页下方评论区留言，待博主为您添上友链（`推荐方式`）
   3. 发送 Email :   <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=Gm1vfX90a3N7dH1aa2s0eXV3" style="text-decoration:none;">2422676183@qq.com</a>
-看到就上链（`不太推荐这个样子呢`）
+看到就上链哟

@@ -1,4 +1,4 @@
-title: 添加 Gitter 在线交流
+title: Hexo NexT 添加 Gitter 在线交流
 urlname: Hexo-NexT-Gitter
 tags:
 

@@ -126,6 +126,16 @@
   };
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164658031-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164658031-1');
+</script>
+
 {% if theme.custom_file_path.head %}
   {% set custom_head = '../../../../../' + theme.custom_file_path.head %}
 {% else %}

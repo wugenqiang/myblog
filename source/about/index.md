@@ -2,14 +2,16 @@ title: 'Hello, I''m Oliver'
 type: about
 author: WuGenQiang
 date: 2019-05-26 00:53:47
+
 updated: 2019-05-26 17:47:23
+
 ---
+
+
 
 <img alt="青果先生" style="width:127px; height:127px; border-radius:50%; overflow:hidden;" src="https://wugenqiang.gitee.io/images/fighting_wugenqiang.jpg"/>
 
 Hello，欢迎来到青果小站 🍊 
-
-# 01 关于作者
 
 > 本人，95后，Java开发工程师，坐标南京。爱好编程、音乐、电影、各类书籍，哈哈！
 
@@ -19,12 +21,6 @@ Hello，欢迎来到青果小站 🍊
 
 > 欢迎各路小伙伴交流学习，学习交流QQ群：[766568576](https://jq.qq.com/?_wv=1027&k=5EFi0kt) ( 点击可以直接跳转到QQ ) , 学习的路上不孤独，幸好遇见你
 
-# 02 关于本站
-🍄 作者：[吴跟强](https://wugenqiang.gitee.io/)（英文名：Oliver）。
-本人承诺：本站文章均为原创，图片素材来源网络、摄影。
+> 欢迎关注我的公众号 "码客 E 分享"，会分享考研相关资料、OJ 题解以及面试题等等，给我一个让你了解的机会，哈哈
 
-# 03 关于赞赏
-
-坚持良品优质原创，是我对读者的承诺。感谢一直以来青果粉丝对我的文章的喜欢，我会一直更新下去，以更加良心的作品回馈你们！
-写作的路上幸好有一群给我赞助的小伙伴，在这里我表示很感谢，希望与你们一起进步、共同成长！
-所有赞赏过本站的人: [点击查看](https://wugenqiang.gitee.io/thank) 在此，青果先生再次表示衷心的感谢！
+<div ><img src="https://gitee.com/wugenqiang/PictureBed/raw/master/CS-Notes/20200502123144.png" width="500" height="200" /></div>

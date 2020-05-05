@@ -57,7 +57,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584411691543" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS-Notes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -298,6 +298,7 @@
       <workItem from="1587942930697" duration="745000" />
       <workItem from="1587946233995" duration="226000" />
       <workItem from="1588129917523" duration="73000" />
+      <workItem from="1588549647076" duration="306000" />
     </task>
     <servers />
   </component>
@@ -331,10 +332,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="416" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1587729348935" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1587943675804">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1588549960446">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1587943675804" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588549960446" />
     <state x="645" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585446603146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

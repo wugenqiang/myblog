@@ -37,7 +37,7 @@ updated: 2020-04-14 16:26:47
 
 * 将 jetbrainsCrack.jar 放入 bin 目录下
 
-![image-20200319202304437](https://wugenqiang.gitee.io/cs-notes/images/image-20200319202304437.png)
+![image-20200319202304437](https://wugenqiang.gitee.io/notebook/images/image-20200319202304437.png)
 
 * 启动 IDEA，点击 Configure --> Edit Custom VM Options，将下面命令复制到文件中，然后重新启动 IDEA
 
@@ -45,7 +45,7 @@ updated: 2020-04-14 16:26:47
 -javaagent:..\..\bin\JetbrainsCrack.jar
 ```
 
-![image-20200319203202234](https://wugenqiang.gitee.io/cs-notes/images/image-20200319203202234.png)
+![image-20200319203202234](https://wugenqiang.gitee.io/notebook/images/image-20200319203202234.png)
 
 * 点击 IDEA 菜单 Configure --> Manage License --> License Server，在 License Server 中输入 http://jetbrains-license-server 到 License Server Address 中，然后先点击 Discover Server，等待后点击下面 Actuvate 即可，接着退出重启 IDEA
 
@@ -55,7 +55,7 @@ http://jetbrains-license-server
 
 新的 agent license server：`https://fls.jetbrains-agent.com`（HTTP也可用）
 
-![image-20200319204247679](https://wugenqiang.gitee.io/cs-notes/images/image-20200319204247679.png)
+![image-20200319204247679](https://wugenqiang.gitee.io/notebook/images/image-20200319204247679.png)
 
 * 重新进入 IDEA 菜单 Configure --> Manage License，此时会发现 IDEA 已经给我们生成了服务器地址：
 
@@ -63,13 +63,13 @@ http://jetbrains-license-server
 http://fls.jetbrains-agent.com
 ```
 
-![image-20200319204839884](https://wugenqiang.gitee.io/cs-notes/images/image-20200319204839884.png)
+![image-20200319204839884](https://wugenqiang.gitee.io/notebook/images/image-20200319204839884.png)
 
 完美撒花！
 
 !> 不过，可能会提醒下面信息：
 
-![image-20200323100018728](https://wugenqiang.gitee.io/cs-notes/images/image-20200323100018728.png)
+![image-20200323100018728](https://wugenqiang.gitee.io/notebook/images/image-20200323100018728.png)
 
 解决方案：
 
@@ -78,7 +78,7 @@ http://fls.jetbrains-agent.com
 百度云下载链接：https://pan.baidu.com/s/1beei7a6wVFSWDrPIQeQCLA 
 提取码：7ybo 
 
-![image-20200323101805421](https://wugenqiang.gitee.io/cs-notes/images/image-20200323101805421.png)
+![image-20200323101805421](https://wugenqiang.gitee.io/notebook/images/image-20200323101805421.png)
 
 重新打开 IDEA 刚刚提示信息就没啦，完美撒花！
 

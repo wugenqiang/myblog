@@ -57,7 +57,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584411691543" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS-Notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -299,6 +299,7 @@
       <workItem from="1587946233995" duration="226000" />
       <workItem from="1588129917523" duration="73000" />
       <workItem from="1588549647076" duration="306000" />
+      <workItem from="1588738633602" duration="353000" />
     </task>
     <servers />
   </component>

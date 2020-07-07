@@ -193,6 +193,18 @@
         </div>
       {% endif %}
 
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- wugenqiang.github.io-A02 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-1890271224952559"
+           data-ad-slot="2794965055"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+
     </div>
   </aside>
 

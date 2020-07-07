@@ -48,6 +48,18 @@
     <div class="comments" id="comments">
     </div>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- wugenqiang.github.io-A01 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-1890271224952559"
+         data-ad-slot="3230079326"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
   {% elif theme.gitalk.enable %}
     <div class="comments" id="gitalk-container">
     </div>

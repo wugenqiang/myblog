@@ -57,7 +57,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584411691543" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ETalk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -301,7 +301,8 @@
       <workItem from="1588549647076" duration="306000" />
       <workItem from="1588738633602" duration="707000" />
       <workItem from="1594122947011" duration="17000" />
-      <workItem from="1594125312074" duration="1702000" />
+      <workItem from="1594125312074" duration="2533000" />
+      <workItem from="1594392808304" duration="64000" />
     </task>
     <servers />
   </component>
@@ -335,14 +336,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="416" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1587729348935" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1588739345493">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1594392875025">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588739345493" />
-    <state x="645" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1585446603146">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="645" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1585446603146" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594392875025" />
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />

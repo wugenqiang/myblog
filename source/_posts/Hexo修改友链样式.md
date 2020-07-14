@@ -14,7 +14,7 @@ updated: 2019-04-14 13:12:26
 
 <!--more-->
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414131508.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190414131508.png)
 
 # 2 实现
 ## 2.1 新建`links.swig`文件
@@ -166,15 +166,15 @@ type: links
 # 3 结束语
 点击效果最终显示这样:
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414133048.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190414133048.png)
 
 点击这里查看实际效果：[戳我戳我好疼啊](https://wugenqiang.gitee.io/links/)
 
 肯定到这里有人会问了，这是链接一个人的效果，如果链接两个人以及以上呢？当然也有办法：
 在2.3步骤中如图设置即可，需要链接几个人就添加几条记录：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414135327.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190414135327.png)
 
 效果显示：
 
-![](https://raw.githubusercontent.com/wugenqiang/PictureBed/master/pictures/20190414135751.png)
+![](https://wugenqiang.github.io/PictureBed/pictures/20190414135751.png)

@@ -1167,6 +1167,10 @@ mylinks:
     avatar: https://gitee.com/wugenqiang/PictureBed/raw/master/CS-Notes/20200423222440.jpg    #友链头像
     site: https://www.jelliclecat.cn #友链地址
     info: 如切如磋，如琢如磨  #友链说明
+  - nickname: 苍茫误此生博客      #友链名称
+    avatar: https://gitee.com/wugenqiang/PictureBed/raw/master/images01/20200722195805.jpg    #友链头像
+    site: https://www.cangmangai.cn/ #友链地址
+    info: 致力于分享 web 编程技术知识  #友链说明
 
 # Hide single post
 hide:

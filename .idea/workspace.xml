@@ -57,7 +57,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584411691543" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ETalk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -303,6 +303,7 @@
       <workItem from="1594122947011" duration="17000" />
       <workItem from="1594125312074" duration="2533000" />
       <workItem from="1594392808304" duration="64000" />
+      <workItem from="1595418817018" duration="299000" />
     </task>
     <servers />
   </component>

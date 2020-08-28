@@ -58,7 +58,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584411691543" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ML/PycharmProjects/HelloWorld" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -306,7 +306,7 @@
       <workItem from="1594125312074" duration="2533000" />
       <workItem from="1594392808304" duration="64000" />
       <workItem from="1595418817018" duration="433000" />
-      <workItem from="1597487571186" duration="414000" />
+      <workItem from="1597487571186" duration="502000" />
     </task>
     <servers />
   </component>
@@ -332,18 +332,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="https://wugenqiang.github.io/ 博客备份（Hexo-NexT）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="10" key="#Plugins" timestamp="1587698322935">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1597488072602">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="10" key="#Plugins/0.0.1366.738@0.0.1366.738" timestamp="1587698322935" />
-    <state x="416" y="169" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587729348935">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="416" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1587729348935" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1595419289875">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1595419289875" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597488072602" />
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />

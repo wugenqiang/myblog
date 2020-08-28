@@ -245,7 +245,7 @@ sidebar:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: true
+  sidebar: false
   # Scroll percent label in b2t button.
   scrollpercent: true
 
@@ -1171,6 +1171,10 @@ mylinks:
     avatar: https://gitee.com/wugenqiang/PictureBed/raw/master/images01/20200722195805.jpg    #友链头像
     site: https://www.cangmangai.cn/ #友链地址
     info: 致力于分享 web 编程技术知识  #友链说明
+  - nickname: 思建的NLP之旅     #友链名称
+    avatar: https://i.loli.net/2020/08/12/NSjVw753lLBorTQ.jpg    #友链头像
+    site: https://lisijian.cn/ #友链地址
+    info: 沉淀自己 #友链说明
 
 # Hide single post
 hide:
